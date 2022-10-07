@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/schemaMs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acte royal</title>
+                <editor>
+                    <persName>
+                        <forename>Emmanuel</forename>
+                        <surname>Chateau</surname>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition><date when="2016-04-27">27 avril 2016</date></edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>unknown</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <idno>Arch. nat., O1 284, no525</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application xml:id="doxtotei" ident="TEI_fromDOCX" version="2.15.0">
+                    <label>DOCX to TEI</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        
+        <body>
+            <head><date when="1763-05">Mai 1763</date>.</head>
+            <head>Ordre du roi. #</head>
+            <div><p>Le <abbr>S.</abbr> Luthier demande si l’on éclairera et chauffera le château de Marly le voyage
+                prochain comme dans les voyages ordinaires.</p>
+            <p>Le pavillon du roy comme à l’ordinaire, mais l’on ne donnera de bois d’arrivée à
+                personne. <g>#</g></p></div>
+            <div><p>[stamp]</p></div>
+            <div><p>Si le concierge, les garçons du garde-meuble, les <choice><abbr>ss</abbr><expan>sieurs</expan></choice> Boucheman et Lemoine, les
+                garçons du château, l’<choice><orig>orloger</orig><reg>horloger</reg></choice>, le garçon des chiens et les porteurs seront chauffés
+                et éclairés.</p>
+            <p>Le voyage étant comme celui de Versailles, l’on n’est obligé à rien, mais on peut
+                leur donner quelque secours en bois et lumières ; mrs <persName ref="#pers01">Bouceman</persName> et <persName>Lemoine</persName>, oui
+                sûrement. <g>#</g></p></div>
+            <div><p>Si on éclairera les salles des gardes de <rs rend="bigger">Votre Majesté</rs>, des gardes de la Porte et des
+                Cent Suisses. </p>
+            <p>Oui, sans doute. #</p></div>
+            <div><p>Si les femmes de chambre de mesdames qui logent hors du château seront chauffées et
+                éclairées. </p>
+            <p>Oui, en observant la règle la plus exacte. #</p></div>
+            <div><p>Si on donnera une bougie blanche par jour au supérieur des cordeliers de Noisy.</p>
+            <p><del>Oui</del> Non, une demie. #</p></div>
+            <div><p>Et si on donnera une bougie par jour au vicaire de la paroisse qui dessert la
+                chapelle du commun.</p>
+            <p>Non, mais la valeur en argent. #</p></div>
+            <div><p>Le roy chauffe et éclaire les conseillers d’État à leur pied-à-terre qui est au 5 au
+                commun. # </p></div>
+            <signed>Noailles.</signed>
+        </body>
+        <back>
+            
+        </back>
+    </text>
+</TEI>

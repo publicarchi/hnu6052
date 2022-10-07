@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/schemaMs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mon édition d’acte royal</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Stage TEI 2015</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Acte royal</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <p>
+        Mai 1763.
+        Ordre du roi.
+        Le S. Luthier demande si l’on éclairera 
+        et chauffera le château de Marly le 
+        voyage prochain comme dans les voyages 
+        ordinaires.
+        
+        Le pavillon du roy comme
+        à l’ordinaire, mais l’on ne 
+        donnera de bois d’arrivée à
+        personne.
+        
+        Si le concierge, les garçons du garde-meuble, 
+        les s(ieur)s Boucheman et Lemoine, les 
+        garçons du château, l’orlogerhorloger, le garçon 
+        des chiens et les porteurs seront chauffés 
+        et éclairés.
+        
+        Le voyage étant comme 
+        celui de Versailles, l’on n’est 
+        obligé à rien, mais on peut 
+        leur donner quelque secours en 
+        bois et lumières ; mrs Bouceman 
+        et Lemoine, oui sûrement.
+        
+        Si on éclairera les salles des gardes
+        de Votre Majesté, des gardes de 
+        la Porte et des Cent Suisses.
+        Oui, sans doute.
+        
+        Si les femmes de chambre de mesdames 
+        qui logent hors du château seront chauffées 
+        et éclairées.
+        Oui, en observant la règle 
+        la plus exacte.
+        
+        Si on donnera une bougie blanche par 
+        jour au supérieur des cordeliers de 
+        Noisy.
+        
+        Oui [biffé] Non, une demie.
+        
+        Et si on donnera une bougie par 
+        jour au vicaire de la paroisse qui dessert 
+        la chapelle du commun.
+        
+        Non, mais la valeur en argent.
+        
+        Le roy chauffe et éclaire les conseillers 
+        d’État à leur pied-à-terre qui est au 5 au commun. 
+        Noailles.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

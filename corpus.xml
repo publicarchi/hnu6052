@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="./xsl/main.xsl"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</title>
+                <title type="sub">HNU3052/HNU6052</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Université de Montréal</publisher>
+                <date from="2022">2022</date>
+                <idno type="URI">http://www.public.archi/hnu6052</idno>
+            </publicationStmt>
+            <sourceDesc xml:id="hnu6052">
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <xi:include href="./index.xml" parse="xml">
+        <xi:fallback>Fichier non trouvé</xi:fallback>
+    </xi:include>
+    <!--<xi:include href="./sources/ledoux.xml" parse="xml">
+      <xi:fallback>Fichier non trouvé</xi:fallback>
+   </xi:include>-->
+</teiCorpus>

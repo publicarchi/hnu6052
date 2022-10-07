@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar>
+  <start>
+    <element name="addressBook">
+      <zeroOrMore>
+        <element name="entry">
+          <ref name="entryContent"/>
+        </element>
+      </zeroOrMore>
+    </element>
+  </start>
+  <define name="entryContent">
+    <element name="name">
+      <text/>
+    </element>
+    <element name="email">
+      <text/>
+    </element>
+  </define>
+</grammar>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="../schemas/schemaGdp.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Le confort du courtisan : ordres royaux pour le logement à Marly</title>
+        <title type="complement">une édition électronique</title>
+        <principal xml:id="NLC">Nicolas Lyon-Caen</principal>
+        <respStmt>
+          <resp>contributions à l'édition</resp>
+          <name xml:id="OP">Olivier Poncet</name>
+        </respStmt>
+        <respStmt>
+          <resp>encodage en XML/TEI, conversion en HTML</resp>
+          <name xml:id="FC">Florence Clavaud</name>
+        </respStmt>
+        <respStmt>
+          <resp>encodage en XML/TEI, conversion en HTML</resp>
+          <name xml:id="EC">Emmanuel Chateau</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>École nationale des chartes</publisher>
+        <address>
+          <addrLine>19 rue de la Sorbonne</addrLine>
+          <addrLine>75005 <placeName>Paris</placeName></addrLine>
+        </address>
+        <date when="2011-03">mars 2011</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <institution>Archives nationales</institution>
+            <repository>site de Paris</repository>
+            <collection>Maison du roi</collection>
+            <idno>O/1/284, n° 525</idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <date when="1763-05"
+                >1763, mai</date> [<placeName>Versailles</placeName>]. En prévision d’un voyage de la cour à <placeName
+                ref="#marly">Marly</placeName>, le <rs ref="#noailles"
+                >gouverneur de Versailles</rs> soumet au roi des questions relatives au logement d’un certain nombre de courtisans et de serviteurs royaux qui accompagnent le souverain. Le château sera éclairé comme à l’ordinaire et le roi fournira du bois de chauffage à certains domestiques seulement, ainsi qu’une demi bougie et de l’argent au personnel ecclésiastique.</summary>
+            <textLang mainLang="fre">en français</textLang>
+          </msContents>
+          <physDesc>
+            <objectDesc form="feuillet">
+              <supportDesc>
+                <support><material>papier</material></support>
+                <extent>
+                  <dimensions unit="mm">
+                    <height>250</height>
+                    <width>150</width>
+                  </dimensions>
+                </extent>
+                <condition>en bon état</condition>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote xml:id="secretaire" scope="major"
+                >Un secrétaire a couché par écrit une liste de questions, se faisant le relais de Luthier, employé pour le bois et la bougie au château de Marly.</handNote>
+              <handNote xml:id="PDN" scope="minor"
+                >Philippe de Noailles (1715-1794), intendant et gouverneur du château et domaine de Versailles, a porté dans la marge de gauche les réponses du roi, en paraphant ces réponses. Il a également titré et signé le document.</handNote>
+              <handNote xml:id="anonyme" scope="minor"
+                >Une autre main a noté la date du document en haut de la page.</handNote>
+            </handDesc>
+            <additions>
+              <p>Le recto de la page porte l'estampille de la direction générale des Archives (Empire français).</p>
+              <p>Un archiviste a également, probablement au XIX<hi rend="super"
+                  >e</hi> siècle, noté dans la marge de gauche la cote du document : <quote>0<hi
+                    rend="super">1</hi> 284 n° 525</quote>.</p>
+            </additions>
+          </physDesc>
+          <additional>
+            <adminInfo>
+              <custodialHist>
+                <p>Ce document fait partie d'un ensemble de bons du roi datant des années 1741-1792, aujourd'hui conservés dans 7 cartons au sein des archives du secrétariat de la Maison du Roi.</p>
+              </custodialHist>
+            </adminInfo>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Édition électronique réalisée en mars 2011 pour servir pendant un stage organisé par l'École des chartes, dans le cadre de son offre de formation continue, sur l'utilisation de TEI pour l'édition critique des manuscrits. Le fichier obtenu n’est qu’une proposition de mise en oeuvre du modèle TEI pour ce document.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>{du texte}</p>
+      </samplingDecl>
+      <editorialDecl>
+        <normalization>
+          <p>Le texte a été édité en respectant la graphie du document. Lorsque l'orthographe actuelle diffère de celle employée, les deux graphies (celle du document et la graohie actuelle) ont été encodées. Les abréviations ont été développées en isolant le segment résultat du développement et en conservant la trace de leur forme originale. En ce qui concerne les accents, la ponctuation et l'emploi des majuscules, c'est l'usage actuel qui a été suivi.</p>
+        </normalization>
+        <interpretation>
+          <p>
+            <interpGrp type="parts-of-speech">
+              <interp xml:id="date">date</interp>
+              <interp xml:id="analyse">analyse</interp>
+              <interp xml:id="req">requête</interp>
+              <interp xml:id="ord">ordre</interp>
+              <interp xml:id="sig">signature</interp>
+            </interpGrp>
+          </p>
+        </interpretation>
+      </editorialDecl>
+      <classDecl>
+        <taxonomy xml:id="types-documents">
+          <category xml:id="typedoc-001">
+            <catDesc>bon du roi</catDesc>
+          </category>
+          <category xml:id="typedoc-002">
+            <catDesc>acte royal</catDesc>
+          </category>
+        </taxonomy>
+      </classDecl>
+      <charDecl>
+        <glyph xml:id="paraphe">
+          <desc>le paraphe de Philippe de Noailles</desc>
+          <graphic url="paraphe.jpg"/>
+        </glyph>
+      </charDecl>
+      <geoDecl datum="WGS84"/>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fre"
+          >français (langue de l’édition, langue par défaut), et langue du document édité</language>
+      </langUsage>
+      <textClass>
+        <catRef target="#typedoc-001"/>
+        <catRef target="#typtypedocedoc-002"/>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head><date when="1763-05">Mai 1763</date>.</head>
+        <addSpan spanTo="#anchor0000"/>
+        <p>Ordre du roi.</p>
+        <anchor xml:id="anchor0000"/>
+        <addSpan spanTo="#anchor001" hand="#PDN" place="margin-left"/>
+        <div ana="#ord">
+          <p>Le <placeName>pavillon du roy</placeName> comme
+            <lb/>à l’ordinaire, mais l’on ne 
+            <lb/>donnera de bois d’arrivée à 
+            <lb/>personne.</p>
+        </div>
+        <anchor xml:id="anchor001"/>
+        <div ana="#req">
+          <p>Le S. <persName>Luthier</persName><ref type="note" target="#note001"/> demande si l’on éclairera 
+            <lb/>et chauffera le <placeName>château de Marly</placeName> le 
+            <lb/>voyage prochain comme dans les voyages 
+            <lb/>ordinaires.</p>
+        </div>
+        <addSpan spanTo="#anchor002" hand="#PDN" place="margin-left"/>
+        <div ana="#ord">
+          <p>Le voyage étant comme 
+            <lb/>celui de <placeName>Versailles</placeName>, l’on n’est 
+            <lb/>obligé à rien, mais on peut 
+            <lb/>leur donner quelque secours en 
+            <lb/>bois et lumières ; mrs <persName>Bouceman</persName>
+            <lb/>et <persName>Lemoine</persName>, oui sûrement.</p>
+        </div>
+        <anchor xml:id="anchor002"/>
+        <div ana="#req">
+          <p>Si le concierge, les garçons du garde-meuble, 
+          <lb/>les s(ieur)s <persName>Boucheman</persName> et <persName>Lemoine</persName>, les 
+          <lb/>garçons du château, <choice>
+              <orig>l’orloger</orig>
+              <reg>horloger</reg>
+            </choice>, le garçon 
+          <lb/>des chiens et les porteurs seront chauffés 
+          <lb/>et éclairés.</p>
+        </div>
+        <addSpan spanTo="#anchor003" hand="#PDN" place="margin-left"/>
+        <div ana="#ord">
+          <p>Oui, sans doute.</p>
+        </div>
+        <anchor xml:id="anchor003"/>
+        <div ana="#req">
+          <p>Si on éclairera les salles des gardes
+          <lb/>de <hi
+              rend="bigger"
+              >Votre Majesté</hi>, des gardes de 
+          <lb/>la <placeName>Porte et des Cent Suisses</placeName>.</p>
+        </div>
+        <addSpan spanTo="#anchor004" hand="#PDN" place="margin-left"/>
+        <div ana="#ord">
+          <p>Oui, en observant la règle 
+            <lb/>la plus exacte.</p>
+        </div>
+        <anchor xml:id="anchor004"/>
+        <div ana="req">
+          <p>Si les femmes de chambre de mesdames 
+          <lb/>qui logent hors du château seront chauffées 
+          <lb/>et éclairées.</p>
+          <addSpan spanTo="#anchor005" hand="#PDN" place="margin-left"/>
+          <div ana="#ord">
+            <p>Oui [biffé] Non, une demie.</p>
+          </div>
+          <anchor xml:id="anchor005"/>
+          <div ana="#req">
+            <p>Si on donnera une bougie blanche par 
+          <lb/>jour au supérieur des cordeliers de 
+          <lb/><placeName>Noisy</placeName>.</p>
+          </div>
+          <addSpan spanTo="#anchor006" hand="#PDN" place="margin-left"/>
+          <div ana="#ord">
+            <p>Non, mais la valeur en argent.</p>
+          </div>
+          <anchor xml:id="anchor006"/>
+          <div ana="#req">
+            <p>Et si on donnera une bougie par 
+          <lb/>jour au vicaire de la paroisse qui dessert 
+          <lb/>la <placeName>chapelle du commun</placeName>.</p>
+          </div>
+          <addSpan spanTo="#anchor007" hand="#PDN" place="bottom"/>
+          <div ana="#ord">
+            <p>Le roy chauffe et éclaire les conseillers 
+          <lb/>d’État à leur pied-à-terre qui est au 5 au commun.</p>
+          </div>
+          <div ana="#sig">
+            <p><persName>Noailles</persName>.</p>
+          </div>
+          <anchor xml:id="anchor007"/>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="notes">
+        <note xml:id="note001"><p>Louis-François Luthier était employé pour le bois et la bougie du château de Marly avec 1 000 l. de gages en 1759 (Arch. nat., O1 3913 bis, n° 2, état pour servir de certificat de service).</p></note>
+        <note xml:id="note002"><p>Le château de Marly (aujourd’hui Marly-le-Roi) a été bâti sur les plan de Jules Hardouin-Mansart pour Louis XIV entre 1679 et 1685. Au xviiie siècle, il fait partie du domaine royal de Versailles.</p></note>
+        <note xml:id="note003"><p>Le garde-meuble de la couronne est une administration chargée de la gestion du mobilier et des objets d'art destinés à l'ornement des appartements royaux</p></note>
+        <note xml:id="note004"><p>Louis-Marie de Boucheman, valet de chambre ordinaire du roi depuis 1727 à la suite de son père et concierge du château de Versailles à partir d’octobre 1768.</p></note>
+        <note xml:id="note005"><p>Probablement de Louis-Henry Lemoine, valet de chambre ordinaire (Arch. nat., Z1a 481, état de la maison du roi pour 1759).</p></note>
+        <note><p>Le roi disposait à Marly même d’un chenil particulier depuis 1702.</p></note>
+        <note><p>Les gardes de la Porte : compagnie de cinquante hommes d’armes chargée de veiller de jour sur les portes intérieures du palais royal. </p></note>
+        <note><p>Les Cent Suisses : compagnie de cent militaires venus de cantons suisses créée en 1496 pour assurer la garde personnel du roi dans les palais royaux</p></note>
+        <note><p>Un couvent de religieux franciscains (cordeliers) est fondé à Noisy en 1599. Parmi les aumônes royales versées aux paroisses et religieux des environs du domaine apparaissent les écoles paroissiales de Noisy (aujourd’hui Noisy-le-Roi). Les cordeliers desservent régulièrement le château (Arch. nat., O1 3913A, liasse 1, certificat attestant qu’ils ont rempli leur service au château de Marly en 1761 suivant les intentions du roi).</p></note>
+        <note><p>La chapelle du commun du château, prévue pour les domestiques, par opposition à la chapelle du château lui-même. Le curé de la paroisse de Marly dit normalement la messe dans cette dernière qui compte néanmoins un chapelain en titre. C’est sans doute son vicaire qui la célèbre dans celle du commun.</p></note>
+        <note><p>Philippe de Noailles (1715-1794) comte de Noailles puis maréchal et duc de Mouchy, intendant et gouverneur du château et domaine de Versailles en survivance (1720-1729) puis en titre (1729-1778).</p></note>
+      </div>
+      <div>
+        <listPerson>
+          <person>
+            <persName>Luthier, Louis-François</persName>
+            <birth when="1766-08-01">1<hi rend="superscript">er</hi> août 1766</birth>
+            <!-- Louis-François Luthier était employé pour le bois et la bougie du château de Marly avec 1 000 l. de gages en 1759 (Arch. nat., O1 3913 bis, n° 2, état pour servir de certificat de service). -->
+          </person>
+          <person>
+            ...
+          </person>
+        </listPerson>
+      </div>
+    </back>
+  </text>
+</TEI>
