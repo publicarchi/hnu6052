@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="../schemas/schemaMs.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -178,18 +177,18 @@
           <p>Si on donnera une bougie blanche par 
           <lb/>jour au supérieur des cordeliers de 
           <lb/><placeName>Noisy</placeName>.</p>
-          <p>Oui [biffé] Non, une demie.</p>
+          <p><subst><del>Oui</del><add>Non</add></subst>, une demie.</p>
         </div>
         <div>
           <p>Et si on donnera une bougie par 
           <lb/>jour au vicaire de la paroisse qui dessert 
           <lb/>la <placeName>chapelle du commun</placeName>.</p>
-          <p>Non, mais la valeur en argent.</p>
+          <p>Non, mais la valeur en argent.<g ref="#n"/></p>
         </div>
         <div>
           <p>Le roy chauffe et éclaire les conseillers 
-          <lb/>d’État à leur pied-à-terre qui est au 5 au commun. 
-          <lb/><persName>Noailles</persName>.</p>
+          <lb/>d’État à leur pied-à-terre qui est au 5 au commun.</p>
+          <signed>Noailles</signed>
         </div>
       </div>
     </body>

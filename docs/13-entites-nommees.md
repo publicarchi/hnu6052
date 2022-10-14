@@ -255,7 +255,7 @@ La TEI fournit trois éléments génériques, et quelques-uns plus spécifiques.
 
 Ce module fournit également des éléments pour la représentation d’information à caractère biographique, historique ou proposographique sur la personne, les lieux, ou l’organisation à laquelle un nom fait référence.
 
---> production de fichier d’autorité ou collection d’information biographiques
+-> production de fichier d’autorité ou collection d’information biographiques
 
 ???
 

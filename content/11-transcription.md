@@ -413,7 +413,7 @@ Plusieurs attributs issus du module `certainty` qui peuvent vous permettre de pr
 ## La description des mains
 
 * `@hand` dans le corps du texte `<body>`
-* `@handDesc` et ses sous-éléments dans le `<teiHeader>`
+* `handDesc` et ses sous-éléments dans le `<teiHeader>`
 
 ```xml
 <handDesc xmlns="http://www.tei-c.org/ns/Examples">

@@ -1,20 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schemas/schemaMs.rnc" type="application/relax-ng-compact-syntax"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Mon édition d’acte royal</title>
+        <title type="main">Le confort du courtisan</title>
+        <title type="sub">Ordres royaux pour le logement à Marly</title>
+        <editor>
+          <persName full="yes">
+            <forename>Nicolas</forename>
+            <surname>Lyon-Caen</surname>
+          </persName>
+          <persName full="yes">Lyon-Caen, Nicolas (1978-...)</persName>
+        </editor>
+        <respStmt>
+          <resp>Collaborateur</resp>
+          <persName>
+            <forename>Olivier</forename>
+            <surname>Poncet</surname>
+          </persName>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
-        <p>Stage TEI 2015</p>
+        <publisher>École nationale des chartes</publisher>
+        <date from="2007-01" to="2007-02">janvier 2007</date>
       </publicationStmt>
       <sourceDesc>
-        <p>Acte royal</p>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <institution>Archives nationales de France</institution>
+            <repository>CARAN</repository>
+            <idno>O1/284/525</idno>
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <author></author>
+              <title>Acte royal [Versailles]</title>
+              <docDate when="1763-05">mai 1763</docDate>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <handNote xml:id="han01" scope="major">Le document...</handNote>
+              <handNote xml:id="han02" scope="minor">Les réponses dans un second acte d’écriture...</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <interpretation>
+          <p>
+            <interpGrp>
+              <interp xml:id="quest">Le</interp>
+            </interpGrp>
+          </p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
+    <front>
+      <div type="introduction">
+        <head>Présentation de l’acte</head>
+        <p>En prévision d’un voyage de la cour à Marly, le gouverneur de Versailles soumet au roi des questions relatives au logement d’un certain nombre de courtisans et de serviteurs royaux qui accompagnent le souverain. Le château sera éclairé comme à l’ordinaire et le roi fournira du bois de chauffage à certains domestiques seulement, ainsi qu’une demi bougie et de l’argent au personnel ecclésiastique.</p>
+      </div>
+    </front>
     <body>
       <div>
         <div><p><date when="1763-05">Mai 1763</date>.</p></div>
@@ -74,5 +127,8 @@
         </div>
       </div>
     </body>
+    <back>
+      <div></div>
+    </back>
   </text>
 </TEI>
