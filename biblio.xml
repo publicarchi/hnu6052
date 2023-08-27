@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Bibliographie</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>public.archi</publisher>
+            <date from="2022">2022</date>
+            <idno type="URI">http://www.public.archi/hnu6052/plan-de-cours</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title type="main"
+               >HNU3052/HNU6052, Utilisation avancée de la Text Encoding Initiative (TEI)</title>
+            <title type="sub">Approfondissements (ODD, exploitation des documents)</title>
+            <idno type="uri">http://www.public.archi/hnu6053</idno>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2022-11-09">Création du fichier</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Bibliographie</head>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>
+                        <persName>
+                           <forename>Lou</forename>
+                           <surname>Burnard</surname>
+                        </persName>
+                     </author>
+                     <title>Qu’est-ce que la TEI ? Encyclopédie numérique</title>
+                     <idno type="doi">10.4000/books.oep.1237</idno>
+                     <imprint>
+                        <publisher>OpenEdition Press</publisher>
+                        <date when="2015">2015</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </div>
+         <div>
+            <head>Divers</head>
+            <p>https://xsltfiddle-beta.liberty-development.net</p>
+         </div>
+         <divGen type="toc" />
+      </body>
+   </text>
+</TEI>

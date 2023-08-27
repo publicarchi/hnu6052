@@ -21,6 +21,9 @@ body {
     //opacity: .25;
 }
 
+p {
+	color: blue;
+}
 
 main {
 	max-width: 90ch;

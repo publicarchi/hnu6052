@@ -9,32 +9,37 @@
             <title type="main">Plan de cours</title>
          </titleStmt>
          <publicationStmt>
-            <publisher>Université de Montréal</publisher>
+            <publisher>public.archi</publisher>
             <date from="2022">2022</date>
             <idno type="URI">http://www.public.archi/hnu6052/plan-de-cours</idno>
          </publicationStmt>
          <seriesStmt>
-            <title type="main">Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</title>
-            <title type="sub">HNU3052/HNU6052</title>
-            <idno type="URI">http://www.public.archi/hnu6052</idno>
+            <title type="main"
+               >HNU3052/HNU6052, Utilisation avancée de la Text Encoding Initiative (TEI)</title>
+            <title type="sub">Approfondissements (ODD, exploitation des documents)</title>
+            <idno type="uri">http://www.public.archi/hnu6053</idno>
          </seriesStmt>
          <sourceDesc>
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2022-11-09">Création du fichier</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <head>HNU3052/HNU6052 : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</head>
+         <head>HNU3052/HNU6052, Utilisation avancée de la Text Encoding Initiative (TEI)</head>
+         <head>Approfondissements (ODD, exploitation des documents)</head>
          <div>
             <head>Méta</head>
             <list>
                <item>Cours optionnel, 1 crédits</item>
-               <item><label>Horaire</label> 30 septembre, 7 octobre et 14 octobre</item>
+               <item><label>Horaire</label> 11 novembre, 25 novembre et 2 décembre 2022</item>
                <item><label>Local</label> Pavillon Lionel-Groulx C-2035</item>
                <item><label>Professeur</label> Emmanuel Château-Dutier</item>
                <item><label>Bureau</label> Pavillon Lionel-Groulx, local C-2067</item>
-               <item><label>Disponibilités</label> lundi de 13h-15h ou sur rendez-vous</item>
+               <item><label>Disponibilités</label> lundi de 10h-13h ou sur rendez-vous</item>
                <item><label>Téléphone</label> +1 (514) 343-6026</item>
                <item><label>Courriel</label> <ref type="email"
                   target="mailto:emmanuel.chateau.dutier@umontreal.ca"
@@ -42,84 +47,69 @@
             </list>
          </div>
          <div>
+            <head>Présentation</head>
+            <p>La production d’une édition électronique exige la mobilisation de techniques spécifiques pour l’établissement des textes, l’enregistrement des annotations scientifiques et la publication. La Text Encoding Initiative (TEI) offre à la fois une infrastructure et un cadre conceptuel pour accompagner la production d’édition critique numérique. Le travail de modélisation d’une édition avec la TEI permet à la fois de documenter son édition en déclarant formellement son utilisation de la TEI mais aussi personnaliser la TEI pour l’adapter finement aux objectifs scientifiques de son projet.</p>
+            <p>Cette formation de niveau avancé (perfectionnement) est principalement destinée à travailler sur la modélisation de son édition critique au moyen d’ODD et l’exploitation des éditions structurées avec XSLT. Elle s’adresse à des participants ayant déjà des notions minimales sur la TEI et qui souhaitent s’approprier plus avant les moyens offerts par la TEI. Le programme laisse une large place au travail sur les projets des participants sous la forme d’ateliers.</p>
+         </div>
+         <div>
             <head>Objectifs de l’atelier</head>
-            <p>Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la <ref
-               target="https://www.tei-c.org"
-               >Text Encoding Encoding Initiative (TEI)</ref>, un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).</p>
-            <p>Au terme du cours, les étudiants et les étudiantes seront en mesure :
             <list>
-               <item>d’expliquer les principes de l’édition structurée et la notion de balisage descriptif ;</item>
-               <item>de réaliser un encodage en XML-TEI ;</item>
-               <item>d’effectuer certaines personnalisations possibles de la TEI ;</item>
-               <item>d’utiliser les langages XPath et XSL pour mettre en ligne une édition.</item>
-               </list> </p>
+               <item>Comprendre les enjeux de la modélisation d’une édition critique</item>
+               <item>Apprendre le langage ODD</item>
+               <item>Savoir documenter son modèle</item>
+               <item>Savoir manipuler ses documents XML-TEI</item>
+               <item>Utiliser XPath et XSLT</item>
+            </list>
          </div>
          <div>
             <head>Calendrier des séances</head>
-            <p>L’atelier se déroule sur trois vendredis : 30 septembre, 7 octobre et 14 octobre.</p>
+            <p>L’atelier se déroule sur trois vendredis : 11 novembre, 25 novembre et 2 décembre 2022.</p>
             <div>
-               <head>Séance 1 – vendredi 30 septembre 2022, 8h30-11h30</head>
+               <head>Séance 1 – vendredi 11 novembre 2022, 9h30-12h30</head>
                <list>
                   <item>présentation des participantes et des participants ;</item>
-                  <item>le langage de balisage XML et son écosystème ;</item>
-                  <item>exercices pratiques d’encodage en XML.</item>
+                  <item>La modélisation des éditions critiques ;</item>
+                  <item>Premiers pas avec ODD.</item>
                </list>
             </div>
             <div>
-               <head>Séance 2 – vendredi 7 octobre 2022 9h30-12h30</head>
+               <head>Séance 2 – vendredi 25 novembre 2022 9h30-12h30</head>
                <list>
-                  <item>présentation de la Text Encoding Initiative (TEI) ;</item>
-                  <item>l’utilisation de la TEI pour l’édition critique ;</item>
-                  <item>exercice de structuration de texte avec la TEI.</item>
+                  <item>Exercice de modélisation avec ODD ;</item>
+                  <item>Modélisation avancée ;</item>
+                  <item>L’organisation d’un document ODD.</item>
                </list>
             </div>
             <div>
-               <head>Séance 3 – vendredi 7 octobre 2022 13h30-16h30</head>
+               <head>Séance 3 – vendredi 25 novembre 2022 13h30-16h30</head>
                <list>
-                  <item>utilisation de la TEI pour l’édition de sources manuscrites ;</item>
-                  <item>modélisation d’une édition critique avec la TEI ;</item>
-                  <item>exercices de mise en pratique de structuration et de modèles.</item>
+                  <item>XPath ;</item>
+                  <item>XSLT ;</item>
+                  <item>exercices de mise en pratique.</item>
                </list>
             </div>
             <div>
-               <head>Séance 4 – vendredi 14 octobre 2022 9h30-12h30</head>
+               <head>Séance 4 – vendredi 25 novembre 2022 9h30-12h30</head>
                <list>
-                  <item>méthodes de travail avec la TEI ;</item>
-                  <item>modalités de transformation avec XSLT.</item>
+                  <item>Récursions et traitements conditionnel ;</item>
+                  <item>Modes et règles nommées.</item>
                </list>
             </div>
             <div>
-               <head>Séance 5 – vendredi 14 octobre 2022 13h30-16h30</head>
+               <head>Séance 5 – vendredi 2 décembre 2022 13h30-16h30</head>
                <list>
-                  <item>exercices d’application de transformation ;</item>
-                  <item>bilan des 4 séances.</item>
+                  <item>Usages avancés</item>
+                  <item>Bilan des 4 séances.</item>
                </list>
             </div>
-            <div>
-               <head>Évaluation</head>
-               <p>L’évaluation de l’atelier reposera sur des travaux pratiques d’encodage en XML-TEI :<list>
-                  <item>Exercice pratique d’encodage en XML (30%)</item>
-                  <item>Édition critique de sources manuscrites (40%)</item>
-                  <item>Personnalisation d’un schéma TEI (40%)</item>
-                  </list></p>
-            </div>
-            <div>
-               <head>Bibliographie</head>
-               <bibl>Apollon, D. &amp; Belisle, C. (2014). <title>Digital Critical Editions.</title> University of Illinois Press. <ref target="title">https://muse.jhu.edu/book/32655Barney</ref> (2012)</bibl>
-               <bibl>Barney, B. (2012). Digital Editing with the TEI Yesterday, Today, and Tomorrow. <title>Textual Cultures</title>, 7(1). 29–41. <ref target="https://doi.org/10.2979/textcult.7.1.29Boot">https://doi.org/10.2979/textcult.7.1.29Boot</ref> (2012)</bibl>
-               <bibl>Boot, P. (2012). Some digital editions and some remaining challenges. <title>Janus</title>, 1. <ref target="https://www.janusdigital.es/articulo.htm?id=7Burnard">https://www.janusdigital.es/articulo.htm?id=7Burnard</ref> (2015)</bibl>
-               <bibl>Burnard, L. (2015). Introduction. In <title>Qu’est-ce que la Text Encoding Initiative ?</title> OpenEdition Press. <ref target="http://books.openedition.org/oep/1297Burnard">http://books.openedition.org/oep/1297Burnard</ref> (2015)</bibl>
-               <bibl>Burnard, L. (2015). <title>Qu’est-ce que la Text Encoding Initiative ?</title> OpenEdition Press. <ref target="http://books.openedition.org/oep/1237">http://books.openedition.org/oep/1237</ref></bibl>
-               <bibl>DeRose, S., Durand, D., Mylonas, E. &amp; Renear, A. (1990). What is text, really ? <title>Journal of Computing in Higher Education</title>, 1(2). 3–26. <ref target="http://cs.brown.edu/courses/cs195-1/reading/WhatIsTextReally.pdf">http://cs.brown.edu/courses/cs195-1/reading/WhatIsTextReally.pdf</ref></bibl>
-               <bibl>Hayles, N. (2004). Print Is Flat, Code Is Deep: The Importance of Media-Specific Analysis. <title>Poetics Today</title>, 25(1). 67–90. <ref target="https://doi.org/10.1215/03335372-25-1-67">https://doi.org/10.1215/03335372-25-1-67</ref></bibl>
-               <bibl>Ide, N. &amp; Sperberg-Mcqueen, C. (1995). The Text Encoding Initiative: Its History, Goals, and Future Development. <title>Computers and the Humanities.</title> <ref target="https://www.cs.vassar.edu/~ide/papers/teiHistory.pdf">https://www.cs.vassar.edu/~ide/papers/teiHistory.pdf</ref></bibl>
-               <bibl>Mylonas, E. &amp; Renear, A. (1999). The Text Encoding Initiative at 10: Not Just an Interchange Format Anymore – But a New Research Community. <title>Computers and the Humanities</title>, 33(1). 1–9. <ref target="https://doi.org/10.1023/A:1001832310939">https://doi.org/10.1023/A:1001832310939</ref></bibl>
-               <bibl>(N.A.).(2020). <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/index.html">https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/index.html</ref></bibl>
-               <bibl>Pierazzo, E. (2015). <title>Digital scholarly editing: theories, models and methods.</title></bibl>
-               <bibl>Pierazzo (eds), M. (2016). <title>Digital Scholarly Editing: Theories and Practices.</title> Open Book Publishers. <ref target="https://doi.org/10.11647/OBP.0095">https://doi.org/10.11647/OBP.0095</ref></bibl>
-               <bibl>Shillingsburg, P. (2006). <title>From Gutenberg to Google: Electronic Representations of Literary Texts.</title> Cambridge University Press.</bibl>
-               <bibl>Wittern, C., Ciula, A. &amp; Tuohy, C. (2009). The making of TEI P5. <title>Literary and Linguistic Computing</title>, 24(3). 281–296. <ref target="https://doi.org/10.1093/llc/fqp017">https://doi.org/10.1093/llc/fqp017</ref></bibl>
-            </div>
+         </div>
+         <div>
+            <head>Évaluation</head>
+            <p>L’évaluation de l’atelier reposera sur des travaux pratiques de définition de modèles et de transformations.<list>
+               <item>Premier modèle ODD (30%)</item>
+               <item>Exercices XPath (40%)</item>
+               <item>Production d’une transformation complète (40%)</item>
+               </list></p>
          </div>
          <divGen type="toc" />
       </body>

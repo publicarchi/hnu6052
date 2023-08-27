@@ -8,20 +8,33 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</title>
-                <title type="sub">HNU3052/HNU6052</title>
+                <title>HNU65053/3503, Utilisation avancée de la Text Encoding Initiative (TEI)</title>
+                <title type="sub">Approfondissements (ODD, exploitation des documents)</title>
+                <author>
+                    <persName>
+                        <forename>Emmanuel</forename>
+                        <surname>Chateau-Dutier</surname>
+                        <affiliation>Université de Montréal</affiliation>
+                    </persName>
+                </author>
             </titleStmt>
             <publicationStmt>
-                <publisher>Université de Montréal</publisher>
-                <date from="2022">2022</date>
-                <idno type="URI">http://www.public.archi/hnu6052</idno>
+                <publisher>public.archi</publisher>
+                <date from="2022-11">Depuis novembre 2011</date>
+                <idno type="uri">http://www.public.archi/hnu6053</idno>
             </publicationStmt>
-            <sourceDesc xml:id="hnu6052">
-                <p>Information about the source</p>
+            <sourceDesc>
+                <p>Fichier nativement numérique</p>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <change when="2022-11-09">Création du fichier</change>
+        </revisionDesc>
     </teiHeader>
     <xi:include href="./index.xml" parse="xml">
+        <xi:fallback>Fichier non trouvé</xi:fallback>
+    </xi:include>
+    <xi:include href="./biblio.xml" parse="xml">
         <xi:fallback>Fichier non trouvé</xi:fallback>
     </xi:include>
     <!--<xi:include href="./sources/ledoux.xml" parse="xml">
