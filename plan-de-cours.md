@@ -2,7 +2,8 @@
 title: Plan d'atelier
 toc: oui
 impression: oui
-date: 2022-09-29
+date: 2023-10-22
+since: 2022-09-29
 bibfile: "data/bibliographie.json"
 description: "L’atelier HNU3052/HNU6052 Édition critique avec la TEI est un cours offert dans le cadre du microprogramme en humanités numériques et du programme d'études DESS en édition numérique de l’Université de Montréal."
 ---
@@ -19,7 +20,7 @@ Au terme du cours, l’étudiant·e sera en mesure :
 - d’utiliser les langages XPath et XSL pour mettre en ligne une édition.
 
 ## Calendrier des séances
-L’atelier se déroule les vendredis 30 septembre, 7 octobre et 14 octobre 2022 dans le local C-2035 du Pavillon Lionel Groulx.
+L’atelier se déroule les jeudis 26 octobre, 2 novembre et 9 novembre 2023 dans le local C-2035 du Pavillon Lionel Groulx.
 
 ### Séance 1 - vendredi 30 septembre 2022 8h30-11h30
 

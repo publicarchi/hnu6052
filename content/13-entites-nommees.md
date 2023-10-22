@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Entités nommées
 
@@ -347,9 +347,9 @@ La classe `model.persStateLike` contient des éléments décrivant des caractér
     <label>Marriage</label>
     <desc>
       <name type="person" ref="#WM">William Morris</name> and <name type="person" ref="http://en.wikipedia.org/wiki/Jane_Burden">Jane Burden</name> were
-      married at <name type="place">St Michael's Church, Ship Street, Oxford</name> on
+      married at <name type="place">St Michael’s Church, Ship Street, Oxford</name> on
       <date when="1859-04-26">26 April 1859</date>. The wedding was
-      conducted by Morris's friend <name type="person" ref="#RWD">R. W.
+      conducted by Morris’s friend <name type="person" ref="#RWD">R. W.
       Dixon</name> with <name type="person" ref="#CBF">Charles
       Faulkner</name> as
       the best man. The bride was given away by her father,
@@ -357,12 +357,12 @@ La classe `model.persStateLike` contient des éléments décrivant des caractér
       According to the account that <name type="person" ref="http://en.wikipedia.org/wiki/Edward_Burne-Jones">Burne-Jones</name>
       gave <name type="person" ref="#JWM">Mackail</name>
       <quote>M. said to Dixon beforehand <said>Mind
-      you don't call her Mary</said> but he did</quote>. The entry in the
+      you don’t call her Mary</said> but he did</quote>. The entry in the
       Register reads: <quote>William Morris, 25, Bachelor Gentleman, 13
       George Street, son of William Morris decd. Gentleman. Jane Burden,
       minor, spinster, 65 Holywell Street, d. of Robert Burden,
-      Groom.</quote> The witnesses were Jane's parents and Faulkner. None of
-      Morris's family attended the ceremony. Morris presented Jane with a
+      Groom.</quote> The witnesses were Jane’s parents and Faulkner. None of
+      Morris’s family attended the ceremony. Morris presented Jane with a
       plain gold ring bearing the London hallmark for 1858. She gave her
       husband a double-handled antique silver cup.</desc>
       <bibl>J. W. Mackail, <title>The Life of William Morris</title>, 1899.</bibl>

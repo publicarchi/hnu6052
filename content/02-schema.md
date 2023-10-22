@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Notion de Schéma
 
@@ -448,11 +448,11 @@ Depuis quelques années, un projet de spécification de schéma est développée
   "properties": {
     "firstName": {
       "type": "string",
-      "description": "The person's first name."
+      "description": "The person’s first name."
     },
     "lastName": {
       "type": "string",
-      "description": "The person's last name."
+      "description": "The person’s last name."
     },
     "age": {
       "description": "Age in years which must be equal to or greater than zero.",

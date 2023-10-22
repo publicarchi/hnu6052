@@ -1,11 +1,11 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
-# Programme de la formation
+# Programme de l’atelier
 
-Emmanuel Château-Dutier, septembre 2022
+Emmanuel Château-Dutier, octobre 2023
 
 Site web pour les ressources du cours :  
-[https://edn6101.gitpages.huma-num.fr/h2022](https://edn6101.gitpages.huma-num.fr/h2022)
+[https://hnu6052.gitpages.huma-num.fr/h2022](https://edn6101.gitpages.huma-num.fr/h2022)
 
 ???
 
@@ -84,32 +84,38 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 1 - vendredi 30 septembre 2022 8h30-11h30
+## Séance 1 - jeudi 26 octobre 2023 8h30-11h30
 
 - présentation des intervenants et des participant·e·s ;
 - le langage de balisage XML et son écosystème ;
-- exercices pratiques d'encodage en XML ;
+- exercices pratiques d’encodage en XML ;
 
-## Séance 2 - vendredi 7 octobre 2022 8h30-11h30
+## Séance 2 - jeudi 26 octobre 2023 12h30-15h30
 
 - présentation de la Text Encoding Initiative (TEI) ;
 - l’utilisation de la TEI pour l’édition critique ;
 - exercice de structuration de texte avec la TEI.
 
-## Séance 3 - vendredi 7 octobre 2022 13h00-16h
+---
+
+## Séance 3 - jeudi 2 novembre 2023 8h30-11h30
 
 - utilisation de la TEI pour l’édition de sources manuscrites ;
 - modélisation d’une édition critique avec la TEI ;
+
+## Séance 4 - jeudi 2 novembre 2023 12h30-15h30
+
 - exercices de mise en pratique de structuration et de modèles ;
+- méthodes de travail avec la TEI ;
 
 ---
 
-## Séance 4 - vendredi 14 octobre 2022 8h30-11h30
+## Séance 5 - jeudi 9 novembre 2023 8h30-11h30
 
-- méthodes de travail avec la TEI ;
-- modalités de transformation avec XSLT ;
+- outillage de la TEI
+- exploiter ses documents avec XSLT ;
 
-## Séance 5 - vendredi 14 octobre 2022 13h00-16h
+## Séance 6 - jeudi 9 novembre 2023 12h30-15h30
 
 - exercices d’application de transformation ;
 - bilan des 4 séances.

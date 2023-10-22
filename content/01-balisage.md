@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # eXtensible Markup Language
 

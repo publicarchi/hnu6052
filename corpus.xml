@@ -8,8 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>HNU65053/3503, Utilisation avancée de la Text Encoding Initiative (TEI)</title>
-                <title type="sub">Approfondissements (ODD, exploitation des documents)</title>
+                <title type="main">HNU3052/HNU6052 – Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</title>
                 <author>
                     <persName>
                         <forename>Emmanuel</forename>
@@ -20,7 +19,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>public.archi</publisher>
-                <date from="2022-11">Depuis novembre 2011</date>
+                <date from="2022-11">Depuis novembre 2022</date>
                 <idno type="uri">http://www.public.archi/hnu6053</idno>
             </publicationStmt>
             <sourceDesc>
@@ -28,6 +27,7 @@
             </sourceDesc>
         </fileDesc>
         <revisionDesc>
+            <change when="2023-10-22">Mise à jour du fichier</change>
             <change when="2022-11-09">Création du fichier</change>
         </revisionDesc>
     </teiHeader>

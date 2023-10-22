@@ -10,13 +10,11 @@
          </titleStmt>
          <publicationStmt>
             <publisher>public.archi</publisher>
-            <date from="2022">2022</date>
+            <date from="2022">depuis 2022</date>
             <idno type="URI">http://www.public.archi/hnu6052/plan-de-cours</idno>
          </publicationStmt>
          <seriesStmt>
-            <title type="main"
-               >HNU3052/HNU6052, Utilisation avancée de la Text Encoding Initiative (TEI)</title>
-            <title type="sub">Approfondissements (ODD, exploitation des documents)</title>
+            <title type="main">HNU3052/HNU6052 – Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</title>
             <idno type="uri">http://www.public.archi/hnu6053</idno>
          </seriesStmt>
          <sourceDesc>

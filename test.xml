@@ -31,11 +31,11 @@
                   <h2>Méta</h2>
                   <ul>
                      <li>Cours optionnel, 1 crédits</li>
-                     <li>Horaire 30 septembre, 7 octobre et 14 octobre</li>
+                     <li>Horaire : 26 octobre, 2 novembre et 9 novembre 2023</li>
                      <li>Local Pavillon Lionel-Groulx C-2035</li>
                      <li>Professeur Emmanuel Château-Dutier</li>
                      <li>Bureau Pavillon Lionel-Groulx, local C-2067</li>
-                     <li>Disponibilités lundi de 13h-15h ou sur rendez-vous</li>
+                     <li>Disponibilités sur rendez-vous</li>
                      <li>Téléphone +1 (514) 343-6026</li>
                      <li>Courriel<a title="Lien" href="mailto:emmanuel.chateau.dutier@umontreal.ca">emmanuel.chateau.dutier@umontreal.ca</a>
                      </li>
@@ -57,7 +57,7 @@
                   <h2>Calendrier des séances</h2>
                   <p>L’atelier se déroule sur trois vendredis : 30 septembre, 7 octobre et 14 octobre.</p>
                   <div>
-                     <h2>Séance 1 – vendredi 30 septembre 2022, 8h30-11h30</h2>
+                     <h2>Séance 1 – jeudi 26 octobre 2023, 8h30-11h30</h2>
                      <ul>
                         <li>présentation des participantes et des participants ;</li>
                         <li>le langage de balisage XML et son écosystème ;</li>
@@ -65,7 +65,7 @@
                      </ul>
                   </div>
                   <div>
-                     <h2>Séance 2 – vendredi 7 octobre 2022 9h30-12h30</h2>
+                     <h2>Séance 2 – jeudi 26 octobre 2023, 12h30-15h30</h2>
                      <ul>
                         <li>présentation de la Text Encoding Initiative (TEI) ;</li>
                         <li>l’utilisation de la TEI pour l’édition critique ;</li>
@@ -73,7 +73,7 @@
                      </ul>
                   </div>
                   <div>
-                     <h2>Séance 3 – vendredi 7 octobre 2022 13h30-16h30</h2>
+                     <h2>Séance 3 – jeudi 2 novembre 2023 8h30-11h30</h2>
                      <ul>
                         <li>utilisation de la TEI pour l’édition de sources manuscrites ;</li>
                         <li>modélisation d’une édition critique avec la TEI ;</li>
@@ -81,14 +81,20 @@
                      </ul>
                   </div>
                   <div>
-                     <h2>Séance 4 – vendredi 14 octobre 2022 9h30-12h30</h2>
+                     <h2>Séance 4 – jeudi 2 novembre 2023 12h30-15h30</h2>
                      <ul>
                         <li>méthodes de travail avec la TEI ;</li>
                         <li>modalités de transformation avec XSLT.</li>
                      </ul>
                   </div>
                   <div>
-                     <h2>Séance 5 – vendredi 14 octobre 2022 13h30-16h30</h2>
+                     <h2>Séance 5 – jeudi 9 novembre 2023 8h30-11h30</h2>
+                     <ul>
+                        <li>exercices d’application de transformation ;</li>
+                     </ul>
+                  </div>
+                  <div>
+                     <h2>Séance 6 – jeudi 9 novembre 2023 12h30-15h30</h2>
                      <ul>
                         <li>exercices d’application de transformation ;</li>
                         <li>bilan des 4 séances.</li>
@@ -104,11 +110,21 @@
                      </p>
                   </div>
                   <div>
-                     <h2>Bibliographie</h2>Apollon, D. &amp; Belisle, C. (2014). Digital Critical Editions. University of Illinois Press. <a title="Lien" href="title">https://muse.jhu.edu/book/32655Barney</a> (2012)Barney, B. (2012). Digital Editing with the TEI Yesterday, Today, and Tomorrow. Textual Cultures, 7(1). 29–41. <a title="Lien" href="https://doi.org/10.2979/textcult.7.1.29Boot">https://doi.org/10.2979/textcult.7.1.29Boot</a> (2012)Boot, P. (2012). Some digital editions and some remaining challenges. Janus, 1. <a title="Lien"
-                        href="https://www.janusdigital.es/articulo.htm?id=7Burnard">https://www.janusdigital.es/articulo.htm?id=7Burnard</a> (2015)Burnard, L. (2015). Introduction. In Qu’est-ce que la Text Encoding Initiative ? OpenEdition Press. <a title="Lien" href="http://books.openedition.org/oep/1297Burnard">http://books.openedition.org/oep/1297Burnard</a> (2015)Burnard, L. (2015). Qu’est-ce que la Text Encoding Initiative ? OpenEdition Press. <a title="Lien" href="http://books.openedition.org/oep/1237">http://books.openedition.org/oep/1237</a>DeRose, S., Durand, D., Mylonas, E. &amp; Renear, A. (1990). What is text, really ? Journal of Computing in Higher Education, 1(2). 3–26. <a title="Lien"
-                        href="http://cs.brown.edu/courses/cs195-1/reading/WhatIsTextReally.pdf">http://cs.brown.edu/courses/cs195-1/reading/WhatIsTextReally.pdf</a>Hayles, N. (2004). Print Is Flat, Code Is Deep: The Importance of Media-Specific Analysis. Poetics Today, 25(1). 67–90. <a title="Lien" href="https://doi.org/10.1215/03335372-25-1-67">https://doi.org/10.1215/03335372-25-1-67</a>Ide, N. &amp; Sperberg-Mcqueen, C. (1995). The Text Encoding Initiative: Its History, Goals, and Future Development. Computers and the Humanities.<a title="Lien"
-                        href="https://www.cs.vassar.edu/~ide/papers/teiHistory.pdf">https://www.cs.vassar.edu/~ide/papers/teiHistory.pdf</a>Mylonas, E. &amp; Renear, A. (1999). The Text Encoding Initiative at 10: Not Just an Interchange Format Anymore – But a New Research Community. Computers and the Humanities, 33(1). 1–9. <a title="Lien" href="https://doi.org/10.1023/A:1001832310939">https://doi.org/10.1023/A:1001832310939</a>(N.A.).(2020). <a title="Lien"
-                        href="https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/index.html">https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/index.html</a>Pierazzo, E. (2015). Digital scholarly editing: theories, models and methods.Pierazzo (eds), M. (2016). Digital Scholarly Editing: Theories and Practices. Open Book Publishers. <a title="Lien" href="https://doi.org/10.11647/OBP.0095">https://doi.org/10.11647/OBP.0095</a>Shillingsburg, P. (2006). From Gutenberg to Google: Electronic Representations of Literary Texts. Cambridge University Press.Wittern, C., Ciula, A. &amp; Tuohy, C. (2009). The making of TEI P5. Literary and Linguistic Computing, 24(3). 281–296. <a title="Lien" href="https://doi.org/10.1093/llc/fqp017">https://doi.org/10.1093/llc/fqp017</a>
+                     <h2>Bibliographie</h2>
+                     <p>Apollon, D. &amp; Belisle, C. (2014). Digital Critical Editions. University of Illinois Press. <a title="Lien" href="title">https://muse.jhu.edu/book/32655Barney</a> (2012)Barney, B. (2012). Digital Editing with the TEI Yesterday, Today, and Tomorrow. Textual Cultures, 7(1). 29–41. <a title="Lien" href="https://doi.org/10.2979/textcult.7.1.29Boot">https://doi.org/10.2979/textcult.7.1.29Boot</a> (2012)</p>
+                     <p>Boot, P. (2012). Some digital editions and some remaining challenges. Janus, 1. <a title="Lien"
+                        href="https://www.janusdigital.es/articulo.htm?id=7Burnard">https://www.janusdigital.es/articulo.htm?id=7Burnard</a> (2015)</p>
+                     <p>Burnard, L. (2015). Qu’est-ce que la Text Encoding Initiative ? OpenEdition Press. <a title="Lien" href="http://books.openedition.org/oep/1237">http://books.openedition.org/oep/1237</a></p>
+                     <p>DeRose, S., Durand, D., Mylonas, E. &amp; Renear, A. (1990). What is text, really ? Journal of Computing in Higher Education, 1(2). 3–26. <a title="Lien"
+                        href="http://cs.brown.edu/courses/cs195-1/reading/WhatIsTextReally.pdf">http://cs.brown.edu/courses/cs195-1/reading/WhatIsTextReally.pdf</a></p>
+                     <p>Hayles, N. (2004). Print Is Flat, Code Is Deep: The Importance of Media-Specific Analysis. Poetics Today, 25(1). 67–90. <a title="Lien" href="https://doi.org/10.1215/03335372-25-1-67">https://doi.org/10.1215/03335372-25-1-67</a></p>
+                     <p>Ide, N. &amp; Sperberg-Mcqueen, C. (1995). The Text Encoding Initiative: Its History, Goals, and Future Development. Computers and the Humanities.<a title="Lien"
+                        href="https://www.cs.vassar.edu/~ide/papers/teiHistory.pdf">https://www.cs.vassar.edu/~ide/papers/teiHistory.pdf</a></p>
+                     <p>Mylonas, E. &amp; Renear, A. (1999). The Text Encoding Initiative at 10: Not Just an Interchange Format Anymore – But a New Research Community. Computers and the Humanities, 33(1). 1–9. <a title="Lien" href="https://doi.org/10.1023/A:1001832310939">https://doi.org/10.1023/A:1001832310939</a>(N.A.).(2020). <a title="Lien"
+                        href="https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/index.html">https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/index.html</a></p>
+                     <p>Pierazzo, E. (2015). Digital scholarly editing: theories, models and methods.Pierazzo (eds), M. (2016). Digital Scholarly Editing: Theories and Practices. Open Book Publishers. <a title="Lien" href="https://doi.org/10.11647/OBP.0095">https://doi.org/10.11647/OBP.0095</a></p>
+                     <p>Shillingsburg, P. (2006). From Gutenberg to Google: Electronic Representations of Literary Texts. Cambridge University Press.</p>
+                     <p>Wittern, C., Ciula, A. &amp; Tuohy, C. (2009). The making of TEI P5. Literary and Linguistic Computing, 24(3). 281–296. <a title="Lien" href="https://doi.org/10.1093/llc/fqp017">https://doi.org/10.1093/llc/fqp017</a></p>
                   </div>
                </div>
             </div>

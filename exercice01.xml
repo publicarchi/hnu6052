@@ -19,8 +19,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
-      <change> <date when="2020-02">février 2021</date>
-        <name>Emmanuel Château-Dutier</name>, adaptation</change>
+      <change when="2020-02"><name>Emmanuel Château-Dutier</name>, adaptation</change>
       <change when="2017-10"><name>Lou</name> contrôle des noms de fichiers</change>
       <change when="2016-05"><name>Emmanuel Château</name> corrections rédactionnelles et ajouts divers</change>
     </revisionDesc>
@@ -29,9 +28,9 @@
     <front>
       <titlePage>
         <titlePart>ex01 – Encoder un manuscrit en utilisant un schéma</titlePart>
-        <docImprint>HNU3052/HNU6052 – Édition critique avec l</docImprint>
-        <note><ref target="https://hnu6052.github.io/plan-de-cours/"
-          >Plan de cours</ref></note>
+        <docImprint>HNU3052/HNU6052 – Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</docImprint>
+        <note>
+          <ref target="https://hnu6052.github.io/plan-de-cours/">Plan de cours</ref></note>
       </titlePage>
     </front>
     <body>

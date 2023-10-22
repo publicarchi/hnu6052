@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Travailler avec la TEI
 
@@ -45,7 +45,7 @@ Du fait de l’utilisation courante de la TEI dans des projets de recherche, plu
 
 ## Travailler avec l’IDE Visual Studio Code
 
-L'IDE ou éditeur de texte [VSCode](https://visualstudio.microsoft.com/fr/) dispose d’[une extension XML pour prévisualiser les documents](https://marketplace.visualstudio.com/items?itemName=e-editiones.tei-publisher-vscode) accompagnée d’une exention pour la validation [XML Scholarly XML](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml) ou [XML Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) :
+L’IDE ou éditeur de texte [VSCode](https://visualstudio.microsoft.com/fr/) dispose d’[une extension XML pour prévisualiser les documents](https://marketplace.visualstudio.com/items?itemName=e-editiones.tei-publisher-vscode) accompagnée d’une exention pour la validation [XML Scholarly XML](https://marketplace.visualstudio.com/items?itemName=raffazizzi.sxml) ou [XML Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) :
 
 - libre et open Source
 - validation contre un schéma ;
