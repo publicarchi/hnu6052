@@ -17,17 +17,23 @@ date: 2022-09-29
 
 En synchrone :
 
-- 9h tour de table et présentation du cours (30 minutes)
-- 9h30 l’histoire et l’application de XML (15 minutes)
-- 9h45 principes de conception du langage XML (10 minutes)
-- 9h55 pause (10 minutes)
-- 10h05 la syntaxe XML (25 minutes)
-- 10h30 exercice : principes et balises XML (questions/réponses) (20 minutes)
-- 10h50 pause (10 minutes)
-- 11h00 présentation du logiciel oXygen (10 minutes)
-- 11h10 exercice : un carnet d’adresse en XML (35 minutes)
-- 11h45 bilan de la séance et présentation des exercices (15 minutes)
-- 12h fin
+- 9h30 tour de table et présentation du cours (30 minutes)
+- 10h l’histoire et l’application de XML (15 minutes)
+- 10h15 principes de conception du langage XML (10 minutes)
+- 10h30 pause (10 minutes)
+- 10h40 la syntaxe XML (25 minutes), 
+- 11h05 exercice : principes et balises XML (questions/réponses) (20 minutes)
+-  présentation du logiciel oXygen (10 minutes)
+
+Après-midi
+
+- 12h30 exercice : un carnet d’adresse en XML (35 minutes)
+- 13h05 : correction 10
+- 13h20 : 10 min pause
+- 13h30 : Schéma (30 min)
+- 14h : TP encodage et utilisation d’un shéma (apprentissage oXygen)
+- 15h : bilan de la séance et présentation des exercices (15 minutes)
+- 15h30 fin
 
 #### Séance 2
 À lire avant la séance :

@@ -8,6 +8,10 @@
 
 ???
 
+Dans cette première partie du cours, nous allons présenter le langage de balisage extensible (eXtensible Markup Language, XML). XML est un format informatique fondamental pour de très nombreuses applications. Il est notamment largement employé dans le domaine des métadonnées culturelles ou pour l’échange d’informations structurées. XML est un métalangage au sens où il définit une syntaxe qui permet de décrire toute sortes de vocabulaires pour les métadonnées. 
+
+Ce format occupe une place fondamentale dans le domaine de l’édition structurée en raison de son excellente capacité à prendre en charge la description du texte et de ses sous-composants. Il s’est également largement imposé dans le secteur éditorial en raisons d’un puissant outillage technique qui lui est associé tant pour le contrôle des documents que pour leur transformation. En ce sens, XML offre une infrastructure technique particulièrement adéquate pour l’édition et se retrouve à peu près partout dans les applications industrielles du secteur.
+
 Le domaine des éditions critiques numériques est un secteur en évolution rapide pour lequel il n’existe pas vraiment de norme ou de références uniques. Pour autant, certaines réalisations constituent des références fortes de même que certains standards techniques qui favorisent la convergence à l’instar de la Text Encoding Initiative que nous allons aborder au cours de cette formation.
 
 On pourra se référer à la bibliographie ecdotique traditionnelle, mais aussi à une abondante littérature en langue anglaise sur l’édition numérique.
@@ -134,6 +138,18 @@ Ici, les critères de qualité d’une édition critique peuvent guider certains
 
 ### 1. Pourquoi encoder son édition ?
 
+## Définition des documents structurés
+
+On appelle document structuré, un document dont la structure logique est décrite plutôt que sa mise en forme physique.
+
+> Un document peut être décrit comme une collection d’objets comportant des objets de plus haut niveau composés d’objets plus primitifs. Les relations entre ces objets représentent les relations logiques entre les composants du document. Par exemple [...] un livre est divisé en chapitres, chaque chapitre en sections, sous-sections, paragraphes, etc. Une telle organisation documentaire est appelée représentation de document structuré.
+>
+> Jacques André, Richard Furuta, Vincent Quint, *Structured documents*, Cambridge University Press, 1989.
+
+---
+
+### 1. Pourquoi encoder son édition ?
+
 ## 1.2. L’avantage d’un balisage sémantique
 La notion d’encodage :
 
@@ -148,7 +164,9 @@ La notion d’encodage :
 ## Encodage descriptif vs encodage présentationnel
 
 Parce qu’il détermine tous les traitements informatiques qu’il est possible d’effectuer sur le texte, le balisage a historiquement constitué une question fondamentale dans l’histoire de l’informatique. Depuis l’article séminal de Coombs et ses collègues, on a pris l’habitude de distinguer plusieurs types de balisages&nbsp;: procédural, présentationnel, ou encore descriptif.
+
 cf. James H. Coombs, Allen H Renear, et Steven J DeRose. [« Markup Systems and the Future of Scholarly Text Processing »](http:/.html.coverpages.org/coombs.html). **Communications of the ACM**, n° 11, t. 30, 1987, p. 933-947.
+
 La supériorité du balisage descriptif sur les autres types de balisage du texte a clairement été établie depuis quelques années. Un tel balisage présente l’avantage notable d’assurer une meilleure distinction entre le contenu et la forme (et donc de séparer les traitements). Cette distinction garantit une meilleure maintenance du texte encodé et une meilleure portabilité des artefacts numériques.
 
 ## La notion d’encodage descriptif
@@ -161,9 +179,6 @@ La supériorité du balisage descriptif sur les autres types de balisage du text
 
 Très tôt dans l’histoire de l’informatique, on s’est intéressé au problème de la représentation du texte sous forme numérique.
 
-Parce qu’il détermine tous les traitements informatiques qu’il est possible d’effectuer sur le texte, le balisage a historiquement constitué une question fondamentale dans l’histoire de l’informatique. Depuis l’article séminal de Coombs et ses collègues, on a pris l’habitude de distinguer plusieurs types de balisages&nbsp;: procédural, présentationnel, ou encore descriptif.
-cf. Coombs, James H, Renear, Allen H, et DeRose, Steven J, [« Markup Systems and the Future of Scholarly Text Processing »](http://xml.coverpages.org/coombs.html), Communications of the ACM, n° 11, t. 30, 1987, p.933-947.
-La supériorité du balisage descriptif sur les autres types de balisage du texte a clairement été établie depuis quelques années. Un tel balisage présente l’avantage notable d’assurer une meilleure distinction entre le contenu et la forme (et donc de séparer les traitements). Cette distinction garantit une meilleure maintenance du texte encodé et une meilleure portabilité des artefacts numériques.
 
 ## La production d’un balisage descriptif
 
@@ -191,7 +206,25 @@ Procédure mise en œuvre lors du **balisage** :
 * Sélection des balises
 * Réalisation du balisage, marquage de l’élément
 
+```txt
+Ceci est un paragraphe contenant une entité.
+```
+
+```xml
+<para>Ceci est du texte contenant une <entity>entité</entity>.</para>
+```
+
 ???
+
+Le balisage est une opération au cours de laquelle on ajoute un descripteur au contenu en vue d’un traitement informatique. Un langage à balises est un langage permettant d’associer à un contenu (généralement du texte) des balises explicites (par exemple pour rendre compte de la structure du texte).
+
+**La production d’un balisage descriptif consiste à identifier explicitement la structure sémantique sous-jacente d’un document, cela indépendamment de tout traitement déterminé à l’avance.**
+
+cf. Renear, Allen, Dubin, David, Sperberg-McQueen, C. Michael, et Huitfeldt, Claus, [«&nbsp;XML semantics and digital libraries&nbsp;»](http://dl.acm.org/citation.cfm?id=827140.827192), Proceedings of the 3rd ACM/IEEE-CS joint conference on Digital libraries, p. 303-305, 2003.
+
+**Il s’agit de distinguer explicitement à l’intérieur du texte différents objets éditoriaux en les encadrant par des balises dont le nom peut être arbitraire.**
+
+Ce faisant l’auteur d’un balisage fournit une **information sémantique** et pragmatique suffisante pour produire des vues alternatives sur le document ou bien une édition basée sur la structure du texte.
 
 ## Procédure mise en œuvre lors du balisage
 
@@ -901,12 +934,12 @@ La valeur de l’attribut `xml:id` doit être unique dans le contexte du documen
 
 ## 3.7. Document bien formé
 
-**On dit d’un document XML qu’il est bien formé quand celui-ci répond à un certain nombre de contraintes**
+**On dit qu’un document XML est bien formé quand celui-ci répond à un certain nombre de contraintes**
 
 * concordance entre l’encodage du document et sa déclaration XML&nbsp;;
 * existence des fichiers déclarés (déclaration de DTD, déclaration d’entités externes) et concordance entre l’encodage des fichiers entités externes et leur déclaration XML&nbsp;;
 * forme des appels d’entités&nbsp;;
-* présence de balises ouvrantes et fermantes appariées, imbrication des balises sans chevauchement&nbsp;;
+* balises ouvrantes et fermantes appariées, imbrication des balises sans chevauchement, existance d’un élément racine&nbsp;;
 * respect des spécifications relatives aux noms XML (noms d’éléments et d’attributs)&nbsp;;
 * unicité des attributs dans un même élément, aucun attribut sans valeur&nbsp;;
 * forme des commentaires.
@@ -928,7 +961,4 @@ Le contrôle se fait par analyse syntaxique ou parsing (avec des outils appelés
 * L’espace XML francophone&nbsp;: actualités, discussions, articles et billets, sur le site Web [http://xmlfr.org/](http://xmlfr.org/)
 * Coombs, James H, Renear, Allen H, et DeRose, Steven J. ["Markup Systems and the Future of Scholarly Text Processing."](http:/.html.coverpages.org/coombs.html) Communications of the ACM 30, no. 11 (1987): 933-947.
 * DeRose, Steven J., et al. “What Is Text, Really?” Journal of Computing in Higher Education, vol. 1, no. 2, Dec. 1990, pp. 3–26. Crossref, [doi:10.1007/BF02941632](https://doi.org/10.1007/BF02941632)
-
----
-
-- Modern XML useful resources https://gist.github.com/emchateau/912e3de4710bd9f385d407a7a576078c
+* Modern XML useful resources https://gist.github.com/emchateau/912e3de4710bd9f385d407a7a576078c

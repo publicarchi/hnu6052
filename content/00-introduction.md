@@ -44,6 +44,16 @@ Au terme du cours, l’étudiant·e sera en mesure :
 
 Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la Text Encoding Encoding Initiative (TEI), un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).
 
+Bien évidemment pas le seul standard en vigueur dans ce domaine. Vous avez également eu l’occasion de rencontrer, ou vous allez voir, un certain nombre de formats dédiés à l’édition au cours de cette session tels que EPUB, HTML et XHTML, peut être les formats Dita et DocBook.
+
+Mais plus qu’un format ou un standard, **la TEI est un cadre de travail pour l’édition critique numérique** qui s’avère particulièrement flexible pour toute sorte d’utilisation dans le domaine académique. Au point qu’elle est devenue, en quelque sorte, une *lingua franca* des Digital Humanities, en particulier en Europe. Difficile aujourd’hui d’envisager de produire des contenus textuels dans les humanités numériques sans tenir compte de la TEI.
+
+C’est aussi **l’un des projets les plus anciens et les plus durables des Digital Humanities**, puisque la création de la TEI remonte à 1987 (30 ans !). Elle manifeste l’un des plus grands achèvements de la communauté des humanités numériques comme en témoigne le prix Zampolino que sa communauté a reçu en 2017 à l’occasion de la Conférence mondiale des Humanités numériques à Montréal.
+
+**La TEI c’est donc à la fois, une ontologie générique du texte, une méthode d’édition critique, mais aussi un projet libre et open source adossé à une forte communauté.**
+
+Avec, vous allez l’entrevoir, de nombreux outils développés autour de cette communauté qui permettent d’envisager la création de chaînes éditoriales complètes pour le traitement des éditions.
+
 Au terme du cours, l’étudiant·e sera en mesure :
 
 - d’expliquer les principes de l’édition structurée et la notion de balisage descriptif ;
@@ -84,7 +94,7 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 1 - jeudi 26 octobre 2023 8h30-11h30
+## Séance 1 - jeudi 26 octobre 2023 9h30-11h30
 
 - présentation des intervenants et des participant·e·s ;
 - le langage de balisage XML et son écosystème ;
@@ -98,7 +108,7 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 3 - jeudi 2 novembre 2023 8h30-11h30
+## Séance 3 - jeudi 2 novembre 2023 9h30-11h30
 
 - utilisation de la TEI pour l’édition de sources manuscrites ;
 - modélisation d’une édition critique avec la TEI ;
@@ -110,7 +120,7 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 5 - jeudi 9 novembre 2023 8h30-11h30
+## Séance 5 - jeudi 9 novembre 2023 9h30-11h30
 
 - outillage de la TEI
 - exploiter ses documents avec XSLT ;

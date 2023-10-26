@@ -93,14 +93,14 @@ Autrement dit, les nœuds qui sont accessibles lors d’une session de travail s
 ## 1.4. Ordre du document
 Description des relations :
 
-- Enfant
-    - Un élément peut avoir zéro, un ou plusieurs autres éléments enfants. Il peut également avoir des enfants texte, commentaire, et instruction de traitement.
-    - Les attributs ne sont pas considérés comme les enfants d’un élément
-    - Un nœud document peut avoir un élément fils (celui qui contiendra tous les autres) mais aussi des fils commentaire, ou instruction de traitement.
-- Parent : le parent d’un élément est soit un autre élément soit un nœud document. Le parent d’un attribut est l’élément qui le porte. Attention ! Même si les attributs ne sont pas considérés comme fils des éléments, les éléments sont les parents des attributs !
-- Ancêtre : les ancêtres sont les nœuds parents, les parents des parents, etc.
-- Descendants : les descendants sont les enfants, petits-enfants, et tous les descendants d’un nœud.
-- Sibling : les siblings d’un nœuds sont les autres enfants de son parent. Les attributs ne sont pas considéré comme des siblings.
+- `Enfant`
+    - Un `élément` peut avoir zéro, un ou plusieurs autres éléments enfants. Il peut également avoir des enfants texte, commentaire, et instruction de traitement.
+    - Les `attributs` ne sont pas considérés comme les enfants d’un élément
+    - Un `nœud document` peut avoir un élément fils (celui qui contiendra tous les autres) mais aussi des fils commentaire, ou instruction de traitement.
+- `Parent` : le parent d’un `élément` est soit un autre `élément` soit un `nœud document`. Le parent d’un `attribut` est l’élément qui le porte. Attention ! même si les attributs ne sont pas considérés comme fils des éléments, les éléments sont les parents des attributs.
+- `Ancêtre` : les ancêtres sont les nœuds parents, les parents des parents, etc.
+- `Descendants` : les descendants sont les enfants, petits-enfants, et tous les descendants d’un nœud.
+- `Sibling` : les siblings d’un nœuds sont les autres enfants de son parent. Les attributs ne sont pas considéré comme des siblings.
 
 <!-- .element style="font-size:0.9em" -->
 

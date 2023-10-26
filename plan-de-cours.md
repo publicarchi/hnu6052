@@ -61,3 +61,22 @@ L’évaluation de l’atelier reposera sur des travaux pratiques d’encodage e
 ## Bibliographie
 
 {{< bibliography >}}
+
+
+## Message d’accueil
+
+Bonjour à toutes et à tous,
+
+Je vous souhaite la bienvenue dans l’atelier HNU3052/HNU6052 – Introduction à l’édition critique avec la Text encoding initiative (TEI). J’aurai le plaisir d’être votre enseignant pour cette session.
+
+Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la Text Encoding Encoding Initiative (TEI), un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).
+
+Ce cours ne nécessite aucune compétence technique ou informatique particulière. Vous serez accompagnés tout au long des séances dans les apprentissages.
+
+Notre premier cours aura lieu jeudi 26 octobre à partir de 8h30, à l’Université de Montréal, Pavillon Lionel-Groulx, en salle C-2035 (3150, rue Jean-Brillant, Montréal, QC H3T 1N8).
+
+Vous trouverez le plan de cours sur StudiUM, merci d’en prendre connaissance. La salle de cours est équipée en matériel informatique avec les logiciels que nous utiliserons. Si vous souhaitez travailler en cours sur votre propre ordinateur, je vous invite à télécharger et installer Oxygen depuis la logithèque de l’Université (l’installation pour Mac se trouve à la fin de la liste), https://ti.umontreal.ca/offre-de-services/services-par-categorie/logiciels/logitheque-web/
+
+Au plaisir de faire votre connaissance.
+
+#### Emmanuel Chateau-Dutier
