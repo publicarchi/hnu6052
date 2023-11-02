@@ -1,11 +1,11 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
-# Programme de la formation
+# Programme de l’atelier
 
-Emmanuel Château-Dutier, septembre 2022
+Emmanuel Château-Dutier, octobre 2023
 
 Site web pour les ressources du cours :  
-[https://edn6101.gitpages.huma-num.fr/h2022](https://edn6101.gitpages.huma-num.fr/h2022)
+[https://hnu6052.gitpages.huma-num.fr/h2022](https://edn6101.gitpages.huma-num.fr/h2022)
 
 ???
 
@@ -43,6 +43,16 @@ Au terme du cours, l’étudiant·e sera en mesure :
 ???
 
 Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la Text Encoding Encoding Initiative (TEI), un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).
+
+Bien évidemment pas le seul standard en vigueur dans ce domaine. Vous avez également eu l’occasion de rencontrer, ou vous allez voir, un certain nombre de formats dédiés à l’édition au cours de cette session tels que EPUB, HTML et XHTML, peut être les formats Dita et DocBook.
+
+Mais plus qu’un format ou un standard, **la TEI est un cadre de travail pour l’édition critique numérique** qui s’avère particulièrement flexible pour toute sorte d’utilisation dans le domaine académique. Au point qu’elle est devenue, en quelque sorte, une *lingua franca* des Digital Humanities, en particulier en Europe. Difficile aujourd’hui d’envisager de produire des contenus textuels dans les humanités numériques sans tenir compte de la TEI.
+
+C’est aussi **l’un des projets les plus anciens et les plus durables des Digital Humanities**, puisque la création de la TEI remonte à 1987 (30 ans !). Elle manifeste l’un des plus grands achèvements de la communauté des humanités numériques comme en témoigne le prix Zampolino que sa communauté a reçu en 2017 à l’occasion de la Conférence mondiale des Humanités numériques à Montréal.
+
+**La TEI c’est donc à la fois, une ontologie générique du texte, une méthode d’édition critique, mais aussi un projet libre et open source adossé à une forte communauté.**
+
+Avec, vous allez l’entrevoir, de nombreux outils développés autour de cette communauté qui permettent d’envisager la création de chaînes éditoriales complètes pour le traitement des éditions.
 
 Au terme du cours, l’étudiant·e sera en mesure :
 
@@ -84,32 +94,38 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 1 - vendredi 30 septembre 2022 8h30-11h30
+## Séance 1 - jeudi 26 octobre 2023 9h30-11h30
 
 - présentation des intervenants et des participant·e·s ;
 - le langage de balisage XML et son écosystème ;
-- exercices pratiques d'encodage en XML ;
+- exercices pratiques d’encodage en XML ;
 
-## Séance 2 - vendredi 7 octobre 2022 8h30-11h30
+## Séance 2 - jeudi 26 octobre 2023 12h30-15h30
 
 - présentation de la Text Encoding Initiative (TEI) ;
 - l’utilisation de la TEI pour l’édition critique ;
 - exercice de structuration de texte avec la TEI.
 
-## Séance 3 - vendredi 7 octobre 2022 13h00-16h
+---
+
+## Séance 3 - jeudi 2 novembre 2023 9h30-11h30
 
 - utilisation de la TEI pour l’édition de sources manuscrites ;
 - modélisation d’une édition critique avec la TEI ;
+
+## Séance 4 - jeudi 2 novembre 2023 12h30-15h30
+
 - exercices de mise en pratique de structuration et de modèles ;
+- méthodes de travail avec la TEI ;
 
 ---
 
-## Séance 4 - vendredi 14 octobre 2022 8h30-11h30
+## Séance 5 - jeudi 9 novembre 2023 9h30-11h30
 
-- méthodes de travail avec la TEI ;
-- modalités de transformation avec XSLT ;
+- outillage de la TEI
+- exploiter ses documents avec XSLT ;
 
-## Séance 5 - vendredi 14 octobre 2022 13h00-16h
+## Séance 6 - jeudi 9 novembre 2023 12h30-15h30
 
 - exercices d’application de transformation ;
 - bilan des 4 séances.

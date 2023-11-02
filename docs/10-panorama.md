@@ -1,9 +1,9 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Panorama d’utilisations de la TEI dans le domaine éditorial
 
 ???
-Après la plus longue présentation de la semaine dernière sur l'édition critique ([à retrouver ici](/03-xml/)), voici un bref panorama d'utilisations de la TEI dans le domaine éditorial.
+Après la plus longue présentation de la semaine dernière sur l’édition critique ([à retrouver ici](/03-xml/)), voici un bref panorama d’utilisations de la TEI dans le domaine éditorial.
 
 ---
 
@@ -25,7 +25,7 @@ Après la plus longue présentation de la semaine dernière sur l'édition criti
 
 ???
 
-> Le projet Hyperdonat tire son nom du grammairien latin du 4e siècle Aelius Donat, considéré par les médiévaux comme le père de la grammaire, mais qui fut aussi un maître dans l'art du commentaire grammatical. Si son commentaire virgilien est en grande partie perdu, il nous reste avec le commentaire qu'il a donné du théâtre de Térence un magnifique exemple de cet art de l'explication des auteurs que l'Antiquité a légué au Moyen Age et à l'époque moderne. C'est la raison pour laquelle c'est sous le patronage de Donat que nous inscrivons l'édition des divers commentaires qui constituent notre corpus. Celui-ci est ouvert à tous types de commentaires, profanes ou chrétiens, antiques ou médiévaux, voire modernes, en grec ou en latin, voire en toute autre langue. Il a vocation à accueillir ainsi non seulement l'érudition antique, mais encore la science médiévale ou renaissante, la riche collection de l'exégèse chrétienne ou juive, voire bien d'autres textes encore. Si vous souhaitez proposer un projet, vous pouvez le faire en utilisant la page "contact" de ce site.
+> Le projet Hyperdonat tire son nom du grammairien latin du 4e siècle Aelius Donat, considéré par les médiévaux comme le père de la grammaire, mais qui fut aussi un maître dans l’art du commentaire grammatical. Si son commentaire virgilien est en grande partie perdu, il nous reste avec le commentaire qu’il a donné du théâtre de Térence un magnifique exemple de cet art de l’explication des auteurs que l’Antiquité a légué au Moyen Age et à l’époque moderne. C’est la raison pour laquelle c’est sous le patronage de Donat que nous inscrivons l’édition des divers commentaires qui constituent notre corpus. Celui-ci est ouvert à tous types de commentaires, profanes ou chrétiens, antiques ou médiévaux, voire modernes, en grec ou en latin, voire en toute autre langue. Il a vocation à accueillir ainsi non seulement l’érudition antique, mais encore la science médiévale ou renaissante, la riche collection de l’exégèse chrétienne ou juive, voire bien d’autres textes encore. Si vous souhaitez proposer un projet, vous pouvez le faire en utilisant la page "contact" de ce site.
 
 ---
 
@@ -80,19 +80,19 @@ Après la plus longue présentation de la semaine dernière sur l'édition criti
 
 ???
 
-> eBalzac s’est donné pour mission de rendre accessible gratuitement l’ensemble des états imprimés de l’œuvre balzacienne : La Comédie humaine, les œuvres de jeunesse, le théâtre, les Contes drolatiques et les œuvres diverses. À terme, les éditions successives des textes balzaciens seront disponibles en trois formats : html, epub et un format jpg qui permet de consulter le fac-similé de l’édition d’époque.
+> eBalzac s’est donné pour mission de rendre accessible gratuitement l’ensemble des états imprimés de l’œuvre balzacienne : La Comédie humaine, les œuvres de jeunesse, le théâtre, les Contes drolatiques et les œuvres diverses. À terme, les éditions successives des textes balzaciens seront disponibles en trois formats : html, epub et un format jpg qui permet de consulter le fac-similé de l’édition d’époque.
 
 ---
 
 ## Exercice
-Afin de comprendre comment ces projets fonctionnent et quelles sont les choix d'encodage, de schéma et d'édition critique qui ont été réalisés, choisissez **un projet** et analysez-le en répondant aux questions suivantes :
+Afin de comprendre comment ces projets fonctionnent et quelles sont les choix d’encodage, de schéma et d’édition critique qui ont été réalisés, choisissez **un projet** et analysez-le en répondant aux questions suivantes :
 
 - quelles sont les sources des documents (facsimilés) ?
-- quelles sont les fonctionnalités proposées permises par l'encodage en XML TEI ?
+- quelles sont les fonctionnalités proposées permises par l’encodage en XML TEI ?
 - pouvez-vous accéder aux versions XML des éditions ?
 - comment est utilisé le schéma TEI ?
 
 ???
 
-Pour la prochaine séance vous devrez prolonger ce travail d'analyse en vous servant des critères mis en place par A review journal for digital editions and resources :  
+Pour la prochaine séance vous devrez prolonger ce travail d’analyse en vous servant des critères mis en place par *A review journal for digital editions and resources* :  
 [https://www.i-d-e.de/publikationen/weitereschriften/criteria-version-1-1/](https://www.i-d-e.de/publikationen/weitereschriften/criteria-version-1-1/)

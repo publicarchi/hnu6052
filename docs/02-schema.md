@@ -1,9 +1,13 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Notion de Schéma
 
 1. Introduction : modèle de données, nœuds et ordre du document
 2. Notion de schéma
+
+???
+
+L’un des attraits principaux du format est de disposer d’une grammaire de documents, qui s’exprime sous la forme d’un schéma.
 
 ---
 
@@ -62,7 +66,7 @@ Les éléments d’un document XML bien formé répondent à plusieurs contraint
 ## 1.4. Ordre du document
 Quelques règles :
 
-- le nœud racine est le premier nœud après le nœud document
+- le `nœud racine` est le premier nœud après le nœud document
 - les nœuds `element` précèdent leurs nœuds fils
 - l’ordre relatif des nœuds frères entre eux est déterminé par leur ordre d’apparition dans la représentation balisée
 - les nœuds `attribute` et `namespace` précèdent les nœuds fils de cet élément
@@ -75,7 +79,7 @@ Un document XML (ou un fragment de document) est composé d’une hiérarchie de
 
 Autrement dit, les nœuds qui sont accessibles lors d’une session de travail sont munis d’un ordre, qu’on appelle **ordre du document**. Cet ordre est défini tel que correspondant à l’ordre dans lequel le premier caractère de la représentation XML de chaque nœud apparaît dans le document XML balisé (après expansion des entités générales).
 
-- le nœud racine est le premier nœud element après le nœud document, il contient tous les autres éléments
+- le `nœud racine` est le premier nœud element après le nœud document, il contient tous les autres éléments
 - les nœuds `element` précèdent leurs nœuds fils
 - l’ordre relatif des nœuds frères entre eux est déterminé par leur ordre d’apparition dans la représentation balisée **(autrement dit, les nœuds descendants d’un nœud apparaissent avant le nœud frère)**
 - les nœuds `attribute` et `namespace` précèdent les nœuds fils de cet élément
@@ -89,14 +93,14 @@ Autrement dit, les nœuds qui sont accessibles lors d’une session de travail s
 ## 1.4. Ordre du document
 Description des relations :
 
-- Enfant
-    - Un élément peut avoir zéro, un ou plusieurs autres éléments enfants. Il peut également avoir des enfants texte, commentaire, et instruction de traitement.
-    - Les attributs ne sont pas considérés comme les enfants d’un élément
-    - Un nœud document peut avoir un élément fils (celui qui contiendra tous les autres) mais aussi des fils commentaire, ou instruction de traitement.
-- Parent : le parent d’un élément est soit un autre élément soit un nœud document. Le parent d’un attribut est l’élément qui le porte. Attention ! Même si les attributs ne sont pas considérés comme fils des éléments, les éléments sont les parents des attributs !
-- Ancêtre : les ancêtres sont les nœuds parents, les parents des parents, etc.
-- Descendants : les descendants sont les enfants, petits-enfants, et tous les descendants d’un nœud.
-- Sibling : les siblings d’un nœuds sont les autres enfants de son parent. Les attributs ne sont pas considéré comme des siblings.
+- `Enfant`
+    - Un `élément` peut avoir zéro, un ou plusieurs autres éléments enfants. Il peut également avoir des enfants texte, commentaire, et instruction de traitement.
+    - Les `attributs` ne sont pas considérés comme les enfants d’un élément
+    - Un `nœud document` peut avoir un élément fils (celui qui contiendra tous les autres) mais aussi des fils commentaire, ou instruction de traitement.
+- `Parent` : le parent d’un `élément` est soit un autre `élément` soit un `nœud document`. Le parent d’un `attribut` est l’élément qui le porte. Attention ! même si les attributs ne sont pas considérés comme fils des éléments, les éléments sont les parents des attributs.
+- `Ancêtre` : les ancêtres sont les nœuds parents, les parents des parents, etc.
+- `Descendants` : les descendants sont les enfants, petits-enfants, et tous les descendants d’un nœud.
+- `Sibling` : les siblings d’un nœuds sont les autres enfants de son parent. Les attributs ne sont pas considéré comme des siblings.
 
 <!-- .element style="font-size:0.9em" -->
 
@@ -333,7 +337,7 @@ Chaque élément `entry` doit comporter au moins un nom, et une adresse ou un co
 <element name="email">
   <zeroOrMore>
     <optional>
-      <attribute name="type"
+      <attribute name="type">
         <text/>
       </attribute>
     </optional>
@@ -426,6 +430,38 @@ On peut ici tirer profit de nombreux types définis par le standard
 <https://www.w3.org/TR/xpath-datamodel-31/>
 
 ### [XML Schema](http://www.w3.org/TR/xmlschema-2/)
+
+---
+
+## JSON Schema
+
+https://json-schema.org
+
+Depuis quelques années, un projet de spécification de schéma est développée pour JSON.
+
+```json
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "description": "The person’s first name."
+    },
+    "lastName": {
+      "type": "string",
+      "description": "The person’s last name."
+    },
+    "age": {
+      "description": "Age in years which must be equal to or greater than zero.",
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}
+```
 
 ---
 

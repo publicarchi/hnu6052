@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # L’entête TEI et la description des manuscrits
 
@@ -576,7 +576,7 @@ On peut décrire le contenu à un niveau general&nbsp;:
 
 ```xml
 <msContents>
-    <p>Receuil des comptes fiscales de l’Abbeye de Nimportou.</p>
+    <p>Recueil des comptes fiscaux de l’Abbaye de Nimportou.</p>
   </msContents>
 ```
 
@@ -584,7 +584,7 @@ Ou bien, on peut distinguer et détailler chaque item (ou quelques un)&nbsp;:
 
 ```xml
 <msContents>
-  <summary>Receuil des comptes fiscales de l’Abbeye de Nimportou..</summary>
+  <summary>Recueil des comptes fiscaux de l’Abbaye de Nimportou.</summary>
     <msItem>
         <!-- compte 1 -->
     </msItem>
@@ -628,7 +628,7 @@ Un manuscrit contient plusieurs **items** distincts, chacun en principe localis�
     <!-- … -->
     <msItem n="6">
       <locus from="14r" to="126v">fols. 14r-126v</locus>
-      <author>Chaucer, Geoffrey </author>
+      <author>Chaucer, Geoffrey</author>
       <title type="uniform">Troilus and Criseyde</title>
     </msItem>
   </msContents>
@@ -687,7 +687,7 @@ Pour distinguer l’objet inscrit de la manière où il est inscrit, `<objectDes
     12eme siecle.</p>
   </supportDesc>
   <layoutDesc>
-    <layout columns="1" ruledLines="25 32"></layout>
+    <layout columns="1" ruledLines="25 32"/>
   </layoutDesc>
 </objectDesc>
 ```
@@ -741,11 +741,11 @@ Plusiers mises-en-forme (layout) peuvent être spécifiées&nbsp;:
 ```xml
 <layoutDesc>
   <layout ruledLines="25" columns="1">
-    <p><locus from="1r" to="202v"></locus>
-    <locus from="210r" to="212v"></locus> 25 lignes réglées.</p>
+    <p><locus from="1r" to="202v"/>
+    <locus from="210r" to="212v"/> 25 lignes réglées.</p>
   </layout>
   <layout ruledLines="34 50" columns="2">
-    <p><locus from="203r" to="209v"></locus>Entre 34 et 50
+    <p><locus from="203r" to="209v"/>Entre 34 et 50
         lignes réglées, disposées en deux colonnes.</p>
   </layout>
 </layoutDesc>

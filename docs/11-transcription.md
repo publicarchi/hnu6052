@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Rudiments d’encodage des sources manuscrites
 
@@ -218,22 +218,22 @@ Cette macrostructure peut-être plus compliquée en fonction de la nature des pr
   <div type="longPoem">
     <head>Les Phares</head>
     <lg type="stanza">
-      <l n="1">Rubens, fleuve d'oubli, jardin de la paresse,</l>
-      <l n="2">Oreiller de chair fraîche où l'on ne peut aimer,</l>
-      <l n="3">Mais où la vie afflue et s'agite sans cesse,</l>
-      <l n="4">Comme l'air dans le ciel et la mer dans la mer&nbsp;;</l>
+      <l n="1">Rubens, fleuve d’oubli, jardin de la paresse,</l>
+      <l n="2">Oreiller de chair fraîche où l’on ne peut aimer,</l>
+      <l n="3">Mais où la vie afflue et s’agite sans cesse,</l>
+      <l n="4">Comme l’air dans le ciel et la mer dans la mer&nbsp;;</l>
     </lg>
     <lg type="stanza">
       <l n="5">Léonard de Vinci, miroir profond et sombre,</l>
       <l n="6">Où des anges charmants, avec un doux souris</l>
-      <l n="7">Tout chargé de mystère, apparaissent à l'ombre</l>
+      <l n="7">Tout chargé de mystère, apparaissent à l’ombre</l>
       <l n="8">Des glaciers et des pins qui ferment leur pays&nbsp;;</l>
     </lg>
-    <gap reason="sampling" quantity="9" unit="stanza"></gap>
+    <gap reason="sampling" quantity="9" unit="stanza"/>
   </div>
   <div type="shortPoem">
     <head>La Muse malade</head>
-    <gap reason="sampling" quantity="4" unit="stanza"></gap>
+    <gap reason="sampling" quantity="4" unit="stanza"/>
   </div>
 </body>
 ```

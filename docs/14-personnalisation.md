@@ -1,4 +1,4 @@
-## HNU3052/HNU6052 Humanités numériques : introduction à la TEI
+## HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)
 
 # Personnalisation de la TEI
 
@@ -276,11 +276,11 @@ Par exemple la classe des éléments qui font partie de div est appelée `model.
 
 ???
 
-* `<sequence>` Indique une séquence, c’est-à-dire que les composants sont présentés dans l'ordre où il faut les trouver.
+* `<sequence>` Indique une séquence, c’est-à-dire que les composants sont présentés dans l’ordre où il faut les trouver.
 * `<alternate>`Indique un choix, c’est-à-dire que l’on choisit entre tous les composants.
 * `@minOccurs` et `@maxOccurs` sont d’habitude utilisés ensemble pour indiquer la cardinalité d’un composant. Si absent, ils ont tout les deux une valeur de 1.
 * `<elementRef>` Indique un élément par son attribut `@key`
-* `<classRef>` Indique une classe d'éléments par son attribut `@key`. La signification varie selon la valeur de son attribut `@expand`. Par défaut, il correspond à un élément (n’importe lequel) de la classe indiquée.
+* `<classRef>` Indique une classe d’éléments par son attribut `@key`. La signification varie selon la valeur de son attribut `@expand`. Par défaut, il correspond à un élément (n’importe lequel) de la classe indiquée.
 
 ---
 
@@ -296,7 +296,7 @@ Par exemple la classe des éléments qui font partie de div est appelée `model.
 
 ???
 
-La modélisation de vos données est une préalable essentiel. Que vous vous servez de UML, de RDBMS, de SKOS, ou quoique ça soit d'autre, si vous n'avez pas un modèle explicite des choses que vous espérez gérer, vous aurez de grands difficultés.
+La modélisation de vos données est une préalable essentiel. Que vous vous servez de UML, de RDBMS, de SKOS, ou quoique ça soit d’autre, si vous n’avez pas un modèle explicite des choses que vous espérez gérer, vous aurez de grands difficultés.
 
 ---
 
@@ -338,14 +338,14 @@ _Comment savoir que vous avez besoin d’une licorne ?_
 Pour chacun(e) des entités/concepts identifiés dans votre modèle, il faut décider&nbsp;:
 
 * quel objet TEI lui correspond parfaitement&nbsp;? (s’il existe)
-* quel objet TEI lui ressemble et quelles petites modifications seraient nécessaires pour qu'il lui corresponde ?
+* quel objet TEI lui ressemble et quelles petites modifications seraient nécessaires pour qu’il lui corresponde ?
 * quelle lacune TEI votre analyse vous permettra de corriger (elles existent bel et bien, les licornes !)
 
 ---
 
 ### TEI est un système modulaire.
 
-- On s’en sert pour créer un système d'encodage selon ses propres besoins, en sélectionnant des modules spécifiés par la TEI
+- On s’en sert pour créer un système d’encodage selon ses propres besoins, en sélectionnant des modules spécifiés par la TEI
 - Chaque module définit un groupe d’éléments (et leurs attributs)
 - on peut sélectionner les éléments voulus, et même en modifier certaines propriétés
 - on peut y ajouter des éléments nouveaux ou issus d’autres standards
