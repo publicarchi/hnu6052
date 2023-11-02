@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- il fallait spécifier un élément racine -->
+    <xs:element name="addressBook">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- ici on retrouve ce que tu avais commencé à faire avec une cardinalité pour rendre l’élément identity obligatoire -->
+                <xs:element name="identity" minOccurs="1" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <!-- on aurait aussi pu rassembler les parties de nom ensemble (tu peux essayer) -->
+                            <xs:element name="nom" type="xs:string" />
+                            <xs:element name="prenom" type="xs:string" />
+                            <xs:element name="birthdate" type="xs:date" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- ici, on pointe vers les définitions déjà créées en fournissant des cardinalités, c’est un moyen de modulariser l’écriture du schéma -->
+                <xs:element name="address" type="address" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element name="tel" type="tel" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <!-- fin de l’ajout -->
+
+    <!-- ici j’ai remanié pour définir des complexType directement avec un nom car je les appelle dans l’élément racine -->
+
+
+
+    <!-- j'ai supprimé la définition d’élément qui les entourait pour pouvoir appeler les définitions plus haut -->
+    <!-- l’adresse répétable (cf. racine), l’ajout d’un attribut aurait permis de la répéter avec adresse perso, pro, etc.  -->
+    <xs:complexType name="address">
+        <xs:sequence>
+            <xs:element name="number" type="xs:positiveInteger" />
+            <xs:element name="street" type="xs:string" />
+            <xs:element name="codePostal" type="xs:positiveInteger" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tel">
+        <xs:choice>
+            <!-- ici j’aurais sans doute privilégié la création d’attribut -->
+            <xs:element name="fix" type="xs:positiveInteger" />
+            <xs:element name="mobile" type="xs:positiveInteger" />
+        </xs:choice>
+    </xs:complexType>
+
+
+
+</xs:schema>
