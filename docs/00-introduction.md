@@ -2,10 +2,10 @@
 
 # Programme de l’atelier
 
-Emmanuel Château-Dutier, octobre 2023
+Emmanuel Château-Dutier, octobre 2024
 
 Site web pour les ressources du cours :  
-[https://hnu6052.gitpages.huma-num.fr/h2022](https://edn6101.gitpages.huma-num.fr/h2022)
+[https://publicarchi.github.io/hnu6052/](https://publicarchi.github.io/hnu6052/)
 
 ???
 
