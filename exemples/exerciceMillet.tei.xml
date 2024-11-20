@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Guillaume Millet de Jeure, témoin de la vie politique du Grand
+               Siècle</title>
+            <title type="sub">Édition et étude du manuscrit 502 (153) de la
+               bibliothèque Méjanes d'Aix-en-Provene</title>
+            <principal xml:id="MC">
+               <surname>Chouleur</surname>
+               <forename>Marie</forename>
+               <affiliation>École nationale des chartes</affiliation>
+            </principal>
+         </titleStmt>
+         <editionStmt>
+            <edition>Thèse pour le diplôme d'archiviste-paléographe</edition>
+            <respStmt>
+               <resp>encodeur</resp>
+               <name xml:id="CD">Desenclos, Camille</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Bibliothèque Méjanes</repository>
+                  <idno>ms. 502 (153)</idno>
+                  <altIdentifier>
+                     <idno>R. 618</idno>
+                  </altIdentifier>
+                  <msName>Guillaume Millet de Jeure, [Mémoires]</msName>
+               </msIdentifier>
+               <msContents>
+                  <p>Ce texte est l’œuvre de Guillaume Millet de Jeure (v. 1620 -
+                     1690). Il s’agit des Mémoires de ce personnage. Ils datent de la
+                     décennie 1678-1688, et ont été écrits en France. La pièce de titre
+                     porte <title>Histoire de Louis XIV</title>, mais il est catalogué
+                     par le CCFr sous celui de <title>Mémoires sur l’Histoire de
+                        France, de 1635 à 1682</title>. Le manuscrit est divisé en
+                     années jusqu’au chapitre 1669 compris. Il traite de la période
+                     1669-1671 (p. 446 figure l’inscription <q>vuide jusqu’a` l’année
+                        1672</q>). La date de 1672 est inscrite dans l’en-tête, de la
+                     page 447 à la page 449 incluse, puis il n’y a plus aucune
+                     indication de cet ordre. Il s’ouvre sur les mots : <quote>Je ne
+                        fais pas estat de circonstancier toutes les choses dont je
+                        parlerai cy-après dans cet abregé des actions de ma vie parce
+                        que je n’ai pas veu toutes celles qui se sont passées en
+                        d’autres lieux que ceux où j’ay esté present. Je lairrai cette
+                        matiere aux historiens ou à ceux qui ont fait des Memoires plus
+                        exacts pendant le cours des temps, et n’entrerai gueres dans le
+                        détail de ce que j’ay veu pendant mes premieres années de
+                        service, parce qu’estant pour lors peu de chose, et n’aiant pas
+                        connoissance particuliere des motifs ny des faicts au dessus de
+                        ma portée, je ne diray que ce que j’ay veu de mes yeux, et
+                        distinguerai ce que j’aurai ouï dire, pour ne pas remplir ces
+                        Memoires de fables ausquelles je pourrois adjouter foy et me
+                        tromper moy-mesme lorsque la memoire et le peu que j’ay de
+                        jugement s’affoibliront par la défaillance de la nature ; et
+                        que je n’ai pu escrire qu’avec beaucoup de distraction pendant
+                        les deux dernieres années des estudes de Monseigneur le Dauphin
+                        dans son cabinet et en sa presence. Je suprimeray plusieurs
+                        actions heureuses et glorieuses pour lors, selon le monde,
+                        toujours en horreur à Dieu, depuis devenues crimineles par la
+                        pieté de nostre grand roi ;</quote> Et s’achève par : <quote>Je
+                        ne traiteray point en ces cahiers de ce qui s’est passé dans le
+                        pays d’Aunis, La Rochelle, gouvernement de Brouage, iles de Ré
+                        et d’Oleron sous mon comendement pendant cinq années et de la
+                        demolition des temples de la religion pretendue reformée et de
+                        l’extirpation de l’heresie parce que le travail seroit long et
+                        penible et que mes lettres frequentes à messieurs les ministres
+                        du roy dont j’ay fait transcrire les minutes en un volume
+                        particulier me remetront tousjours en l’esprit et instruiront
+                        les curieux des circonstances. Il me sut de dire que les
+                        conversions, fausses ou sinceres, se sont faites en ce canton
+                        qui etoit la pepiniere de ceux de cette secte heretique avec
+                        plus de succez et moins de violence et avec plus d’ordre qu’en
+                        aucune contrée du royaume et que le roy a depuis eu plus de
+                        sujet d’estre satisfait de la conduite de ces peuples
+                        maritimes, à proportion que de ceux des autres provinces
+                        .</quote></p>
+                  <p>Il est rédigé exclusivement en prose, dans un français classique.
+                     Il comporte quelques mots de latin, d’italien et d’allemand, ainsi
+                     que des termes transcrits depuis des parlers locaux et la langue
+                     anglaise ou translittérés depuis le turc. L’usage des accents
+                     n’obéit pas à système, même s’ils semblent être plus souvent
+                     utilisés sur la première syllabe des mots (dét- notamment) et sur
+                     les verbes au passé simple, à la première personne du pluriel
+                     (fûmes, à défaut de fusmes). C’est le manuscrit d’auteur. Il n’en
+                     existe aucune copie connue. Il est cité par Raymond Darricau dans
+                           <bibl><title level="a">Guillaume Millet de Jeure, confident
+                           de Mazarin</title>
+                        <title level="j">Bulletin philologique et historique, jusqu’en
+                           1715, du Comité des travaux historiques et
+                           scientifiques</title>
+                        <pubPlace>Paris</pubPlace>
+                        <date>1958</date>
+                        <biblScope unit="pp">p. 351-387</biblScope></bibl>.</p>
+               </msContents>
+               <physDesc>
+                  <p>pl. mains, manuscrit d’auteur.</p>
+                  <p>In fol., papier, ff. de garde, 502 p. (p. I-XVIII et 1-[474]), 416
+                     x 290 mm (330 x 167,5 mm). – Rel. anc. parch. Dos à 6 nerfs. Pièce
+                     de titre : « Histoire de Louis XIV ».</p>
+                  <p>Le manuscrit est sur papier. Les cahiers présentent des fils de
+                     chaîne verticaux. Le papier porte un filigrane représentant une
+                     grappe de raisin entourée de deux cercles concentriques. Le cercle
+                     à double trait contient le nom de Benoît Colombier d’Ambert, un
+                     coeur suit l’initale. La veuve de ce papetier, identifiée comme la
+                     propriétaire de cette marque, est active aux alentours de Riom, La
+                     Vigue, La Fredière et Barot (Ambert) entre 1650 et 1685. Le
+                     feuillet de garde inférieur fait exception. Les fils de chaîne
+                     sont horizontaux. Il porte en filigrane une grappe de raisin,
+                     ainsi qu’un monogramme composé des lettres F et L, à double trait,
+                     séparées par un motif courbe, disposés respectivement au bas et
+                     dans le tiers supérieur de la page, au centre, dans le sens des
+                     pontuseaux.</p>
+                  <p>Le volume s’ouvre par deux feuillets de garde non paginés, et se
+                     clôt par un feuillet de garde traité de même. Les cahiers sont
+                     paginés de I à XXVIII (en chiffres romains) puis de 1 à 474 (en
+                     chiffres arabes). Les premiers étaient inconnus de Raymond
+                     Darricau, ils sont donc bien postérieurs à l’écriture du texte.
+                     Les numéros de page sont portés au crayon dans la partie du volume
+                     et jusqu’à la page 80 de la seconde partie puis alternativement à
+                     l’encre (p. 81-457) et au crayon (p. 458-474). Certaines des pages
+                     du manuscrit, bien que paginées, ne sont pas écrites. Il s’agit
+                     des pages 32, 68, 126-128, 182, 244, 281 et 344. Par ailleurs,
+                     entre les pages XXIV et XXV, un feuillet a été découpé : on en
+                     voit le talon. Il avait manifestement été écrite, mais le texte ne
+                     présente pas de lacune. De même, la présence d’un résidu de papier
+                     pris dans la couture laisse à penser qu’un autre a été arraché
+                     entre les pages 350 et 351. Il est impossible de déterminer le
+                     nombre de feuillets par cahiers, ni la régularité de ceux-ci, dans
+                     la mesure où les réclames que porte le manuscrit sont
+                     irrégulières, et où leur nombre total n’est pas concluant.</p>
+                  <p>La réglure est présente jusque sur les gardes supérieures. Elle
+                     est identique sur le recto et le verso des feuillets. Les traits
+                     ont été tracés à l’encre rose et font une légère incision dans le
+                     papier. L’encre à écrire est de couleur brune ou noire. Le texte
+                     est écrit à longues lignes ; le nombre de celles-ci varie d’une
+                     page à l’autre. La date tient lieu, à quelques exceptions près, de
+                     titre. Elle est reprise dans l’en-tête, où elle fait fonction de
+                     titre courant. Le scripteur va d’ordinaire à la page quand débute
+                     une nouvelle année. Dans la plupart des cas, il recommence à
+                     écrire au recto. Les manchettes sont invariablement disposées dans
+                     la marge droite. Le manuscrit présente corrections et ajouts. Ces
+                     derniers figurent tantôt en marge (ils sont alors susceptibles
+                     d’être précédés d’un signe de rappel, croix ou dièse), tantôt en
+                     interligne ou à la suite du texte. Le texte comporte des
+                     abréviations, sans cependant qu’elles ne soient d’un usage
+                     systématique. Elles interviennent tantôt par suspension (sad., mis
+                     pour sadicte), tantôt par contraction (ma ̄aux pour mareschaux).
+                     Mais très souvent la fin du mot est placée en exposant (Em<hi
+                        rend="sup">ce</hi> pour Eminence). Le manuscrit présente par
+                     endroits, et notamment pour les titres, des caractères d’un module
+                     plus grand. Quelques rares initiales sont un peu plus travaillées
+                     qu’à l’ordinaire. Un trait, voire une barrette, est susceptible de
+                     venir prolonger le mot placé en fin de ligne. Le corps du texte
+                     est écrit par un ou plusieurs secrétaires, dans une écriture
+                     bâtarde assez commune, malgré certaines particularités, comme les
+                     i longs au milieu des mots, mêlant formes françaises et
+                     italiennes. Certains des ajouts ont les mêmes caractéristiques,
+                     bien que plus ramassés. Pareille écriture, plus ou moins posée, se
+                     retrouve également dans quelques-unes des manchettes. La dernière
+                     partie du manuscrit, seule, fait exception. Apparaît en effet, à
+                     partir de la page 349 du manuscrit, une écriture plus déliée,
+                     penchée vers la droite, aux interlignes plus conséquents. Elle
+                     n’intervient qu’en fin de chapitre. Dans les vingt-cinq dernières
+                     pages du manuscrit, l’écriture présente un état intermédiaire, qui
+                     tient à la fois de l’une et de l’autre. </p>
+                  <p>Les corrections sont de la main de Guillaume Millet, de même que
+                     la plupart des ajouts et des manchettes. Son écriture, beaucoup
+                     plus cursive, revêt un certain nombre de caractéristiques : les s
+                     prennent la forme d’un trait plongeant à la fin des mots, de même,
+                     les l finaux descendent sous la ligne. Les e ont eux aussi une
+                     morphologie particulière. Le trait de sa plume est plus large,
+                     plus sombre. </p>
+                  <p>Les plats sont en carton, assemblés au moyen de six nerfs. La
+                     couvrure est réalisée en parchemin. La pièce de titre, placée
+                     entre les deux nerfs supérieurs, présente un décor doré sur un
+                     cuir fauve. Elle porte les mots « Histoire de Louis XIV », encadré
+                     par un filet simple et un orné. Les tranches du volume sont
+                     teintées de rouge. Les nombres 117 et 153 figurent respectivement
+                     sur la coiffe et sous la pièce de titre. </p>
+                  <p>Les coins et la coiffe du volume sont endommagés. Les charnières
+                     sont fendues aux extrémités, notamment sur le plat supérieur, où
+                     les nerfs sont découverts, de sorte que le dos commence à se
+                     détacher. Les plats présentent des traces d’abrasion, de même que
+                     la pièce de titre, une décoloration et des griffures. Le champ du
+                     carton est enfoncé en un point, sur les plats supérieur et
+                     inférieur. Le volume ne se ferme que de fac ̧on imparfaite. La
+                     tranche de gouttière est quelque peu altérée. Le bord de certains
+                     feuillets est légèrement déchiré. En outre, on y remarque des
+                     traces de rouille, d’abrasion, voire de légers signes
+                     d’humidité.</p>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>Tout éditeur de texte est soumis à des exigences contradictoires : il
+               convient à la fois de respecter le texte, et de le rendre intelligible
+               au lecteur. Les principes mis en œuvre dans cette édition sont conformes
+               aux recommandations de l’École nationale des chartes, laquelle est
+               soucieuse de concilier ces deux aspects. Cette entreprise présentait une
+               difficulté supplémentaire : le manuscrit, revu par l’auteur, comportait
+               en effet corrections et ajouts, dont il était nécessaire de rendre
+               compte. Deux niveaux de notes ont été élaborés. Le premier est dévolu
+               aux variantes, corrections et ajouts que portait l’unique manuscrit. Le
+               second, dont l’existence a été rendue possible par l’utilisation de
+               LATEX, a d’abord pour fonction d’identifier les personnages, les lieux,
+               les institutions et des événements mentionnés dans le texte, et
+               d’expliquer les mots difficiles ou sortis d’usage. Il introduit par
+               ailleurs des commentaires critiques de tous ordres, propres à éclairer
+               le texte et le contexte historique – notamment via des rapprochements
+               avec d’autres sources.</p>
+            <p>Les graphies ont été respectées, y compris pour les nombres. Des
+               concessions ont cependant été faites à l’usage contemporain pour aider à
+               la compréhension du texte. Ainsi, les lettres i et u ont été
+               transcrites, au besoin, en j et v. L’accentuation du texte était
+               irrégulière, c’est pourquoi elle n’a pas été prise en compte. Les
+               finales, même féminines, ont accentuées. Un accent grave a été ajouté
+               sur les lettres a, e et u dans les adverbes et prépositions
+               monosyllabiques, de façon à éviter toute confusion avec des homophones.
+               En revanche, les lettres à l’intérieur des mots n’ont pas été
+               accentuées. Le tréma, la cédille et l’apostrophe ont été employés selon
+               les usages actuels, beaucoup plus restrictifs que ne l’étaient celles du
+                  XVII<hi rend="sup">e</hi> siècle : les mots reçeu et ralliez ont par
+               exemple été transcrits receu et ralliez. Les mots agglutinés ont été
+               séparés. Les locutions, en revanche, n’ont pas été réunies, par égard
+               pour la langue de l’auteur : aussi nonobstant sera-t-il par exemple
+               conservé tel quel. C’est l’usage actuel qui a été adopté en matière de
+               ponctuation, quasi absente dans le manuscrit, et de majuscules, qui ont
+               été utilisées <foreign xml:lang="lat">a minima</foreign>. Les
+               abréviations ont été résolues, à l’exception des plus courantes d’entre
+               elles, dont la liste suit. Les lettres restituées n’ont toutefois pas
+               été signalées.</p>
+            <p>Les lacunes, si elles n’ont pu être restituées entre crochets droits,
+               ont donné lieu à une note. En cas de restitution, c’est la graphie
+               attestée chez l’auteur qui a prévalu et, lorsque plusieurs formes
+               coexistaient, la plus fréquente a été préférée : susdict plutôt que
+               susdit par exemple. Les blancs ont été signifiés par [...]. Le texte n’a
+               bien évidemment pas été corrigé. Néanmoins, les erreurs ont été
+               signalées par (sic). Si elles étaient de nature à affecter la lecture,
+               une interprétation du passage a été livrée en note. Les additions et
+               corrections ont été éditées dans le corps du texte mais ont néanmoins
+               fait l’objet d’une note, qui mentionne le cas échéant leur position, en
+               marge ou en interligne. Dans l’éventualité où elles étaient introduites
+               par un signe, celui-ci n’a pas été reproduit, à l’instar des éléments
+               ornementaux. Les éléments raturés ou effacés figurent en note ; ils sont
+               suivis de la mention biffé ou effacé. Le terme réécrit, en note, indique
+               que le mot porte la trace d’une correction, mais qu’il est malaisé de
+               discerner les différents états du texte. Ce peut être une correction
+               opérée sur l’ébauche d’un mot – il s’agit souvent du mot qui suit,écrit
+               par anticipation – ou sur un mot effacé, phénomène reconnaissable aux
+               marques d’abrasion laissées par l’encre sur le papier ainsi qu’à la
+               qualité du tracé des lettres. Il n’est pas rare par ailleurs que le
+               dessin des lettres, fautif ou jugé peu clair par le scripteur, ait été
+               repris.</p>
+            <p>La disposition en paragraphes du texte originel a été observée, dans la
+               mesure où elle a pu être distinguée. On a procédé de même quant à la
+               division générale de l’ouvrage. Une double barre verticale signale le
+               passage d’une page à une autre. </p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="2014-04-30" who="#CD">Encodage</change>
+         <change when="2014-04-26" who="#CD">Encodage</change>
+         <change when="2014-04-26" who="#CD">Encodage</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="m1663">
+            <docDate when="1663">1663</docDate>
+            <p>Je retournai l’année suivante à <placeName ref="#Linchamps"
+                  >Linchamp</placeName> et, de là, prendre possession de <placeName
+                  ref="#ChateauRegnault">Chateau-Regnauld</placeName> où je transferai
+               ma principale residence comme plus propre à l’habiter en temps de paix,
+               et sur le bord de la Meuse. Ce fut pendant que je faisois sejour en ce
+               gouvernement (d’où j’allois souvent visiter <rs type="person"><abbr>M<hi
+                        rend="sup">r</hi></abbr> le mareschal Fabert</rs>, mon amy) que
+               le roy, mal satisfaict du procedé du <rs type="person" ref="#CharlesIV"
+                  >duc de Lorraine</rs> (depuis que Sa Majesté, par un traitté
+               particulier et par grace speciale, luy avoit rendu son pays), voulut
+               avoir un gage de sa foy. Et comme ce prince incertain se faisoit
+               solliciter, elle envoia des troupes sur la frontiere. Et s’estant mis
+               elle-mesme en chemin avec <abbr>M<hi rend="sup">r</hi></abbr> son frere
+               et ses <choice><sic>courtisants</sic><corr>courtisans</corr></choice>,
+               elle passa jusques à <placeName ref="#Metz">Metz</placeName> avec une
+               diligence incroyable, d’où elle envoia <rs type="person" ref="#Gesvres"
+                     ><add place="interligne"><abbr>M<hi rend="sup">r</hi></abbr></add>
+                  le marquis de Gesvres</rs><ref type="note" target="#n1"/>, un des
+               capitaines de ses gardes, à <placeName ref="#Nancy">Nancy</placeName>
+               demander au <rs type="person" ref="#CharlesIV">duc de Lorraine</rs> la
+               forte ville de <placeName ref="#Marsal">Marsal</placeName>. <pb/> Ce
+               prince jugea prudemment qu’il valloit mieux donner cette
+                     <choice><sic>satisfaction-là</sic><corr>satisfaction</corr></choice>
+               au roy que de se voir derechef depossedé de ses estats<ref type="note"
+                  target="#n2"/>.</p>
+            <p>Il ne se passa rien pendant cette année 1663 de remarquable à la cour,
+               qui merite que j’en fasse mention dans ces Memoires. L’irruption
+               neantmoins de Turcs en Hongrie en cette mesme année donna l’alarme si
+               forte à <rs type="person" ref="#LeopoldI">l’empereur</rs> qu’il envoia
+               demander du secours au roy et mandier celuy de tous les princes de
+                  l’Empire<ref type="note" target="#n3"/>. Sa Majesté choisit <rs
+                  type="person" ref="#Coligny"><abbr>M<hi rend="sup">r</hi></abbr> le
+                  comte de Coligni</rs><ref type="note" target="#n4"/> et plusieurs
+               officiers generaux pour conduire un bon nombre de troupes, partie par
+               l’Allemagne, et partie par l’estat des Venitiens, de celles qui avoient
+               esté envoiées en Italie dans le duché de Parme, souz le commandement de
+                  <rs type="person" ref="#Belfond"><abbr>M<hi rend="sup"
+                  >r</hi></abbr>le marquis maintenant mareschal de
+                        <choice><sic>Belfond</sic><corr>Belfonds</corr></choice></rs><ref
+                  type="note" target="#n5"/>, en faveur de ce prince, qui avoit un
+               grand diferent avec <rs type="person" ref="#Alexandre7">le pape</rs>
+               pour raison des duchez de <placeName ref="#Castro">Castro</placeName> et
+                  <placeName ref="#Ronssiglione">Ronssiglione</placeName> dont la
+               querelle avoit commencé plusieurs années auparavant, de laquelle j’ay
+               parlé dans les memoires de l’année 1658, et du voiage que je fis à
+                  <placeName ref="#Rome">Rome</placeName> de la part du roy pour ce
+               sujet.</p>
+            <p>Les justes plaintes de Sa Majesté du mauvais traictement et de
+                     l’<choice><sic>injure</sic><corr>insulte</corr></choice> faicte à
+                  <rs type="person" ref="#Crequy"><abbr>M<hi rend="sup">r</hi></abbr>
+                  le duc de Crequi</rs><ref type="note" target="#n6"/>, son
+               ambassadeur, par les soldats et parents du pape <persName
+                  ref="#Alexandre7">Alexandre Sept</persName>, le mespris que fit sa
+               Saincteté de celles dudict <abbr>M<hi rend="sup">r</hi></abbr>
+               ambassadeur, qui n’en put avoir raison, obligerent le roy d’en
+               poursuivre la justice<ref type="note" target="#n7"/>. Le duc de Parme se
+               servit de l’occasion pour renouveler ses prieres au roy de la proteger
+               et luy aider à recouvrer les biens que la Chambre apostolique avoit
+               usurpez. Les troupes de Sa Majesté, comme j’ay dit, passerent les monts.
+               Le <rs type="RanuceII">duc de Parme</rs> se refroidit
+                     <choice><sic>en</sic><corr>et</corr></choice> negligea ses
+               interests, mais le bruit des armes françoises et la reputation de <rs
+                  type="person" ref="DuPlessis"><abbr>M<hi rend="sup">r</hi></abbr> le
+                  mareschal du Plessy</rs>, qui en conduisoit un grand nombre, et qui
+               devoit commander cette armée, procura l’entiere satisfaction du roy et
+               la reparation des injures par une legation, à cette fin, du <rs
+                  type="person" ref="#Chigi">cardinal Chigi<ref type="note"
+                     target="#n8"/>, nepveu du pape</rs>, qui cassa les compagnies de
+               Corse, lesquelles avoient commis l’attentat et le crime, dont les plus
+               coupables furent punis corporellement. Les circonstances de cette
+               solemnelle reparation seroient trop longues à desduire. Il sut de dire
+               qu’une piramide elevée sur la place du palais de l’embassadeur, qui en
+               contenoit le detail, auroit servi de monument à la posterité si le roy
+               n’avoit, à la priere d’<persName ref="#Innocent10">Innocent
+                  Dix</persName><ref type="note" target="#n9"/> successeur d’<persName
+                  ref="#Alexandre7">Alexandre</persName>, permis qu’elle fust abatue.
+               Et le <rs type="person" ref="#RanuceII">duc de Parme</rs> se contenta de
+               l’expectative, et de quelques autres conditions qui luy <pb/> pouvoient
+               estre plusc <add type="reecrit">advantageuses</add> s’il eust voulu
+               profiter <add type="reecrit">tout</add> de bon de la protection de Sa
+               Majesté.</p>
+         </div>
+         <div>
+            <docDate when="1666">1666</docDate>
+            <p>L’année <choice><sic>1665</sic><corr>1666</corr></choice> fut
+               remarquable par la mort de la <rs type="person" ref="#AnneAutriche"
+                  >reyne mere de France</rs> et celle du <rs type="person"
+                  ref="#PhilippeIV">roy d’Espagne son frere</rs>, qui mirent presque
+               toute l’Europe en deuil<ref type="note" target="#n12"/>. Pendant le
+               cours de la mesme année, l’Anglettere et les Provinces-Unies armerent
+               puissamment par mer pour se faire la guerre<ref type="note"
+                  target="#n13"/>. Je ne dirai rien des raisons de ces differents entre
+               de si grandes puissances. Quelques combats, la perte d’une battaille où
+               les Anglois receurent un grand echec, preparerent la paix, que
+               l’entremise du roy nostre maistre fit conclure et signer à <placeName
+                  ref="#Breda">Breda</placeName> par <rs type="person" ref="#Croissy"
+                        ><abbr>M<hi rend="sup">r</hi></abbr> de Colbert de
+               Croissy</rs>, plenipotentiaire de Sa Majesté, qui fit la mesme fonction
+               à <placeName ref="#AixChapelle">Aix-la-Chapelle</placeName> en l’année
+               1668 pour raison des differents entre la France et l’Espagne, armées
+               depuis le printemps 1667, dont les causes subsisterent tousjours, et qui
+               renouvellerent la guerre que les Espagnols <add type="reecrit"
+                  >recommencerent</add> souz pretexte d’assister les Holandois, <add
+                  place="interligne">en <sic>faveurs</sic></add>
+               <choice><sic>laquelle</sic><corr>desquels</corr></choice> la plus grande
+               partie des puissances de l’Europe arma contre le roy, jusques à ce que
+               Sa Majesté (aiant presque chassé les Espagnols des <add type="reecrit"
+                  >Pays-Bas</add> et pris leurs meilleurs places et plus grandes
+               villes, repoussé les Allemands au delà du Rhin, et
+                     <choice><sic>soumit</sic><corr>soumis</corr></choice>
+               <placeName ref="#Fribourg">Fribourg</placeName>, du domaine du chef de
+               l’Empire) <choice><sic>imposa</sic><corr>disposa</corr></choice> des
+               conditions de la paix (que ses ennemis luy demanderent <add
+                  type="reecrit">après</add> six années de guerre continuelle) avec
+               plus de moderation pour ses interests que pour ceux de la couronne de
+               Suede, son alliée, et au traité et conclusion de laquelle <abbr>M<hi
+                     rend="sup">rs</hi></abbr> le <rs type="person" ref="#Estrades"
+                  >mareschal d’Estrades</rs>, <persName ref="#Croissy">Colbert de
+                     <sic>Crossi</sic></persName> et <persName ref="#Avaux"
+                  >d’Avaux</persName> donnerent la derniere main en l’assemblée de
+                  <placeName ref="#Nimegue">Nimegue</placeName>. Il y a deux volumes
+               imprimez en forme de journal qui instruisent plainement de cette
+               matiere.<pb/></p>
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+            <note xml:id="n1">Léon Potier (†1704), marquis puis duc de Gesvres, fait
+               successivement maréchal de camp (4 janvier 1647) et lieutenant général
+               des armées du roi (12 décembre 1650). Il exerça conjointement avec son
+               père, René Potier, duc de Tresmes, à partir de 1660, la charge de
+               capitaine des gardes.</note>
+            <note xml:id="n2">Privé d’héritier légitime, et par hostilité envers son
+               neveu, fils de Nicolas-François, Charles IV de Lorraine affecta un temps
+               de vouloir céder ses états au roi de France. Tel était du moins l’objet
+               du traité de Montmartre, conclu en 1662. Même s’il en oublia
+               l’essentiel, il accepta de restituer cette forteresse, la dernière qui
+               lui restât en Lorraine, à Louis XIV.</note>
+            <note xml:id="n3">Les intrusions turques se multiplièrent aux marges de
+               l’Empire, jusqu'à l’entrée en guerre, au printemps 1663, des deux
+               puissances. Les revers subis par ses armées inquiétèrent l’empereur, qui
+               en appela aux princes allemands. Il bénéficia aussi du soutien de la
+               papauté, de certains princes italiens et de la France. Le contingent
+               dépêché par Louis XIV sous le commandement de Coligny s’élevait à six ou
+               sept mille hommes.</note>
+            <note xml:id="n4">Jean de Coligny-Saligny (1617-1686). Il contribua
+               puissamment à la victoire de Saint-Gothard en 1664.</note>
+            <note xml:id="n5">Bernardin Gigault (†1694), marquis de Bellefonds, fait
+               maréchal de France le 8 juillet 1668. Ce fut également un
+               diplomate.</note>
+            <note xml:id="n6">Charles de Blanchefort (1623-1687), duc de Créquy, homme
+               de guerre et diplomate.</note>
+            <note xml:id="n7">Le 20 août 1662, à la suite d’une échaffourée entre un
+               Français et un soldat de la garde corse du pape, des coups de feu furent
+               tirés en direction de l’ambassadeur de France. La réaction du souverain
+               pontife, jugée insuffisante par Louis XIV, suscita son courroux. Il
+               suspendit les relations diplomatiques avec le Saint-Siège jusqu’à en
+               obtenir des excuses, ainsi que des avantages pour ses alliés, tel le duc
+               de Parme.</note>
+            <note xml:id="n8">Flavio Chigi (1631-1693), élevé à la dignité cardinalice
+               en 1657.</note>
+            <note xml:id="n9">Le successeur d’Alexandre VII fut en réalité Giulio
+               Rospigliosi (1600-1669), pape en 1667 sous le nom de Clément IX. Cette
+               confusion est récurrente.</note>
+            <note xml:id="n10">Philippe IV mourut en réalité au mois de septembre
+               1665.</note>
+            <note xml:id="n11">Les deux états étaient entrés en guerre le 4 mars 1665,
+               à la suite de différends commerciaux. Les revers subis par les Anglais
+               les amenèrent à chercher un accommodement dès janvier 1667. Par
+               ailleurs, l’intervention de la France dans les Pays-Bas n’avait pas
+               manqué d’inquiéter les Provinces-Unies, son allié, qui pressèrent la
+               conclusion de la paix, signée le 31 juillet.</note>
+            <note xml:id="n12">Philippe IV mourut en réalité au mois de septembre
+               1665.</note>
+            <note xml:id="n13">Les deux états étaient entrés en guerre le 4 mars 1665,
+               à la suite de différends commerciaux. Les revers subis par les Anglais
+               les amenèrent à chercher un accommodement dès janvier 1667. Par
+               ailleurs, l’intervention de la France dans les Pays-Bas n’avait pas
+               manqué d’inquiéter les Provinces-Unies, son allié, qui pressèrent la
+               conclusion de la paix, signée le 31 juillet.</note>
+         </div>
+         <div type="index">
+            <listPerson>
+               <person xml:id="Alexandre7">
+                  <persName>Alexandre VII</persName>
+                  <occupation>pape</occupation>
+               </person>
+               <person xml:id="AnneAutriche">
+                  <persName>Anne d'Autriche</persName>
+                  <occupation>reine de France</occupation>
+               </person>
+               <person xml:id="Avaux">
+                  <persName>Avaux, Claude de Mesmes, comte d'</persName>
+               </person>
+               <person xml:id="Belfond">
+                  <persName>Bellefonds, Bernardin Gigault, marquis de</persName>
+               </person>
+               <person xml:id="CharlesIV">
+                  <persName>Charles IV de Lorraine</persName>
+               </person>
+               <person xml:id="Chigi">
+                  <persName>Chigi, Flavio</persName>
+               </person>
+               <person xml:id="Croissy">
+                  <persName>Croissy, Charles Colbert, marquis de</persName>
+               </person>
+               <person xml:id="Coliginy">
+                  <persName>Coligny-Savigny, Jean de</persName>
+               </person>
+               <person xml:id="Crequy">
+                  <persName>Créquy, Charles de Blanchefort, duc de</persName>
+               </person>
+               <person xml:id="DuPlessis">
+                  <persName>Du Plessis-Praslin, César, duc de Choiseul,
+                     comte</persName>
+               </person>
+               <person xml:id="Estrades">
+                  <persName>Estrades, Godefroy, comte d'</persName>
+               </person>
+               <person xml:id="Fabert">
+                  <persName>Fabert, Abraham, marquis de</persName>
+               </person>
+               <person xml:id="Gesvres">
+                  <persName>Gesvres, Léon Potiers, marquis puis duc de</persName>
+               </person>
+               <person xml:id="Innocent10">
+                  <persName>Innocent X</persName>
+                  <occupation>pape</occupation>
+               </person>
+               <person xml:id="LeopoldI">
+                  <persName>Léopold I<hi rend="sup">er</hi> de Habsbourg</persName>
+               </person>
+               <person xml:id="PhilippeIV">
+                  <persName>Philippe IV d'Espagne</persName>
+               </person>
+               <person xml:id="RanuceII">
+                  <persName>Ranuce II Farnèse, duc de Parme</persName>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="AixChapelle">
+                  <placeName>Aix-la-Chapelle</placeName>
+                  <location>
+                     <country>Allemagne</country>
+                  </location>
+               </place>
+               <place xml:id="Breda">
+                  <placeName>Bréda</placeName>
+                  <location>
+                     <country>Pays-Bas</country>
+                  </location>
+               </place>
+               <place xml:id="Castro">
+                  <placeName>Castro</placeName>
+                  <location>
+                     <country>Italie</country>
+                  </location>
+               </place>
+               <place xml:id="ChateauRegnault">
+                  <placeName>Château-Regnault (forteresse)</placeName>
+                  <location>
+                     <district type="departement">Ardennes</district>
+                     <district type="arrondissement">Charleville-Mézières</district>
+                     <district type="commune">Bogny-sur-Meuse</district>
+                  </location>
+               </place>
+               <place xml:id="Fribourg">
+                  <placeName>Fribourg</placeName>
+                  <location>
+                     <country>Suisse</country>
+                  </location>
+               </place>
+               <place xml:id="Linchamps">
+                  <placeName>Linchamps (forteresse)</placeName>
+                  <location>
+                     <district type="departement">Ardennes</district>
+                     <district type="arrondissement">Charleville-Mézières</district>
+                     <district type="commune">Thilay</district>
+                  </location>
+               </place>
+               <place xml:id="Marsal">
+                  <placeName>Marsal</placeName>
+                  <location>
+                     <district type="departement">Moselle</district>
+                     <district type="arrondissement">Château-Salins</district>
+                  </location>
+               </place>
+               <place xml:id="Metz">
+                  <placeName>Metz</placeName>
+                  <location>
+                     <district type="departement">Moselle</district>
+                  </location>
+               </place>
+               <place xml:id="Nancy">
+                  <placeName>Nancy</placeName>
+                  <location>
+                     <district type="departement">Meurthe-et-Moselle</district>
+                  </location>
+               </place>
+               <place xml:id="Nimegue">
+                  <placeName>Nimègue</placeName>
+                  <location>
+                     <country>Pays-Bas</country>
+                  </location>
+               </place>
+               <place xml:id="Rome">
+                  <placeName>Rome</placeName>
+                  <location>
+                     <country>Italie</country>
+                  </location>
+               </place>
+               <place xml:id="Ronssiglione">
+                  <placeName>Ronciglione</placeName>
+                  <location>
+                     <country>Italie</country>
+                  </location>
+               </place>
+            </listPlace>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -56,7 +56,7 @@ L’IDE ou éditeur de texte [VSCode](https://visualstudio.microsoft.com/fr/) di
 
 Mais moins puissant qu’oXygen.
 
----
+???
 
 ### 1. Quelques questions pratiques
 
@@ -132,14 +132,14 @@ Le stockage à plat n’est pas le plus approprié lorsque la recherche est fré
 ---
 
 ### 2. Comment traiter ses données **XML-TEI**&nbsp;?
-## Bases de données relationnelles (et orientées objet)
+## Bases de données relationnelles
 
 - Fonctionnalités d’indexation
 - Nécessitent une conversion dans un modèle relationnel (jointures coûteuses)
-- Proposition de bases de données orientées objet pour refléter les structures imbriquées (passé)
+- Par le passé, des bases de données oreintées-objet avaient été proposées pour refléter les structures imbriquées
 - Certains SGBDR proposent des APIs XML (XQuery, XPath)
 
-**Souvent obsolète et pas toujours adapté**
+**Solutions souvent obsolètes et pas toujours adaptées**
 
 ???
 
@@ -305,6 +305,22 @@ Bos, Bert. 2000. « Comment ajouter du style à XML ». 2000. https://www.w3.org
 
 ---
 
+
+
+---
+
+### 3. Tirer parti de l’outillage TEI
+
+## Sebastian Patrick Quintus Rahtz (13 February 1955 – 15 March 2016)
+
+![](./images/SebastianRahtz.jpg)
+
+???
+
+La TEI est une communauté, elle est largement redevable des personnes qui ont contribué à son fonctionnement. Sebastian Rahtz a été l’initiateur des XSL Stylesheets dont il a longtemps assuré la maintenance. Pour beaucoup d’entre nous, il était un modèle d’engagement, de désintéressement et de rigueur dans le travail. Sa contribution à la TEI fut considérable, et son décès est une grande perte pour la communauté.
+
+---
+
 ### 3. Tirer parti de l’outillage TEI
 ## TEI stylesheets
 
@@ -366,15 +382,6 @@ Il est important de comprendre d’emblée que si les XSLT Stylesheets offrent u
 Elles ne prétendent pas non plus constituer un modèle de traitement ou de rendu standard pour la TEI. En revanche, elles offrent une très riche bibliothèque de transformations qui devrait dans bien des cas vous faciliter le travail.
 
 Les transformations pour la P5 sont seulement développées en XSLT&nbsp;2.0, leur utilisation nécessite donc un processeur adapté.
-
----
-
-### 3. Tirer parti de l’outillage TEI
-## Sebastian Patrick Quintus Rahtz (13 February 1955 – 15 March 2016)
-
-???
-
-La TEI est une communauté, elle est largement redevable des personnes qui ont contribué à son fonctionnement. Sebastian Rahtz a été l’initiateur des XSL Stylesheets dont il a longtemps assuré la maintenance. Pour beaucoup d’entre nous, il était un modèle d’engagement, de désintéressement et de rigueur dans le travail. Sa contribution à la TEI fut considérable, et son décès est une grande perte pour la communauté.
 
 ---
 

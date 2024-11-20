@@ -7,6 +7,41 @@ Après la plus longue présentation de la semaine dernière sur l’édition cri
 
 ---
 
+### Exemples d’éditions numériques
+
+Patrick Sahle, [A catalog of Digital Scholarly Editions](http://www.digitale-edition.de/), v. 3.0 [2008-]
+
+Greta Franzini, [Catalogue of Digital Editions](https://dig-ed-cat.acdh.oeaw.ac.at/), [2012-]
+
+[BigDiva](https://www.bigdiva.org)
+
+#### Bouquets
+
+- [VedaWeb. Online Research Platform for Old Indic Texts](https://vedaweb.uni-koeln.de/)
+- [Perseus Digital Library](http://www.perseus.tufts.edu)
+- [The Library of Digital Latin Texts](https://digitallatin.org/library-digital-latin-texts)
+- [Base du français médiéval](http://bfm.ens-lyon.fr)
+- [Éditions en ligne de l’École des chartes (Élec)](http://elec.enc.sorbonne.fr)
+- [Medieval Electronic Scholarly Alliance (MESA)](http://www.mesa-medieval.org/)
+- [Les Bibliothèques Virtuelles Humanistes](http://www.bvh.univ-tours.fr)
+- [Modernist Networks (ModNets)](http://www.modnets.org/)
+- [18thConnect](http://www.18thconnect.org)
+- [Nines](http://www.nines.org)
+- [SiRO (Studies in Radicalism Online)](http://www.studiesinradicalism.org/)
+- [The Poetess Archive](http://poetess.dh.tamu.edu/index.html)
+- [The Canadian Writing Research Collaboratory](https://cwrc.ca)
+
+???
+
+* [elec](http://elec.enc.sorbonne.fr)
+* [hyperdonnat](http://hyperdonat.tge-adonis.fr)
+* [Roman du Mont Saint-Michel](https://www.unicaen.fr/services/puc/sources/gsp/)
+* [Mercure galant](http://obvil.paris-sorbonne.fr/corpus/mercure-galant/)
+* [vangoghletters.org](http://vangoghletters.org/vg/)
+* [sandrart.net](http://www.sandrart.net/de/)
+
+---
+
 ## Éditions en ligne de l’École des chartes (Élec)
 ![](images/elec.png)
 
@@ -15,6 +50,16 @@ Après la plus longue présentation de la semaine dernière sur l’édition cri
 ???
 
 > Parallèlement à ses différentes collections de publications imprimées, l’École des chartes propose sur ce site une collection de publications électroniques. Celle-ci permet d’offrir à des travaux scientifiques des fonctionnalités propres au numérique. Elle réunit essentiellement des répertoires et des bases de données, ainsi que des éditions de textes, qui peuvent ainsi être explorées plus finement que par la consultation d’une version imprimée.
+
+### Thélème Techniques pour l’Historien en Ligne&nbsp;: Études, Manuels, Exercices
+
+Thélème est un site web à vocation pédagogique développé par l’École des chartes et destiné à proposer des ressources pédagogiques sur l’histoire. Outre des cours complets et des bibliographies mises à jour par les enseignants-chercheurs de l’École, le site comprend une application documentaire hybride, les dossiers THELEME au sein de laquelle on peut consulter, autour de l’image numérique d’un document primaire ou d’un extrait de ce document (charte médiévale, document d’archives de l’époque moderne, ou page d’un manuscrit littéraire ancien), l’édition de ce document, associée le cas échéant à sa traduction en français, à des commentaires paléographiques, diplomatiques, linguistiques
+
+http://theleme.enc.sorbonne.fr/dossiers/. Cette application utilise à la fois une base de données relationnelles pour stocker les métadonnées des documents publiés (ce qui permet de faire des recherches sur ces métadonnées, voir http://theleme.enc.sorbonne.fr/dossiers/formulaire.php&gt; et des fichiers XML/TEI pour le stockage sous une forme structurée des éditions et commentaires scientifiques des textes (un document TEI par dossier, dont chaque section est transformée par des programmes XSLT en HTML pour montrer le fac-similé interactif, l’édition du texte et sa traduction, les commentaires). Voir par exemple les dossiers nos 80 (acte seigneurial de 1177, http://theleme.enc.sorbonne.fr/dossiers/ notice80.php&gt;) et 100 (extrait du Didascalicon de Hugues de Saint-Victor, http://theleme. enc.sorbonne.fr/dossiers/notice100.php&gt;).
+
+http://www.kcgeschiedenis.be/portaHistoricaDoc/clavaud.pdf
+
+voir aussi http://sd-editions.com/AnaAdditional/millerEx/images//millerhome.html
 
 ---
 
@@ -62,6 +107,16 @@ Après la plus longue présentation de la semaine dernière sur l’édition cri
 
 ---
 
+##  The Proceedings of the Old Bailey, London 1674 to 1834
+
+https://www.oldbaileyonline.org/
+
+???
+
+Ed. par Tim Hitchcock, Robert Shoemaker et al., Sheffield, HriOnline, 2005. La version imprimée à l'origine sous forme de double vérification, qui est principalement développée avec des récompenses sémantiques. Ainsi, les critiques éditoriales ne portent pas sur le niveau de rédaction, mais sur le niveau de développement de contenu et de génération de navigation, d'accès à la recherche et d'aides.
+
+---
+
 ## Sandrart.net
 ![](images/sandrart.png)
 
@@ -81,6 +136,53 @@ Après la plus longue présentation de la semaine dernière sur l’édition cri
 ???
 
 > eBalzac s’est donné pour mission de rendre accessible gratuitement l’ensemble des états imprimés de l’œuvre balzacienne : La Comédie humaine, les œuvres de jeunesse, le théâtre, les Contes drolatiques et les œuvres diverses. À terme, les éditions successives des textes balzaciens seront disponibles en trois formats : html, epub et un format jpg qui permet de consulter le fac-similé de l’édition d’époque.
+
+---
+
+## Éditions génétiques
+
+#### Wolfgang Koeppen Jugend, Textgenetische Edition
+
+[http://www.koeppen-jugend.de](http://www.koeppen-jugend.de)
+
+#### Digital Thoreau. Thoreau digitized deliberately
+
+[http://digitalthoreau.org/fluid-text-toc/](http://digitalthoreau.org/fluid-text-toc/)
+
+???
+
+#### Wolfgang Koeppen Jugend, Textgenetische Edition
+
+http://www.koeppen-jugend.de
+
+Herausgegeben von Katharina Krüger, Elisabetta Mengaldo und Eckhard Schumacher
+
+Diese Edition wurde erarbeitet im Rahmen des DFG-Projekts "Wolfgang Koeppens *Jugend* - Nachlasserschließung, textgenetische Untersuchung, Digitalisierung und Edition". 
+
+#### Digital Thoreau. Thoreau digitized deliberately
+
+http://digitalthoreau.org/fluid-text-toc/
+
+---
+
+## Éditions collaboratives
+
+#### Transcribe Bentham
+
+[http://blogs.ucl.ac.uk/transcribe-bentham/](http://blogs.ucl.ac.uk/transcribe-bentham/)
+
+#### Digital Mellini
+
+[http://www.getty.edu/research/mellini/](http://www.getty.edu/research/mellini/)
+
+#### Shelley Godwin Archive
+
+[http://shelleygodwinarchive.org](http://shelleygodwinarchive.org)
+
+### Encre
+
+*Édition Numérique Collaborative et CRitique de l’*Encyclopédie
+ou Dictionnaire raisonné des sciences, des arts et des métiers (1751-1772) http://enccre.academie-sciences.fr/encyclopedie
 
 ---
 

@@ -1,0 +1,174 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p>from markdown</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>new born</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>HNU3052/HNU6052 Humanités numériques : Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</head>
+         </div>
+         <div>
+            <head>Programme de l’atelier</head>
+            <p>Emmanuel Château-Dutier, octobre 2023</p>
+            <p>Site web pour les ressources du cours :</p>
+            <p>
+               <ref target="https://edn6101.gitpages.huma-num.fr/h2022">https://hnu6052.gitpages.huma-num.fr/h2022</ref>
+            </p>
+            <p>???</p>
+            <p>Bonjour,</p>
+            <p>Je suis heureux de vous accueillir à cet atelier d’initiation à l’édition critique avec la TEI. Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la Text Encoding Encoding Initiative (TEI), un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).</p>
+            <list type="unordered">
+               <item>premier atelier d’introduction à XML</item>
+               <item>Ce premier atelier sera par la suite complété par une formation avancée à la TEI</item>
+            </list>
+            <p>Je suis Emmanuel Château-Dutier, professeur de muséologie numérique au département d’histoire de l’art et d’études cinématographiques. Depuis plusieurs années, je suis engagé sur divers projets d’édition structurée. J’ai notamment assuré pendant plusieurs années avec Lou Burnard la formation continu de l’École nationale des chartes à Paris sur la Text Encoding Initiative. D’ailleurs une partie des contenus pédagogiques de ce cours ont été élaboré conjointement avec lui. Ils ont par la suite évolué notamment avec la contribution d’Antoine Fauchié avec qui j’ai enseigné ce cours ces deux dernières années.</p>
+            <p>---</p>
+            <div>
+               <head>Tour de table</head>
+               <list type="unordered">
+                  <item>Qui êtes-vous&amp;nbsp;?</item>
+                  <item>Sur quoi portent vos recherches&amp;nbsp;?</item>
+                  <item>Ce qui vous intéresse avec cette formation.</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Objectifs de l’atelier</head>
+               <p>Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la Text Encoding Encoding Initiative (TEI), un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).</p>
+               <p>Au terme du cours, l’étudiant·e sera en mesure :</p>
+               <list type="unordered">
+                  <item>d’expliquer les principes de l’édition structurée et la notion de balisage descriptif ;</item>
+                  <item>de réaliser un encodage en XML-TEI ;</item>
+                  <item>d’effectuer certaines personnalisations possibles de la TEI ;</item>
+                  <item>d’utiliser les langages XPath et XSL pour mettre en ligne une édition.</item>
+               </list>
+               <p>???</p>
+               <p>Cet atelier vise à initier les étudiantes et les étudiants aux méthodes d’édition critique avec la Text Encoding Encoding Initiative (TEI), un cadre de travail pour la production d’édition structurée fondé sur le langage de balisage XML (eXtended Markup Language).</p>
+               <p>Bien évidemment pas le seul standard en vigueur dans ce domaine. Vous avez également eu l’occasion de rencontrer, ou vous allez voir, un certain nombre de formats dédiés à l’édition au cours de cette session tels que EPUB, HTML et XHTML, peut être les formats Dita et DocBook.</p>
+               <p>Mais plus qu’un format ou un standard, <hi rend="bold">la TEI est un cadre de travail pour l’édition critique numérique</hi> qui s’avère particulièrement flexible pour toute sorte d’utilisation dans le domaine académique. Au point qu’elle est devenue, en quelque sorte, une <hi rend="italic">lingua franca</hi> des Digital Humanities, en particulier en Europe. Difficile aujourd’hui d’envisager de produire des contenus textuels dans les humanités numériques sans tenir compte de la TEI.</p>
+               <p>C’est aussi <hi rend="bold">l’un des projets les plus anciens et les plus durables des Digital Humanities</hi>, puisque la création de la TEI remonte à 1987 (30 ans !). Elle manifeste l’un des plus grands achèvements de la communauté des humanités numériques comme en témoigne le prix Zampolino que sa communauté a reçu en 2017 à l’occasion de la Conférence mondiale des Humanités numériques à Montréal.</p>
+               <p>
+                  <hi rend="bold">La TEI c’est donc à la fois, une ontologie générique du texte, une méthode d’édition critique, mais aussi un projet libre et open source adossé à une forte communauté.</hi>
+               </p>
+               <p>Avec, vous allez l’entrevoir, de nombreux outils développés autour de cette communauté qui permettent d’envisager la création de chaînes éditoriales complètes pour le traitement des éditions.</p>
+               <p>Au terme du cours, l’étudiant·e sera en mesure :</p>
+               <list type="unordered">
+                  <item>d’expliquer les principes de l’édition structurée et la notion de balisage descriptif ;</item>
+                  <item>de réaliser un encodage en XML-TEI ;</item>
+                  <item>d’effectuer certaines personnalisations possibles de la TEI ;</item>
+                  <item>d’utiliser les langages XPath et XSL pour mettre en ligne une édition.</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Contenu de la formation</head>
+               <p>Les thématiques abordées au cours de la formation sont les suivantes :</p>
+               <list type="unordered">
+                  <item>Historique et application de XML</item>
+                  <item>Principes de conception du langage</item>
+                  <item>La syntaxe XML</item>
+                  <item>Notions de document bien formé et de document valide</item>
+                  <item>Les technologies de schémas (modéliser des sources avec XML)</item>
+                  <item>Langages associés et exploitation des documents</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Approche pédagogique</head>
+               <list type="unordered">
+                  <item>Aucun pré-requis informatique</item>
+                  <item>Plusieurs travaux pratiques</item>
+                  <item>Une perspective humaniste</item>
+               </list>
+               <p>???</p>
+            </div>
+            <div>
+               <head>Approche pédagogique</head>
+               <p>Cette formation est une initiation à XML. Après un rapide présentation du langage et de ses applications, les participants se familiariseront avec la syntaxe XML par l’intermédiaire de travaux pratiques.</p>
+               <list type="unordered">
+                  <item>Aucun pré-requis informatique : On part du principe que vous êtes novices en informatique.</item>
+                  <item>Une démarche progressive, adossée à des Travaux pratiques.</item>
+                  <item>Une perspective humaniste</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Séance 1 - jeudi 26 octobre 2023 9h30-11h30</head>
+               <list type="unordered">
+                  <item>présentation des intervenants et des participant·e·s ;</item>
+                  <item>le langage de balisage XML et son écosystème ;</item>
+                  <item>exercices pratiques d’encodage en XML ;</item>
+               </list>
+            </div>
+            <div>
+               <head>Séance 2 - jeudi 26 octobre 2023 12h30-15h30</head>
+               <list type="unordered">
+                  <item>présentation de la Text Encoding Initiative (TEI) ;</item>
+                  <item>l’utilisation de la TEI pour l’édition critique ;</item>
+                  <item>exercice de structuration de texte avec la TEI.</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Séance 3 - jeudi 2 novembre 2023 9h30-11h30</head>
+               <list type="unordered">
+                  <item>utilisation de la TEI pour l’édition de sources manuscrites ;</item>
+                  <item>modélisation d’une édition critique avec la TEI ;</item>
+               </list>
+            </div>
+            <div>
+               <head>Séance 4 - jeudi 2 novembre 2023 12h30-15h30</head>
+               <list type="unordered">
+                  <item>exercices de mise en pratique de structuration et de modèles ;</item>
+                  <item>méthodes de travail avec la TEI ;</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Séance 5 - jeudi 9 novembre 2023 9h30-11h30</head>
+               <list type="unordered">
+                  <item>outillage de la TEI</item>
+                  <item>exploiter ses documents avec XSLT ;</item>
+               </list>
+            </div>
+            <div>
+               <head>Séance 6 - jeudi 9 novembre 2023 12h30-15h30</head>
+               <list type="unordered">
+                  <item>exercices d’application de transformation ;</item>
+                  <item>bilan des 4 séances.</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Évaluation</head>
+               <p>L’évaluation de l’atelier reposera sur des travaux pratiques d’encodage en XML/TEI :</p>
+               <list type="unordered">
+                  <item>Exercice pratique d’encodage en XML (30%)</item>
+                  <item>Édition critique de sources manuscrites (40%)</item>
+                  <item>Personnalisation d’un schéma TEI (40%)</item>
+               </list>
+               <p>---</p>
+            </div>
+            <div>
+               <head>Ressources mises à disposition</head>
+               <list type="unordered">
+                  <item>Mise à disposition de supports de cours</item>
+                  <item>Exemples de fichiers encodés et de transformations</item>
+                  <item>Orientations bibliographiques</item>
+               </list>
+               <p>???</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

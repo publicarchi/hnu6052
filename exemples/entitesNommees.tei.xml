@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    Guides de Paris, Index Nominum
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fre" type="main">Index nominum</title>
+                <principal>
+                    <persName ref="#MCL">
+                        <forename>Marianne</forename>
+                        <surname>Cojannot-Le Blanc</surname>
+                        <affiliation>
+                            <orgName>Histoire des Arts &amp; Représentations</orgName>
+                            <orgName type="acronym">HAR</orgName>
+                            <orgName type="alt">EA 4414</orgName>
+                            <roleName>responsable scientifique</roleName>
+                        </affiliation>
+                        <affiliation>
+                            <orgName>Université Paris-Ouest Nanterre-La Défense</orgName>
+                            <orgName type="alt">Paris 10</orgName>
+                            <roleName>Professeur d'histoire de l'art</roleName>
+                        </affiliation>
+                    </persName>
+                </principal>
+                <funder>
+                    <orgName>Labex Les Passés dans le Présent</orgName>
+                    <date from="2013" to="2018">2013-2018</date>
+                </funder>
+                <respStmt>
+                    <resp key="prg">modélisation XML-TEI</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp key="mrk">encodage</resp>
+                    <persName ref="#EC">
+                        <forename>Emmanuel</forename>
+                        <surname>Château</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">première édition électronique, <date from="2013"
+                        to="2018">2013-2018</date></edition>
+            </editionStmt>
+            <extent><!-- TODO : taille du fichier en octet --></extent>
+            <publicationStmt>
+                <authority>
+                    <orgName>Histoire des Arts et Représentations</orgName>
+                    <orgName type="acronym">HAR</orgName>
+                    <address>
+                        <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                        <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                        <addrLine>200, Avenue de la République</addrLine>
+                        <addrLine>92001 Nanterre Cedex</addrLine>
+                        <addrLine>France</addrLine>
+                        <addrLine>http://har.u-paris10.fr</addrLine>
+                        <addrLine>harparisouest@gmail.com</addrLine>
+                    </address>
+                </authority>
+                <date when="2013">2013</date>
+                <!-- TODO attribuer un DOI ou un identifiant ARK aux fichiers -->
+                <idno>ark</idno>
+                <!-- responsable de la publication -->
+                <publisher>
+                    <orgName>Histoire des Arts et Représentations</orgName>
+                    <orgName type="acronym">HAR</orgName>
+                    <address>
+                        <addrLine>Université Paris Ouest-Nanterre La Défense</addrLine>
+                        <addrLine>UFR de Sciences Sociales et Administration (SSA)</addrLine>
+                        <addrLine>200, Avenue de la République</addrLine>
+                        <addrLine>92001 Nanterre Cedex</addrLine>
+                        <addrLine>France</addrLine>
+                        <addrLine>http://har.u-paris10.fr</addrLine>
+                        <addrLine>harparisouest@gmail.com</addrLine>
+                    </address>
+                </publisher>
+                <availability status="restricted"
+                    xml:id="indexNominumTextLicence">
+                    <!-- TODO : <licence> à ajouter partout -->
+                    <licence
+                        target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+                        <p>Texte de la licence</p>
+                        <graphic
+                            url="http://i.creativecommons.org/l/by-nc-sa/4.0/fr/88x31.png"
+                        />
+                    </licence>
+                    <p>Texte de la licence choisie.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title xml:lang="fre" type="main">Les Guides de Paris</title>
+                <title xml:lang="fre" type="sub"
+                    >Les historiens des arts et les corpus
+                    numériques</title>
+                <idno type="URI">http://www.guidesdeparis.net</idno>
+            </seriesStmt>
+            <!--<notesStmt>
+                <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note>
+                <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note>
+            </notesStmt>-->
+            <!-- description de la source -->
+            <sourceDesc>
+                <p xml:id="indexNominum">Fichier nativement numérique</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <stdVals>
+                    <p>On utilise...</p>
+                </stdVals>
+                <!-- TODO revoir -->
+            </editorialDecl>
+            <!-- déclaration concernant la méthode d'établissement du corpus (sélection) -->
+            <refsDecl>
+                <p>Description du système de référence canonique.</p>
+                <!-- TODO revoir -->
+            </refsDecl>
+        </encodingDesc>
+        <!-- présentation du profil de fichier -->
+        <profileDesc>
+            <creation when="2013">2013</creation>
+            <langUsage>
+                <language ident="fre" usage="100"
+                    >Français (langue principale du corpus)</language>
+            </langUsage>
+            <textClass>
+                <keywords xml:lang="fre"
+                    scheme="http://data.bnf.fr/liste-rameau">
+                    <term>18e siècle</term>
+                    <term>France</term>
+                </keywords>
+                <keywords xml:lang="eng"
+                    scheme="http://id.loc.gov/authorities/about.html#lcsh">
+                    <term>17th-18th centuries</term>
+                    <term>France</term>
+                </keywords>
+                <classCode
+                    scheme="http://dublincore.org/documents/2012/06/14/dcmi-terms/">
+                    <term>Text</term>
+                    <!-- TODO qualifier -->
+                </classCode>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2014-02-01" who="#EC">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Index nominum</head>
+                <div type="listPerson">
+                    <head>Index des personnes</head>
+                    <listPerson>
+
+                        <!-- exemple parties du nom -->
+                        <person xml:id="in000ex">
+                            <!-- Exemple d'encodage du nom propre -->
+                            <persName full="yes"
+                                >Münchhausen, Karl Hieronymus (1720-1797 ; baron
+                                von)</persName>
+                            <persName>
+                                <surname>Münchhausen</surname><!-- Nom de famille -->
+                                <genName>Junior</genName><!-- Qualificatif de génération -->
+                                <forename sort="1">Karl</forename><!-- Prénoms (ordonnés) -->
+                                <forename>Friedrich</forename>
+                                <forename sort="2">Hieronymus</forename>
+                                <nameLink type="nobility">von</nameLink><!-- Particule etc. -->
+                                <roleName type="nobility">baron</roleName><!-- Titre -->
+                                <!-- valeurs de @type : nobility, military, office, epithet, etc. -->
+                            </persName>
+                            <persName type="xxx">Münchhausen, Karl</persName>
+                            <!-- dates d'existence avec attribut date normalisé -->
+                            <birth when="1720-05-11"
+                                    >11 mai 1720
+                                <placeName>Bodenwerder</placeName></birth>
+                            <death when="1797-02-22">22 février 1797</death>
+                            <!-- Activité normalisée pour l'index -->
+                            <occupation>mercenaire</occupation>
+                            <occupation from="1777" to="1780">
+                                <placeName>Paris</placeName>
+                                <idno/>
+                            </occupation>
+                            <occupation scheme="#fr_rg" code="#acc"
+                                >Comptable</occupation>
+                            <trait type="physical">
+                                <label>eye colour</label>
+                                <desc>blue</desc>
+                            </trait>
+                            <trait type="physical">
+                                <label>hair colour</label>
+                                <desc>brown</desc>
+                            </trait>
+                            <state type="office" from="1750">
+                                <p>Il est nommé capitaine de cavalerie, avant de quitter l'armée
+                                    russe.</p>
+                            </state>
+                            <!--
+                            <listRelation>
+                                <relation name="friend" mutual="#WM #RWD"/>
+                                <relation name="parent" active="#RB"
+                                    passive="#JBM"/>
+                            </listRelation>
+                            -->
+                            <!-- Identifiant dans une notice d'autorité -->
+                            <idno type="autBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb119462100/PUBLIC </idno>
+                        </person>
+
+                        <!-- exemple d'identifiants -->
+                        <person xml:id="briceGermain">
+                            <persName full="yes"
+                                >Brice, Germain (1653?-1727)</persName>
+                            <idno type="dataBnf"
+                                >http://data.bnf.fr/12176653/germain_brice/</idno>
+                            <idno type="ISNI">0000 0000 8078 2671</idno>
+                            <idno type="VIAF">VIAF96934508</idno>
+                            <idno type="autBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb12176653r/</idno>
+                            <idno type="IdRef">030328411</idno>
+                        </person>
+
+                        <!-- exemple avec éléments de birth/death -->
+                        <person xml:id="corrozetGilles">
+                            <persName full="yes"
+                                >Corrozet, Gilles (1510-1568)</persName>
+                            <birth>
+                                <date when="1510-01-04">1510-01-04</date>
+                            </birth>
+                            <death>
+                                <date when="1568-07-04">1568-07-04</date>
+                            </death>
+                            <floruit from="1535" to="1568">1535-1568</floruit>
+                            <note>Devise(s) : In corde prudentis requiescit sapientia. - Labore
+                                conscendimus altum Libraire. - Natif de Paris (janv. 1510). Poète et
+                                historien ; auteur, entre autres, de "La Fleur des antiquitez... de
+                                Paris" (1532), des "Antiques Erections des Gaules" (1535) et du
+                                "Thresor des histoires de France" (publié à titre posthume en 1583).
+                                Petit-fils du libraire parisien Pierre Le Brodeur, qui aurait
+                                contribué à son établissement en 1535. Décédé à Paris en juillet
+                                1568 </note>
+                            <note>Adresse : Paris : 1535-1568. - En la grand-salle du Palais (, du
+                                côté de la chapelle de Messieurs ; près la chambre des
+                                Consultations) (ou : Au Palais). - Rue de la Vieille-Draperie, près
+                                l'église Sainte-Croix (, en la Cité) [1549]. - Rue de la Juiverie
+                                [1554]. - Enseigne(s) : À l'enseigne du Château [1554] </note>
+                            <idno type="ISNI">0000 0001 2100 7605</idno>
+                            <idno type="autBnf"
+                                >http://catalogue.bnf.fr/ark:/12148/cb11991663h/</idno>
+                        </person>
+
+                        <!-- exemple utilisation events -->
+                        <person xml:id="morrisWilliam">
+                            <event type="marriage" when="1859-04-26">
+                                <label>Marriage</label>
+                                <desc>
+                                    <name type="person" ref="#morrisWilliam"
+                                        >William Morris</name>
+                                    and <name
+                                        type="person"
+                                        ref="http://en.wikipedia.org/wiki/Jane_Burden"
+                                        >Jane
+                                        Burden</name> were married at <name
+                                        type="place"
+                                        >St
+                                        Michael's Church, Ship Street, Oxford</name> on <date
+                                        when="1859-04-26"
+                                        >26 April 1859</date>. The wedding was
+                                    conducted by Morris's friend <name
+                                        type="person" ref="#RWD"
+                                        >R.
+                                        W. Dixon</name> with <name
+                                        type="person" ref="#CBF"
+                                        >Charles
+                                        Faulkner</name> as the best man. The bride was given away by
+                                    her father, <name
+                                        type="person" ref="#RB"
+                                        >Robert Burden</name>.
+                                    According to the account that <name
+                                        type="person"
+                                        ref="http://en.wikipedia.org/wiki/Edward_Burne-Jones"
+                                        >Burne-Jones</name> gave <name
+                                        type="person" ref="#JWM">Mackail</name>
+                                    <quote>M. said to Dixon beforehand <said>Mind you don't call her
+                                            Mary</said> but he did</quote>. The entry in the
+                                    Register reads: <quote>William Morris, 25, Bachelor Gentleman,
+                                        13 George Street, son of William Morris decd. Gentleman.
+                                        Jane Burden, minor, spinster, 65 Holywell Street, d. of
+                                        Robert Burden, Groom.</quote> The witnesses were Jane's
+                                    parents and Faulkner. None of Morris's family attended the
+                                    ceremony. Morris presented Jane with a plain gold ring bearing
+                                    the London hallmark for 1858. She gave her husband a
+                                    double-handled antique silver cup.</desc>
+                                <bibl>J. W. Mackail, <title>The Life of William Morris</title>,
+                                    1899.</bibl>
+                            </event>
+                        </person>
+                    </listPerson>
+                    <listOrg>
+                        <org>
+                            <orgName>Department of Modern History</orgName>
+                            <orgName>
+                                <name type="city">Glasgow</name>
+                                <name type="role">University</name>
+                            </orgName>
+                        </org>
+                    </listOrg>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

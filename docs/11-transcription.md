@@ -61,6 +61,59 @@ Un document TEI se compose d’au moins deux parties&nbsp;:
 ---
 
 ### 1. Macrostructure du texte et teiHeader
+## Parties liminaires, postérieures
+
+```xml
+<TEI>
+  <teiHeader>
+    <!-- ... -->
+  </teiHeader>
+  <text>
+    <body>
+      <!-- corps de texte, structuré en sous-éléments div -->
+    </body>
+  </text>
+</TEI>
+```
+???
+
+Le corps du texte édité pourra être fourni dans un élément `<body>` qui contiendra des sous-éléments `<div>`. 
+
+---
+
+### 1. Macrostructure du texte et teiHeader
+## Parties liminaires, postérieures
+
+```xml
+<TEI>
+  <teiHeader>
+    <!-- ... -->
+  </teiHeader>
+  <text>
+    <front>
+      <!-- parties liminaire -->
+      <!-- (préfaces, introductions, en sous-éléments div) -->
+    </front>
+    <body>
+      <!-- corps de texte, structuré en sous-éléments div -->
+    </body>
+    <back>
+      <!-- parties postérieures -->
+      <!-- (annexes et appendices dans des éléments div) -->
+    </back>
+  </text>
+</TEI>
+```
+
+???
+
+Après `<teiHeader>`, on trouve un élément `<text>` qui contiendra le cœur de votre texte, avec optionnellement un élément front qui contient parties liminaires, `<body>` qui contient le corps du texte, et `<back>` qui contient les annexes et les parties supplémentaires du texte.
+
+Cette macrostructure peut-être plus compliquée en fonction de la nature des projets.
+
+---
+
+### 1. Macrostructure du texte et teiHeader
 ## Macrostructures de texte composite
 
 ```xml
@@ -123,38 +176,6 @@ On y trouvera notamment un élément `<sourceDesc>` obligatoire qui décrit le t
 ---
 
 ### 1. Macrostructure du texte et teiHeader
-## Parties liminaires, postérieures
-
-```xml
-<TEI>
-  <teiHeader>
-    <!-- ... -->
-  </teiHeader>
-  <text>
-    <front>
-      <!-- parties liminaire -->
-      <!-- (préfaces, introductions, en sous-éléments div) -->
-    </front>
-    <body>
-      <!-- corps de texte, structuré en sous-éléments div -->
-    </body>
-    <back>
-      <!-- parties postérieures -->
-      <!-- (annexes et appendices dans des éléments div) -->
-    </back>
-  </text>
-</TEI>
-```
-
-???
-
-Après `<teiHeader>`, on trouve un élément `<text>` qui contiendra le cœur de votre texte, avec optionnellement un élément front qui contient parties liminaires, `<body>` qui contient le corps du texte, et `<back>` qui contient les annexes et les parties supplémentaires du texte.
-
-Cette macrostructure peut-être plus compliquée en fonction de la nature des projets.
-
----
-
-### 1. Macrostructure du texte et teiHeader
 ## Macrostructure du texte
 
 * `<body>` corps de texte (fils de l’élément `<text>`)
@@ -196,21 +217,6 @@ Cette macrostructure peut-être plus compliquée en fonction de la nature des pr
 ---
 
 ### 1. Macrostructure du texte et teiHeader
-## Structures de listes
-
-```xml
-<list>
-  <label><!-- étiquette --></label>
-  <item><!-- item de liste --></item>
-  <label><!-- étiquette --></label>
-  <item><!-- item de liste --></item>
-  <!-- ... -->
-</list>
-```
-
----
-
-### 1. Macrostructure du texte et teiHeader
 ## Structures versifiées
 
 ```xml
@@ -236,6 +242,29 @@ Cette macrostructure peut-être plus compliquée en fonction de la nature des pr
     <gap reason="sampling" quantity="4" unit="stanza"/>
   </div>
 </body>
+```
+
+---
+
+### 1. Macrostructure du texte et teiHeader
+## Structures de listes
+
+```xml
+<list>
+  <item><!-- item de liste --></item>
+  <item><!-- item de liste --></item>
+  <!-- ... -->
+</list>
+```
+
+```xml
+<list>
+  <label><!-- étiquette --></label>
+  <item><!-- item de liste --></item>
+  <label><!-- étiquette --></label>
+  <item><!-- item de liste --></item>
+  <!-- ... -->
+</list>
 ```
 
 ---
@@ -268,7 +297,7 @@ Cette macrostructure peut-être plus compliquée en fonction de la nature des pr
 * `<hi>` mise en valeur
 * `<quote>` citation
 * `<foreign>` pour les passages en langue étrangère
-* `<term>`, `<gloss>` termes et glodes
+* `<term>`, `<gloss>` termes et gloses
 * `<date>` date
 * `<name>`, `<persName>`, `<placeName>` noms, noms de personne, de lieu
 * `<pb/>` indication des changements de page
@@ -319,6 +348,10 @@ Désignent un point dans le flux textuel. Des éléments XML vides.
 * `<milestone/>` élément borne permettant de délimiter une partie section de texte selon un autre système que les divisions
 * `<anchor>` élément ancre
 
+???
+
+Les éléments de type borne (*milestone*) sont des éléments vides qui désignent un point dans le flux textuel.
+
 ---
 
 ### 1. Macrostructure du texte et teiHeader
@@ -328,12 +361,12 @@ Désignent un point dans le flux textuel. Des éléments XML vides.
 * `<anchor>` ancre avec `@xml:id`
 
 ```xml
-<delSpan spanTo="#endDel" change="#L3"></delSpan>
+nymande. <delSpan spanTo="#endDel" change="#L3"/>
 <metamark function="flag" target="#zone-1" change="#L2">lege
 </metamark><zone xml:id="zone-1" change="#L1">Ock en schullen
 de bruwere des hilgen dages nicht over setten noch uppe den
 stillen fridach bruwen.</zone><addSpan spanTo="#endDel"
-change="#L2"></addSpan>
+change="#L2"/>
 <zone>Noch nymande over setten, se en sehin denne erst, dat
 uppe den bonen neyn stro noch, huw noch flaß ligghe, by eyner
 halven roden, deme bruwere so wol alse dem bruwheren

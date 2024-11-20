@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"
+               >HNU3052/HNU6502 — Introduction à l’édition critique avec la Text Encoding Initiative (TEI)</title>
+            <title type="sub">eXtensible Markup Language</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Université de Montréal</publisher>
+            <date when="2024">2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Fichier nativement numérique</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-11">Réintégration des fichiers en TEI</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="prose">
+            <head>eXtensible Markup Language</head>
+            <p>Dans cette première partie du cours, nous allons présenter le langage de balisage extensible (eXtensible Markup Language, XML). XML est un format informatique fondamental pour de très nombreuses applications. Il est notamment largement employé dans le domaine des métadonnées culturelles ou pour l’échange d’informations structurées. XML est un métalangage au sens où il définit une syntaxe qui permet de décrire toute sortes de vocabulaires pour les métadonnées.</p>
+            <p>Ce format occupe une place fondamentale dans le domaine de l’édition structurée en raison de son excellente capacité à prendre en charge la description du texte et de ses sous-composants. Il s’est également largement imposé dans le secteur éditorial en raisons d’un puissant outillage technique qui lui est associé tant pour le contrôle des documents que pour leur transformation. En ce sens, XML offre une infrastructure technique particulièrement adéquate pour l’édition et se retrouve à peu près partout dans les applications industrielles du secteur.</p>
+            <!-- @todo revoir les § qui suivent, peu adapté -->
+            <p>Le domaine des éditions critiques numériques est un secteur en évolution rapide pour lequel il n’existe pas vraiment de norme ou de références uniques. Pour autant, certaines réalisations constituent des références fortes de même que certains standards techniques qui favorisent la convergence à l’instar de la Text Encoding Initiative que nous allons aborder au cours de cette formation.</p>
+            <p>On pourra se référer à la bibliographie ecdotique traditionnelle, mais aussi à une abondante littérature en langue anglaise sur l’édition numérique.</p>
+            <p>Cette première présentation s’intéressera plus particulièrement aux caractéristiques attendues d’une édition critique et à la manière dont on peut y répondre en utilisant un balisage descriptif.</p>
+         </div>
+         <div>
+            <head n="1">Pourquoi encoder son édition ?</head>
+            <div>
+               <head>Préambule sur les éditions critiques</head>
+               <p>Une édition critique doit présenter plusieurs caractéristiques attendues.</p>
+               <p>Caractère savant :
+               <list>
+                  <item>Un essai de reconstitution d’un texte</item>
+                  <item>Objectivité / parti-pris</item>
+               </list>
+               </p>
+               <p>Critères de scientificité :
+                  <list>
+                     <item>Fiable</item>
+                     <item>Consistante</item>
+                     <item>Justification des partis-pris</item>
+                  </list>
+               </p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

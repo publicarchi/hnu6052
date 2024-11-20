@@ -1,0 +1,48 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" rend="jTEI">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"/>
+            <author>
+               <name>
+                  <forename>Emmanuel</forename>
+                  <surname>Château-Dutier</surname>
+               </name>
+               <affiliation/>
+               <email/>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Publicarchitectura</publisher>
+            <date/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>For this publication a Creative Commons Attribution 4.0 International license has been granted by the author(s) who retain full copyright.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This file was converted from a Markdown document.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Publicarchitectura</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">fr</language>
+         </langUsage>
+         <textClass>
+            <keywords xml:lang="fr">
+               <term/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body
