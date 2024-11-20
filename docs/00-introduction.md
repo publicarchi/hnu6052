@@ -100,7 +100,7 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 - le langage de balisage XML et son écosystème ;
 - exercices pratiques d’encodage en XML ;
 
-## Séance 2 - jeudi 20 novembre 2023 12h30-15h30
+## Séance 2 - jeudi 20 novembre 2024 12h30-15h30
 
 - présentation de la Text Encoding Initiative (TEI) ;
 - l’utilisation de la TEI pour l’édition critique ;
