@@ -90,7 +90,7 @@
       </samplingDecl>
       <editorialDecl>
         <normalization>
-          <p>Le texte a été édité en respectant la graphie du document. Lorsque l'orthographe actuelle diffère de celle employée, les deux graphies (celle du document et la graohie actuelle) ont été encodées. Les abréviations ont été développées en isolant le segment résultat du développement et en conservant la trace de leur forme originale. En ce qui concerne les accents, la ponctuation et l'emploi des majuscules, c'est l'usage actuel qui a été suivi.</p>
+          <p>Le texte a été édité en respectant la graphie du document. Lorsque l'orthographe actuelle diffère de celle employée, les deux graphies (celle du document et la graphie actuelle) ont été encodées. Les abréviations ont été développées en isolant le segment résultat du développement et en conservant la trace de leur forme originale. En ce qui concerne les accents, la ponctuation et l'emploi des majuscules, c'est l'usage actuel qui a été suivi.</p>
         </normalization>
         <interpretation>
           <p>

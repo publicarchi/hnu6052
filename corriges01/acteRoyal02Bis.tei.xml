@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Downloads/out/msSchema.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Le confort du courtisan</title>
+        <title type="sub">Ordres royaux pour le logement à Marly</title>
+        <editor>
+          <persName>
+            <forename>Nicolas</forename>
+            <surname>Lyon-Caen</surname>
+          </persName>
+          <persName full="yes">Lyon-Caen, Nicolas (1978-...)</persName>
+        </editor>
+        <respStmt>
+          <resp>Collaborateur</resp>
+          <persName>
+            <forename>Olivier</forename>
+            <surname>Poncet</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encodage</resp>
+          <persName>
+            <forename>Emmanuel</forename>
+            <surname>Chateau-Dutier</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>École nationale des chartes</publisher>
+        <date type="transcription" from="2007-01" to="2007-02">janvier 2007</date>
+        <date type="encoding"></date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>France</country>
+            <institution>Archives nationales de France</institution>
+            <idno>01/113</idno>
+          </msIdentifier>
+          <msContents><summary>ee</summary></msContents>
+          <physDesc>
+            <handDesc>
+              <handNote xml:id="secretaire" scope="major"
+                >Un secrétaire a couché par écrit une liste de questions, se faisant le relais de Luthier, employé pour le bois et la bougie au château de Marly.</handNote>
+              <handNote xml:id="PDN" scope="minor"
+                >Philippe de Noailles (1715-1794), intendant et gouverneur du château et domaine de Versailles, a porté dans la marge de gauche les réponses du roi, en paraphant ces réponses. Il a également titré et signé le document.</handNote>
+              <handNote xml:id="anonyme" scope="minor"
+                >Une autre main a noté la date du document en haut de la page.</handNote>
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy>
+          <category></category>
+        </taxonomy>
+      </classDecl>
+      <editorialDecl>
+        <interpretation>
+          <p><interpGrp>
+            <interp xml:id="">Question de ee</interp>
+            <interp ></interp>
+          </interpGrp></p>
+        </interpretation>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change></change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="introduction">
+        <head>Présentation de l’acte</head>
+        <p>En prévision d’un voyage de la cour à Marly, le gouverneur de Versailles soumet au roi des questions relatives au logement d’un certain nombre de courtisans et de serviteurs royaux qui accompagnent le souverain. Le château sera éclairé comme à l’ordinaire et le roi fournira du bois de chauffage à certains domestiques seulement, ainsi qu’une demi bougie et de l’argent au personnel ecclésiastique.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <div>
+          <p><date when="1763-05">Mai 1763</date>.</p>
+        </div>
+        <div>
+          <p>Ordre du roi.</p>
+        </div>
+        <div>
+          <div ana="">
+            <p>Le S. <persName>Luthier</persName> demande si l’on éclairera 
+            <lb/>et chauffera le <placeName>château de Marly</placeName><ref type="editorialNote" corresp="#n0001"/> le 
+            <lb/>voyage prochain comme dans les voyages 
+            <lb/>ordinaires.</p>
+          </div>
+          <div>
+            <p><add hand="#PDN">Le <placeName>pavillon du roy</placeName> comme
+          <lb/>à l’ordinaire, mais l’on ne 
+          <lb/>donnera de bois d’arrivée à 
+          <lb/>personne.</add></p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Si le concierge, les garçons du garde-meuble, 
+          <lb/>les <abbr>s(ieur)s</abbr> <persName ref="#boucheman">Boucheman</persName> et <persName ref="#lemoine">Lemoine</persName>, les 
+          <lb/>garçons du château, <choice><orig>l’orloger</orig><reg>horloger</reg></choice>, le garçon 
+          <lb/>des chiens et les porteurs seront chauffés 
+          <lb/>et éclairés.</p>
+          </div>
+          <div>
+            <p><add>Le voyage étant comme 
+          <lb/>celui de <placeName>Versailles</placeName>, l’on n’est 
+          <lb/>obligé à rien, mais on peut 
+          <lb/>leur donner quelque secours en 
+          <lb/>bois et lumières ; mrs <persName>Bouceman</persName>
+              <lb/>et <persName>Lemoine</persName>, oui sûrement.</add></p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Si on éclairera les salles des gardes
+          <lb/>de <hi rend="bigger">Votre Majesté</hi>, des gardes de 
+          <lb/>la <placeName>Porte et des Cent Suisses</placeName>.</p>
+          </div>
+          <div>
+            <p><add>Oui, sans doute.</add></p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Si les femmes de chambre de mesdames 
+          <lb/>qui logent hors du château seront chauffées 
+          <lb/>et éclairées.</p>
+          </div>
+          <div>
+            <p><add>Oui, en observant la règle 
+            <lb/>la plus exacte.</add></p>
+          </div>
+        </div>
+        <div>
+          <div><p>Si on donnera une bougie blanche par 
+          <lb/>jour au supérieur des cordeliers de 
+          <lb/><placeName>Noisy</placeName>.</p></div>
+          <div><p><add><del>Oui</del> Non, une demie.</add></p></div>
+        </div>
+        <div>
+          <div><p>Et si on donnera une bougie par 
+          <lb/>jour au vicaire de la paroisse qui dessert 
+          <lb/>la <placeName>chapelle du commun</placeName>.</p></div>
+          <div><p><add>Non, mais la valeur en argent.</add></p></div>
+        </div>
+        <div>
+          <p><add>Le roy chauffe et éclaire les conseillers 
+          <lb/>d’État à leur pied-à-terre qui est au 5 au commun. 
+          <lb/><persName>Noailles</persName>.</add></p>
+        </div>
+      </div>
+    </body>
+    <back>
+      
+      <div type="editorialNote">
+        <head>Notes éditoriales</head>
+        <note xml:id="n0001"><p>Le château de Marly (aujourd’hui Marly-le-Roi) a été bâti sur les plan de Jules Hardouin-Mansart pour Louis XIV entre 1679 et 1685. Au XVIIIe siècle, il fait partie du domaine royal de Versailles.</p></note>
+      </div>
+      <div>
+        <listPerson>
+          <head>Index des personnes</head>
+          <person xml:id="boucheman">
+            <persName>Boucheman</persName>
+          </person>
+          <person xml:id="lemoine">
+            <persName>Boucheman, Louis-Marie de</persName>
+            <persName>
+              <forename>Louis-Marie</forename>
+              <nameLink type="nobility">de</nameLink>
+              <surname>Boucheman</surname>
+            </persName>
+            <occupation>valet de chambre ordinaire du roi depuis 1727 à la suite de son père et concierge du château de Versailles à partir d’octobre 1768</occupation>
+          </person>
+        </listPerson>
+        <!-- <p>Louis-Marie de Boucheman, valet de chambre ordinaire du roi depuis 1727 à la suite de son père et concierge du château de Versailles à partir d’octobre 1768.
+              Probablement de Louis-Henry Lemoine, valet de chambre ordinaire (Arch. nat., Z1a 481, état de la maison du roi pour 1759). -->
+      </div>
+    </back>
+  </text>
+</TEI>

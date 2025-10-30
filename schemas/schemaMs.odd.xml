@@ -64,10 +64,12 @@
                         <moduleRef key="msdescription"/>
                         <moduleRef key="namesdates"/>
                         <moduleRef key="textcrit"/>
-                        <moduleRef key="textstructure"/>
+                        <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
                         <!-- required -->
                         <moduleRef key="transcr"/>
                         <moduleRef key="verse"/>
+                        
+                       
                   </schemaSpec>
             </body>
       </text>
