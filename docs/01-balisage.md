@@ -8,13 +8,11 @@
 
 ???
 
-Dans cette première partie du cours, nous allons présenter le langage de balisage extensible (eXtensible Markup Language, XML). XML est un format informatique fondamental pour de très nombreuses applications. Il est notamment largement employé dans le domaine des métadonnées culturelles ou pour l’échange d’informations structurées. XML est un métalangage au sens où il définit une syntaxe qui permet de décrire toute sortes de vocabulaires pour les métadonnées. 
+Dans cette première partie du cours, nous allons présenter le langage de balisage extensible (eXtensible Markup Language, XML). XML est un format informatique utile pour de très nombreuses applications. Il est notamment largement utilisé dans le domaine des métadonnées culturelles ou pour l’échange d’informations structurées. XML est un métalangage au sens où il définit une syntaxe qui permet de décrire toute sortes de vocabulaires pour les métadonnées. 
 
 Ce format occupe une place fondamentale dans le domaine de l’édition structurée en raison de son excellente capacité à prendre en charge la description du texte et de ses sous-composants. Il s’est également largement imposé dans le secteur éditorial en raisons d’un puissant outillage technique qui lui est associé tant pour le contrôle des documents que pour leur transformation. En ce sens, XML offre une infrastructure technique particulièrement adéquate pour l’édition et se retrouve à peu près partout dans les applications industrielles du secteur.
 
-Le domaine des éditions critiques numériques est un secteur en évolution rapide pour lequel il n’existe pas vraiment de norme ou de références uniques. Pour autant, certaines réalisations constituent des références fortes de même que certains standards techniques qui favorisent la convergence à l’instar de la Text Encoding Initiative que nous allons aborder au cours de cette formation.
-
-On pourra se référer à la bibliographie ecdotique traditionnelle, mais aussi à une abondante littérature en langue anglaise sur l’édition numérique.
+Le domaine des éditions critiques numériques est un secteur qui connaît depuis plusieurs années une évolution rapide. S’il n’existe pas vraiment de norme ou de références uniques sur la forme que doivent avoir les éditions, certaines réalisations constituent des références structurantes fortes, par ailleurs il existe certains standards techniques à l’instar de la Text Encoding Initiative (TEI) que nous allons aborder au cours de cette formation.
 
 Cette première présentation s’intéressera plus particulièrement aux caractéristiques attendues d’une édition critique et à la manière dont on peut y répondre en utilisant un balisage descriptif.
 
@@ -54,6 +52,8 @@ Caractéristiques attendues d’une édition critique
 ## Un essai de reconstitution d’un texte
 
 On parle d’édition critique, ou d’édition scientifique –&nbsp;l’adjectif dans appellation venant en désigner le caractère savant&nbsp;–, au sens où il s’agit de produire **une reproduction contrôlée** d’un texte dont sont procurés les états, versions, variantes et leçons.
+
+On pourra se référer à la bibliographie ecdotique traditionnelle, mais aussi à une abondante littérature en langue anglaise sur l’édition numérique.
 
 De ce point de vue, l’édition critique constitue, selon la définition du manuel de l’École nationale des chartes sur l’édition des textes médiévaux, un Essai de reconstitution d’un texte, pour lequel l’éditeur pèse chacun des mots du texte en se servant de tous les moyens de jugement dont il dispose. Pascale Bourgain et Françoise Vielliard. **Conseils pour l’édition des textes médiévaux, Paris, Comité des travaux historiques et scientifiques** / École nationale des chartes, 2002 (Documents d’archives, n° Fascicule III, Textes littéraires).
 
@@ -242,11 +242,14 @@ cf. Coombs, James, et al., **op. cit.**
 
 ---
 
+1. ### Pourquoi encoder son édition ?
+
 ## OHCO, Ordered Hierarchy of Content Objects
 
 Une certaine modélisation du texte :
 
-- **hiérarchie ordonnée d’objets contenus** (OHCO, _Ordered Hierarchy of Content Objects_, en anglais).
+Avec ce type de balisage, le texte est envisagé comme une **hiérarchie ordonnée d’objets de contenus** (OHCO, _Ordered Hierarchy of Content Objects_, en anglais).
+
 - structure hiérarchique
 - relations linéaires
 
@@ -254,14 +257,20 @@ Une certaine modélisation du texte :
 
 ## OHCO, Ordered Hierarchy of Content Objects
 
-L’idée d’un balisage descriptif qui repose sur le fait de marquer le contenu d’un texte par des éléments suggère une représentation du texte qui correspond à ce qu’on a appelé un modèle d’éléments contenus hiérarchiquement imbriqués (OHCO, Ordered Hierarchical Content Objects, en anglais).
+L’idée d’un balisage descriptif qui repose sur le fait de marquer le contenu d’un texte par des éléments suggère une modélisation du texte particulière qui correspond une hiérarchie ordonnée d’objets de contenus (OHCO, Ordered Hierarchical Content Objects, en anglais).
 
 Dans une telle représentation du texte, les éléments contenus (paragraphes, citations, phrases, notes, etc.) sont présentés à l’intérieur d’une structure hiérarchique. La structure du texte est hiérarchique parce qu’ils résident les uns à l’intérieur des autres. Les objets reçoivent donc des relations linéaires.
 
 >The essential parts of any document form what we call ‘content objects’, and are of many types, such as paragraphs, quotations, emphatic phrases, and attributions. Each type of content object usually has its own appearance when a document is printed or displayed, but that appearance is superficial and transient rather than essential — it is the content elements themselves, along with their content, which form the essence of a document. When mnemonic names for these objects are specified, a document is said to include ‘descriptive markup.’
+>
 >Most content objects are contained in larger content objects, such as subsections, sections, and chapters. […] Generally, smaller content objects do not cross the boundaries of larger ones; thus a paragraph will not begin in one chapter and end in the next. For this reason, the structure of a document is a hierarchical one, like a tree or taxonomy.
+>
 >Smaller content objects that occur within a larger one, such as the sections within a chapter, or the paragraphs, block quotes, and other objects within a section, occur in a certain order. This ordering is essential information, and must be part of any model of text structure.
->Combining these essential elements, we can describe a text as an “ordered hierarchy of content objects,” or “OHCO” (DeRose et al. 1990, 3-4).
+>Combining these essential elements, we can describe a text as an “ordered hierarchy of content objects,” or “OHCO”.
+>
+>(DeRose et al. 1990, 3-4).
+
+D’autres représentations du texte sont également possibles : sémantique, etc.
 
 ---
 
@@ -371,16 +380,16 @@ Un métalangage informatique pour le balisage du texte
 
 SGML lui-même héritier d’un langage descriptif conçu en 1969 par des ingénieurs de la société IBM : DCF (Document Composition Facility).
 
-SGML : puissant et générique mais aussi trop souple et complexe en même temps → surtout utilisé dans le cadre d’applications lourdes. Utilisation la plus notable : langage HTML, dérivé du SGML =&gt; langage de publication pour le web.Né en 1989 et depuis 2011, HTML 5.
+SGML : puissant et générique mais aussi trop souple et complexe en même temps → surtout utilisé dans le cadre d’applications lourdes. Utilisation la plus notable : langage HTML, dérivé du SGML =&gt; langage de publication pour le web. Né en 1989 et depuis 2011, HTML 5.
 
 
 ## Publication de XML
 
 En février 1998 : publication en février 1998 par le W3C Consortium des spécifications du métalangage XML 1.0 =&gt; maîtres mots : simplicité, clarté, universalité.
 
-Depuis 1998, la norme XML a peu évolué → dernière édition en date : 5e édition, mise à jour en 2008. Version 1.0 =&gt; véritable témoignage de sa stabilité.
+Depuis 1998, la norme XML a peu évolué → dernière édition en date : 5^e^ édition, mise à jour en 2008. Version 1.0 =&gt; véritable témoignage de sa stabilité.
 
-[Version 1.1](http://www.w3.org/TR/xml11) publiée en février 2004 et mise à jour en 2006, notamment pour intégrer les évolution d’Unicode, mais XML 1.1 reste très peu utilisé.
+[Version 1.1](http://www.w3.org/TR/xml11) publiée en février 2004 et mise à jour en 2006, notamment pour intégrer les évolution d’Unicode.
 
 
 ## Un succès immédiat
@@ -459,7 +468,7 @@ cf. Ministre du Budget, des Comptes publics, Référentiel Général d’Interop
 
 1. **XML ne sert pas à afficher les données mais à les décrire**. Seul, il ne fait rien. Appliqué à la représentation des textes, il permet de décrire notamment leur structure
 2. **Le nom des balises n’est pas prédéfini** : on peut librement créer son propre vocabulaire
-3. **On peut utiliser une "grammaire" de balises (un schéma)**, pour définir des contraintes ou s’assurer de la consistance de l’encodage
+3. **On peut utiliser une « grammaire » de balises (un schéma)**, pour définir des contraintes ou s’assurer de la consistance de l’encodage
 4. **XML est auto-descriptif et lisible par l’homme**. Un fichier XML n’est rien que du texte, on peut facilement prendre connaissance d’un corpus dans n’importe quel éditeur textuel
 
 ---
@@ -695,7 +704,8 @@ JSON de plus bas niveau
 ## Exemple de contenu mixte en JSON
 
 ```xml
-<p>I can support <a href="http://en.wikipedia.org/wiki/PCDATA"><b>mixed</b> content</a> !</p>
+<p>I can support <a href="http://en.wikipedia.org/wiki/PCDATA">
+  <b>mixed</b> content</a> !</p>
 ```
 
 ```json
@@ -957,8 +967,12 @@ Le contrôle se fait par analyse syntaxique ou parsing (avec des outils appelés
 ### XML
 
 * A gentle introduction to XML&nbsp;: [http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html)
-* XML en concentré&nbsp;: manuel de référence / Elliotte Rusty Harold &amp; W. Scott Means&nbsp;; traduction de Philippe Ensarguet, Frédéric Laurent. - 3e éd. - Paris&nbsp;: O’Reilly, 2005. ISBN 2-84177-353-1 EAN 9782841773534&nbsp;;
-* L’espace XML francophone&nbsp;: actualités, discussions, articles et billets, sur le site Web [http://xmlfr.org/](http://xmlfr.org/)
+* Modern XML useful resources https://gist.github.com/emchateau/912e3de4710bd9f385d407a7a576078c
+* XML en concentré&nbsp;: manuel de référence / Elliotte Rusty Harold &amp; W. Scott Means&nbsp;; traduction de Philippe Ensarguet, Frédéric Laurent. - 3^e^ éd. - Paris&nbsp;: O’Reilly, 2005. ISBN 2-84177-353-1 EAN 9782841773534&nbsp;;
 * Coombs, James H, Renear, Allen H, et DeRose, Steven J. ["Markup Systems and the Future of Scholarly Text Processing."](http:/.html.coverpages.org/coombs.html) Communications of the ACM 30, no. 11 (1987): 933-947.
 * DeRose, Steven J., et al. “What Is Text, Really?” Journal of Computing in Higher Education, vol. 1, no. 2, Dec. 1990, pp. 3–26. Crossref, [doi:10.1007/BF02941632](https://doi.org/10.1007/BF02941632)
-* Modern XML useful resources https://gist.github.com/emchateau/912e3de4710bd9f385d407a7a576078c
+* XML.com https://www.xml.com
+
+???
+
+L’espace XML francophone&nbsp;: actualités, discussions, articles et billets, sur le site Web [http://xmlfr.org/](http://xmlfr.org/) [obsolète]
