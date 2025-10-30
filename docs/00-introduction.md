@@ -2,7 +2,7 @@
 
 # Programme de l’atelier
 
-Emmanuel Château-Dutier, octobre 2024
+Emmanuel Château-Dutier, octobre 2025
 
 Site web pour les ressources du cours :  
 [https://publicarchi.github.io/hnu6052/](https://publicarchi.github.io/hnu6052/)
@@ -94,13 +94,13 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 1 - jeudi 20 novembre 2024 9h30-11h30
+## Séance 1 - jeudi 30 octobre 2025 9h30-11h30
 
 - présentation des intervenants et des participant·e·s ;
 - le langage de balisage XML et son écosystème ;
 - exercices pratiques d’encodage en XML ;
 
-## Séance 2 - jeudi 20 novembre 2024 12h30-15h30
+## Séance 2 - jeudi 30 octobre 2025 12h30-15h30
 
 - présentation de la Text Encoding Initiative (TEI) ;
 - l’utilisation de la TEI pour l’édition critique ;
@@ -108,24 +108,24 @@ Cette formation est une initiation à XML. Après un rapide présentation du lan
 
 ---
 
-## Séance 3 - jeudi 27 novembre 2024 9h30-11h30
+## Séance 3 - jeudi 6 novembre 2025 9h30-11h30
 
 - utilisation de la TEI pour l’édition de sources manuscrites ;
 - modélisation d’une édition critique avec la TEI ;
 
-## Séance 4 - jeudi 27 novembre 2024 12h30-15h30
+## Séance 4 - jeudi 6 novembre 2025 12h30-15h30
 
 - exercices de mise en pratique de structuration et de modèles ;
 - méthodes de travail avec la TEI ;
 
 ---
 
-## Séance 5 - jeudi 4 décembre 2024 9h30-11h30
+## Séance 5 - jeudi 13 décembre 2025 9h30-11h30
 
 - outillage de la TEI
 - exploiter ses documents avec XSLT ;
 
-## Séance 6 - jeudi 4 décembre 2024 12h30-15h30
+## Séance 6 - jeudi 13 décembre 2025 12h30-15h30
 
 - exercices d’application de transformation ;
 - bilan des 4 séances.
@@ -149,10 +149,11 @@ L’évaluation de l’atelier reposera sur des travaux pratiques d’encodage e
 - Orientations bibliographiques
 
 
-
 [Burnard, Lou. 2015. « Introduction ». Dans Qu’est-ce que la Text Encoding Initiative ? traduit par Marjorie Burghart. OpenEdition Press. URL](https://studium.umontreal.ca/mod/url/view.php?id=5038543)
 
 [DeRose, Steven J., David G. Durand, Elli Mylonas, et Allen H. Renear. 1990. « What is text, really? » Journal of Computing in Higher Education 1 (2) : 3‑26. URL](https://studium.umontreal.ca/mod/url/view.php?id=5038544)
+
+???
 
 ## Exercice 2
 
