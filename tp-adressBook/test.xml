@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/adressBookSchema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<adressBook xmlns="http://www.tei-c.org/ns/1.0">
+  <person>
+    <name>
+      <forename>Emmanuel</forename>
+      <surname>Chateau</surname>
+      <namelink>de</namelink>
+    </name>
+    <adress>
+      <adressline>Université de Montréal</adressline>
+      <adressline>Pavillon Lionel-Groulx</adressline>
+      <country>Canada</country>
+      <province>Québec</province>
+    </adress>
+    <email type="perso">emchateau@laposte.net</email>
+    <email type="pro">emmanuel.chateau.dutier@umontreal</email>
+  </person>
+  <person>
+    <name>
+      <forename>Nicolas</forename>
+      <surname>Sauret</surname>
+    </name>
+    <adress>
+      <adressline>x</adressline>
+    </adress>
+  </person>
+</adressBook>

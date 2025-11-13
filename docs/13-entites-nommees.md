@@ -14,9 +14,9 @@
 
 Ces dernières années, dans le cadre de la P5, un important travail a été mené sur la représentation des lieux et des personnes qui peut particulièrement intéresser les historiens. Le module `namesdates` est très largement issu de ce travail.
 
-Parallèlement à cet effort de modélisation, un travail en cours sur le mapping de ce modèle de contenu avec CIDOC-CRM au sein d’un [groupe d’intérêt spécial (SIG) consacré aux ontologies](http://www.tei-c.org/SIG/Ontologies/).
+Parallèlement à cet effort de modélisation, un travail est en cours sur le mapping de ce modèle de contenu avec CIDOC-CRM au sein d’un [groupe d’intérêt spécial (SIG) consacré aux ontologies](http://www.tei-c.org/SIG/Ontologies/).
 
-Pour ce qui concerne l’histoire de l’art, il faut également noter un autre groupe de travail sur la définition d’un élément `<object>`.
+Pour ce qui concerne l’histoire de l’art, il faut également noter plusieurs évolutions concernant la définition d’un élément `<object>`.
 
 ---
 
@@ -24,8 +24,8 @@ Pour ce qui concerne l’histoire de l’art, il faut également noter un autre 
 ## 1. Entités nommées : définition
 Unités lexicales sélectionnées pour leur intérêt sémantique
 
-* noms de lieux
-* noms de personnes
+* noms de lieux, noms géographiques, ...
+* noms de personnes, de groupes
 * objets, etc.
 
 ???
@@ -44,6 +44,8 @@ La TEI se positionne avec Frege dans la grande discussion philosophique autour d
 * Exposition dans le LOD
 
 ???
+
+Au-delà de leur intérêt purement linguistique, l’encodage des entités nommées présente un intérêt important dans le cadre de certaines éditions critiques. Leur encodage peut permettre l’alimentation d’index ou la constitution de bases de données textuelles.
 
 * Utiliser les textes comme une base de données
 * Mise en relation des textes entre eux
@@ -67,7 +69,7 @@ Pour signaler la présence des noms propres ou de références nominales dans un
 
 Où des attributs tels que `@ref` permettent de pointer vers une description de rérence.
 
-???
+--
 
 ### Balisage plus spécifique
 
@@ -85,7 +87,7 @@ Regroupe les éléments qui se rapportent tous à un nom de personne ou de lieu
 * agents (`<name>`, `<orgName>`, `<persName>`)
 * lieux (`<place>`, `<country>`, `<district>`...)
 
-Chacun avec des propriétés de nommage, des traits, des états, des événements, des relations.
+Chacun dispose de propriétés de nommage, des traits, des états, des événements, des relations.
 
 ???
 
@@ -94,6 +96,8 @@ L’élément `<person>` peut être instancié à l’intérieur d’un élémen
 La classe `model.namelike` (comme un nom) regroupe des éléments qui se rapportent tous à un nom de personne ou de lieu. Les éléments appartenant à cette classe y figurent. On peut voir que c’est une super-classe qui est composée de plusieurs classes qui comprennent des éléments comme `<persname>`, `<name>`, etc.
 
 Comme il s’agit d’une classe, tous les éléments qui appartiennent à cette classe disposent de certaines propriétés.
+
+<!-- ne faut-il pas ajouter ici objectName ? -->
 
 ---
 
@@ -162,6 +166,32 @@ De la même façon que tout à l’heure, il peut y avoir plusieurs manières de
 `<forename>`, `<surname>`, etc.
 
 nom propre, prénom, particules, titres, etc.
+
+---
+
+### 2. Les formes du nom
+
+## Composantes du nom
+
+`model.persNamePart` groupe les éléments qui font partie d’un nom de personne.
+
+```xml
+<person xml:id="nom000ex">
+	<persName full="yes">Münchhausen, 
+Karl Hieronymus (1720-1797 ; baron von)</persName>
+  <persName>
+  	<forename>Karl</forename>
+    <forename>Friedrich</forename>
+    <forename>Hieronymus</forename>
+    <nameLink>von</nameLink>
+    <surname>Münchhausen</surname>
+    <genName>Junior</genName>
+    <roleName type="nobility">baron</roleName>
+  </persName>
+</person>
+```
+
+???
 
 `model.persNamePart` groupe les éléments qui font partie d’un nom de personne.
 

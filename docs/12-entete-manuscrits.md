@@ -274,13 +274,15 @@ Le `<teiHeader>` comporte un élément obligatoire `<fileDesc>` et trois éléme
 ```xml
 <sourceDesc>
     <p>Fichier nativement numérique</p>
-  </sourceDesc>
+</sourceDesc>
 ```
 
 ```xml
-<bibl>Henri Sauval. <title>Histoire et recherches des antiquités
+<sourceDesc>
+  <bibl>Henri Sauval. <title>Histoire et recherches des antiquités
   de la ville de Paris </title>. Paris&nbsp;: Charles Moette et Jacques
   Chardon, 1724</bibl>
+<sourceDesc>
 ```
 
 ???
@@ -338,14 +340,14 @@ Après `<fileDesc>`, l’entête peut contenir trois éléments optionnels :
       <mapping type="composed">u͞u͞|</mapping>
       <graphic url="x2.jpg"></graphic>
     </glyph>
-</charDecl>
-    <editorialDecl>
-      <normalization>
-        <p>La ponctuation a été ajoutée, conformément...</p>
-        <p>les mots ont été séparés lorsque l’usage actuel...</p>
-      </normalization>
-    </editorialDecl>
-  </encodingDesc>
+  </charDecl>
+  <editorialDecl>
+    <normalization>
+      <p>La ponctuation a été ajoutée, conformément...</p>
+      <p>les mots ont été séparés lorsque l’usage actuel...</p>
+    </normalization>
+  </editorialDecl>
+</encodingDesc>
 ```
 
 ???
@@ -419,14 +421,12 @@ On pourrait dire autant pour d’autres objets "texte-portant" p.e. les inscript
 ### 4. La description des manuscrits (pour aller plus loin)
 ## Propositions de la TEI
 
-La TEI propose un élément `<msDesc>`, apte à plusieurs applications&nbsp;:
+La TEI propose un élément `<msDesc>` qui peut servir dans plusieurs applications&nbsp;:
 
-* base de données d’enregistrements bibliographique (finding aid)
+* base de données d’enregistrements bibliographique (*finding aid*)
 * texte discursif contenant plusieurs enregistrements (catalogue raisonné)
-* assemblage des metadonnées au sein d’une édition numérique (electronic edition)
+* assemblage des metadonnées au sein d’une édition numérique (*electronic edition*)
 * instrument pour la codicologie quantitative
-
-Avoir le beurre et l’argent du beurre&nbsp;?
 
 ---
 
@@ -503,11 +503,8 @@ Facultativement il est completé par une séléction d’ éléments plus spéci
     </msIdentifier>
     <msContents>
       <p>Minute d’un rapport de proposition à la Légion d’honneur fait, en
-      1850, par le ministre du Commerce et de l’Agriculture et
-      président de la Société de géographie, Jean-Baptiste Dumas, au
-      Président de la République, en faveur des frères d’Abbadie,
-      Antoine (1810-1897) et Arnaud (1815-1893), auteurs d’un voyage
-      en Abyssinie.</p>
+      1850, par [...] en faveur des frères d’Abbadie,
+      Antoine (1810-1897) et Arnaud (1815-1893).</p>
     </msContents>
     <physDesc>
       <p>Deux feuilles de papier 24 x 12 cm; écriture encre noir.</p>
@@ -528,7 +525,7 @@ Facultativement il est completé par une séléction d’ éléments plus spéci
 
 L’élément `<msIdentifier>`
 
-Une spécification classique est divisée en trois :
+Une spécification classique se compose de trois éléments fondamentaux :
 
 * lieu (`<country>`, `<region>`, `<settlement>`)
 * entrepôt (`<institution>`, `<repository>`)
@@ -569,15 +566,15 @@ L’élément `<msName>` fournit un nom ou une appellation familière (surnom)&n
 ## Contenu intellectuel
 
 * Des paragraphes…
-* … ou une arborescence d’éléments `<msItem>`
-* … précedée d’une sommaire facultative
+* … ou une arborescence d’éléments `<msItem>` 
+* … précedée d’un sommaire facultative
 
-On peut décrire le contenu à un niveau general&nbsp;:
+On peut décrire le contenu à un niveau général&nbsp;:
 
 ```xml
 <msContents>
-    <p>Recueil des comptes fiscaux de l’Abbaye de Nimportou.</p>
-  </msContents>
+  <p>Recueil des comptes fiscaux de l’Abbaye de Nimportou.</p>
+</msContents>
 ```
 
 Ou bien, on peut distinguer et détailler chaque item (ou quelques un)&nbsp;:
@@ -585,12 +582,12 @@ Ou bien, on peut distinguer et détailler chaque item (ou quelques un)&nbsp;:
 ```xml
 <msContents>
   <summary>Recueil des comptes fiscaux de l’Abbaye de Nimportou.</summary>
-    <msItem>
-        <!-- compte 1 -->
-    </msItem>
-    <msItem>
-        <!-- compte 2 -->
-    </msItem>
+  <msItem>
+    <!-- compte 1 -->
+  </msItem>
+  <msItem>
+    <!-- compte 2 -->
+  </msItem>
 </msContents>
 ```
 
@@ -631,7 +628,7 @@ Un manuscrit contient plusieurs **items** distincts, chacun en principe localis�
       <author>Chaucer, Geoffrey</author>
       <title type="uniform">Troilus and Criseyde</title>
     </msItem>
-  </msContents>
+</msContents>
 ```
 
 ---

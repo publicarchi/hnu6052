@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carnet>
+  <fiche>
+    <identité>
+      <nom>Chateau</nom>
+      <prénom>Emmanuel</prénom>
+    </identité>
+    <adresse type="perso">
+      49 rue Doudeauville
+      <pays>France</pays>
+    </adresse>
+  </fiche>
+  <fiche>
+    <identité>
+      <nom>Martinolli<tedt></tedt></nom>
+      <prénom>Pascal</prénom>
+    </identité>
+    <adresse type="perso">
+      49 rue Doudeauville
+      <pays>Québec</pays>
+    </adresse>
+  </fiche>
+</carnet>

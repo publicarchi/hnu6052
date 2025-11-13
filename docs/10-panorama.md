@@ -186,6 +186,14 @@ ou Dictionnaire raisonné des sciences, des arts et des métiers (1751-1772) htt
 
 ---
 
+https://github.com/oeuvres
+
+https://chartes.github.io/dots_documentation/
+
+https://frankensteinvariorum.org
+
+---
+
 ## Exercice
 Afin de comprendre comment ces projets fonctionnent et quelles sont les choix d’encodage, de schéma et d’édition critique qui ont été réalisés, choisissez **un projet** et analysez-le en répondant aux questions suivantes :
 

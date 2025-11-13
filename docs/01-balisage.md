@@ -962,17 +962,15 @@ Le contrôle se fait par analyse syntaxique ou parsing (avec des outils appelés
 
 ## Sources et bibliographie
 
----
-
-### XML
-
 * A gentle introduction to XML&nbsp;: [http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SG.html)
 * Modern XML useful resources https://gist.github.com/emchateau/912e3de4710bd9f385d407a7a576078c
 * XML en concentré&nbsp;: manuel de référence / Elliotte Rusty Harold &amp; W. Scott Means&nbsp;; traduction de Philippe Ensarguet, Frédéric Laurent. - 3^e^ éd. - Paris&nbsp;: O’Reilly, 2005. ISBN 2-84177-353-1 EAN 9782841773534&nbsp;;
-* Coombs, James H, Renear, Allen H, et DeRose, Steven J. ["Markup Systems and the Future of Scholarly Text Processing."](http:/.html.coverpages.org/coombs.html) Communications of the ACM 30, no. 11 (1987): 933-947.
+* Coombs, James H, Renear, Allen H, et DeRose, Steven J. ["Markup Systems and the Future of Scholarly Text Processing."](https://dl.acm.org/doi/abs/10.1145/32206.32209) Communications of the ACM 30, no. 11 (1987): 933-947.
 * DeRose, Steven J., et al. “What Is Text, Really?” Journal of Computing in Higher Education, vol. 1, no. 2, Dec. 1990, pp. 3–26. Crossref, [doi:10.1007/BF02941632](https://doi.org/10.1007/BF02941632)
 * XML.com https://www.xml.com
 
 ???
 
 L’espace XML francophone&nbsp;: actualités, discussions, articles et billets, sur le site Web [http://xmlfr.org/](http://xmlfr.org/) [obsolète]
+
+http:/.html.coverpages.org/coombs.html

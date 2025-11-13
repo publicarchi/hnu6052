@@ -13,7 +13,9 @@ L’un des attraits principaux du format est de disposer d’une grammaire de do
 
 ### 1. Introduction
 ## 1.1. Le modèle de données de XML
-La syntaxe XML correspond en réalité à un modèle abstrait désigné XDM pour XML Data Model : [http://www.w3.org/TR/xpath-datamodel/](http://www.w3.org/TR/xpath-datamodel/).
+La syntaxe XML correspond en réalité à un modèle abstrait désigné XDM pour **XML Data Model** : [http://www.w3.org/TR/xpath-datamodel/](http://www.w3.org/TR/xpath-datamodel/).
+
+Le document au format texte est une sérialisation de XML.
 
 ---
 
@@ -34,7 +36,7 @@ Voir [http://www.w3.org/TR/xpath-datamodel/](http://www.w3.org/TR/xpath-datamode
 
 ???
 
-XDM considère un document XML comme une structure d’arbre pouvant être composée de sept types de nœuds.
+Dans le modèle de données XML,  un document XML est une structure arboresceante qui peut être composée de sept types de nœuds.
 
 Ici, on monte en abstraction par rapport à ce que vous savez déjà peut-être de XML.
 
@@ -435,9 +437,7 @@ On peut ici tirer profit de nombreux types définis par le standard
 
 ## JSON Schema
 
-https://json-schema.org
-
-Depuis quelques années, un projet de spécification de schéma est développée pour JSON.
+Depuis quelques années, un projet de spécification de schéma est développée pour JSON : https://json-schema.org
 
 ```json
 {
